@@ -1,0 +1,85 @@
+{
+  "schema_version": "v1.0",
+  "entity": "Institution",
+
+  "institution_schema": {
+    "institution_id": {
+      "type": "string",
+      "description": "Unique identifier for the institution"
+    },
+    "name": {
+      "type": "string",
+      "description": "Official name of the institution"
+    },
+    "institution_type": {
+      "allowed_values": [
+        "School",
+        "College",
+        "University",
+        "Training Institute",
+        "Coaching Center"
+      ]
+    },
+    "affiliation": {
+      "type": "string",
+      "description": "Affiliating or governing body (CBSE, AICTE, UGC, etc.)"
+    },
+    "location": {
+      "state": "string",
+      "city": "string"
+    },
+    "programs_offered": {
+      "type": "array",
+      "items": "program_id"
+    },
+    "admission_exams": {
+      "type": "array",
+      "items": {
+        "exam_id": "string",
+        "weight": "number"
+      }
+    },
+    "fees_structure": {
+      "type": "object",
+      "fields": {
+        "min": "number",
+        "max": "number",
+        "currency": "INR"
+      }
+    },
+    "rankings": {
+      "type": "object",
+      "fields": {
+        "NIRF": {
+          "type": "number",
+          "optional": true
+        },
+        "State_Rank": {
+          "type": "number",
+          "optional": true
+        }
+      }
+    },
+    "facilities": {
+      "type": "array",
+      "items": [
+        "Hostel",
+        "Library",
+        "Laboratory",
+        "Sports",
+        "Placement Cell"
+      ]
+    },
+    "notes": {
+      "type": "string",
+      "optional": true
+    }
+  },
+
+  "design_principles": [
+    "Institutions deliver programs, not recommendations",
+    "Rankings and fees are comparative metadata",
+    "Schema supports schools, colleges, and skill centers",
+    "Institution data is location-aware"
+  ]
+}
