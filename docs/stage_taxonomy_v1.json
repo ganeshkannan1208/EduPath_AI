@@ -1,0 +1,133 @@
+{
+  "stages": [
+    {
+      "stage_id": "STAGE_MIDDLE_SCHOOL",
+      "name": "After Middle School (Up to 8th)",
+      "description": "Pathways available after completing education up to class 8",
+      "min_qualification": "8th",
+      "typical_age_range": [13, 15],
+      "allowed_program_types": [
+        "School-Level",
+        "Skill-Introductory",
+        "Vocational-Beginner"
+      ],
+      "hard_constraints": {
+        "minimum_pass": true
+      }
+    },
+    {
+      "stage_id": "STAGE_AFTER_10",
+      "name": "After 10th Standard",
+      "description": "Educational, vocational, and skill-based pathways available after completing class 10",
+      "min_qualification": "10th",
+      "typical_age_range": [15, 18],
+      "allowed_program_types": [
+        "Higher Secondary",
+        "Diploma",
+        "ITI",
+        "Certification",
+        "Skill-Only"
+      ],
+      "hard_constraints": {
+        "minimum_pass": true
+      }
+    },
+    {
+      "stage_id": "STAGE_AFTER_12",
+      "name": "After 12th Standard",
+      "description": "Undergraduate, professional, and competitive-exam-driven pathways after completing class 12",
+      "min_qualification": "12th",
+      "typical_age_range": [17, 21],
+      "allowed_program_types": [
+        "Undergraduate Degree",
+        "Professional Degree",
+        "Certification",
+        "Apprenticeship"
+      ],
+      "hard_constraints": {
+        "minimum_pass": true
+      }
+    },
+    {
+      "stage_id": "STAGE_AFTER_DIPLOMA",
+      "name": "After Diploma / ITI",
+      "description": "Advanced diploma, lateral entry, employment, and certification pathways after diploma or ITI",
+      "min_qualification": "Diploma/ITI",
+      "typical_age_range": [17, 25],
+      "allowed_program_types": [
+        "Undergraduate Degree",
+        "Advanced Diploma",
+        "Certification",
+        "Employment",
+        "Entrepreneurship"
+      ],
+      "hard_constraints": {
+        "minimum_pass": true
+      }
+    },
+    {
+      "stage_id": "STAGE_AFTER_UG",
+      "name": "After Undergraduate Degree",
+      "description": "Postgraduate education, employment, research, and entrepreneurship pathways",
+      "min_qualification": "Undergraduate Degree",
+      "typical_age_range": [20, 28],
+      "allowed_program_types": [
+        "Postgraduate Degree",
+        "Employment",
+        "Certification",
+        "Entrepreneurship"
+      ],
+      "hard_constraints": {
+        "minimum_pass": true
+      }
+    },
+    {
+      "stage_id": "STAGE_AFTER_PG",
+      "name": "After Postgraduate Degree",
+      "description": "Doctoral research, advanced employment, teaching, and leadership pathways",
+      "min_qualification": "Postgraduate Degree",
+      "typical_age_range": [22, 35],
+      "allowed_program_types": [
+        "Doctoral Degree",
+        "Employment",
+        "Teaching",
+        "Research"
+      ],
+      "hard_constraints": {
+        "minimum_pass": true
+      }
+    },
+    {
+      "stage_id": "STAGE_WORKING_PROFESSIONAL",
+      "name": "Working Professional",
+      "description": "Upskilling, role transition, leadership, and specialization pathways for employed individuals",
+      "min_qualification": "Any",
+      "typical_age_range": [22, 60],
+      "allowed_program_types": [
+        "Certification",
+        "Executive Education",
+        "Career Transition",
+        "Leadership Programs"
+      ],
+      "hard_constraints": {
+        "employment_status": "employed"
+      }
+    },
+    {
+      "stage_id": "STAGE_CAREER_SWITCH",
+      "name": "Career Switcher / Gap Year / Dropout",
+      "description": "Re-entry, reskilling, and alternative pathways for individuals changing or restarting careers",
+      "min_qualification": "Any",
+      "typical_age_range": [16, 60],
+      "allowed_program_types": [
+        "Skill-Only",
+        "Certification",
+        "Vocational",
+        "Re-Entry Education"
+      ],
+      "hard_constraints": {
+        "open_access": true
+      }
+    }
+  ]
+}

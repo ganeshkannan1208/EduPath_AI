@@ -1,0 +1,187 @@
+=====================================================
+EDUPATH AI — MASTER PROJECT PIPELINE (LOCKED PLAN)
+=====================================================
+
+Project Name:
+EduPath AI: Multi-stage Educational Recommendation System using LLMs
+
+Core Principles:
+- All India coverage
+- All streams / all domains
+- Research-level design
+- JSON-only data
+- Hybrid (rule-based + weighted) reasoning
+- Daily Git updates
+- Perfection over speed
+- 1 hour work per day
+
+-----------------------------------------------------
+PHASE 0 — FOUNDATION (COMPLETED)
+-----------------------------------------------------
+✔ Project scope finalized (All India, all streams)
+✔ LLM + RAG architecture decided
+✔ JSON data format finalized
+✔ Hybrid weighted taxonomy chosen
+✔ Environment setup (Windows, Python 3.10, VS Code, Ollama)
+
+-----------------------------------------------------
+PHASE 1 — KNOWLEDGE DESIGN (RESEARCH CORE)
+Duration: ~10 days
+-----------------------------------------------------
+Goal:
+Design a formal, publishable education knowledge model
+
+Tasks:
+1. Finalize Education Stage taxonomy
+2. Finalize Domain taxonomy (all fields)
+3. Define entity relationships & weights
+4. Finalize JSON schemas:
+   - Stage
+   - Domain
+   - Program/Course
+   - Exam
+   - Job/Role
+   - Skill
+   - Institution
+5. Freeze schema v1.0 (no changes later)
+
+Outputs:
+- docs/taxonomy_v1.md
+- docs/schema_v1.json
+
+Git Commit:
+docs: finalize education taxonomy and schemas v1
+
+-----------------------------------------------------
+PHASE 2 — DATA COLLECTION & CURATION
+Duration: ~15 days
+-----------------------------------------------------
+Goal:
+Build clean, trustworthy, India-wide datasets
+
+Tasks:
+6. Identify official data sources (NIRF, UGC, CBSE, AICTE, NTA, NSDC)
+7. Collect raw data (small but correct)
+8. Normalize data to schema
+9. Add source metadata & versioning
+
+Outputs:
+- data/raw/*.json
+- data/processed/*.json
+
+Git Commits:
+data: add exams dataset v1
+data: add colleges dataset v1
+data: add skills dataset v1
+
+-----------------------------------------------------
+PHASE 3 — RAG PREPARATION (NO LLM)
+Duration: ~7 days
+-----------------------------------------------------
+Goal:
+Make data retrieval-ready
+
+Tasks:
+10. Chunk JSON data into text units
+11. Add metadata (stage, domain, state, level)
+12. Generate embeddings
+13. Store in vector database (ChromaDB)
+
+Outputs:
+- Vector DB populated
+- Retrieval works without LLM
+
+Git Commit:
+feat: add RAG-ready vector store
+
+-----------------------------------------------------
+PHASE 4 — SCORING & RANKING ENGINE
+Duration: ~6 days
+-----------------------------------------------------
+Goal:
+Turn data into intelligent recommendations
+
+Tasks:
+14. Implement eligibility filtering (rule-based)
+15. Implement scoring components:
+    - Academic Fit Score (AFS)
+    - Interest Match Score (IMS)
+    - Outcome Alignment Score (OAS)
+    - Practical Constraints Score (PCS)
+16. Combine scores and rank results (Top-N)
+
+Outputs:
+- Scoring & ranking Python module
+
+Git Commit:
+feat: add hybrid scoring and ranking engine
+
+-----------------------------------------------------
+PHASE 5 — LLM + RAG INTEGRATION
+Duration: ~6 days
+-----------------------------------------------------
+Goal:
+Add reasoning and explanation
+
+Tasks:
+17. Design EduPath AI system prompt
+18. Integrate LangChain + Ollama + RAG
+19. Generate explainable recommendations
+
+Outputs:
+- End-to-end recommendation pipeline
+
+Git Commit:
+feat: integrate LLM with RAG for explanations
+
+-----------------------------------------------------
+PHASE 6 — TESTING & EVALUATION
+Duration: ~5 days
+-----------------------------------------------------
+Goal:
+Validate correctness and quality
+
+Tasks:
+20. Create real user test scenarios
+21. Measure relevance, consistency
+22. Error analysis and refinements
+
+Outputs:
+- Evaluation results
+- Test cases
+
+Git Commit:
+test: add evaluation scenarios
+
+-----------------------------------------------------
+PHASE 7 — DOCUMENTATION & PUBLICATION
+Duration: ~6 days
+-----------------------------------------------------
+Goal:
+Make project submission and publication ready
+
+Tasks:
+23. Architecture diagram
+24. Final project report (IEEE style)
+25. PPT and Viva preparation
+26. Research paper outline
+
+Outputs:
+- Final report
+- PPT
+- Paper draft
+
+-----------------------------------------------------
+TOTAL DURATION
+-----------------------------------------------------
+~55 days (1 hour per day)
+
+-----------------------------------------------------
+WORKFLOW RULES
+-----------------------------------------------------
+- One phase at a time
+- No jumping ahead
+- Schema once frozen must not change
+- Daily Git commit (even small progress)
+- Accuracy > speed
+=====================================================
