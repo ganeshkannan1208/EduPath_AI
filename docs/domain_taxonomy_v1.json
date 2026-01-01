@@ -1,0 +1,238 @@
+{
+  "domains": [
+    {
+      "domain_id": "D_ENGINEERING_TECH",
+      "name": "Engineering & Technology",
+      "parent_domain": null,
+      "description": "Engineering, computing, and applied technological disciplines",
+      "math_intensity": 0.8,
+      "theory_intensity": 0.7,
+      "practical_intensity": 0.8
+    },
+
+    {
+      "domain_id": "D_CS",
+      "name": "Computer Science & Information Technology",
+      "parent_domain": "D_ENGINEERING_TECH",
+      "description": "Computing systems, software, data, and information technologies",
+      "math_intensity": 0.8,
+      "theory_intensity": 0.7,
+      "practical_intensity": 0.9
+    },
+    {
+      "domain_id": "D_AI",
+      "name": "Artificial Intelligence & Data Science",
+      "parent_domain": "D_CS",
+      "description": "Machine learning, AI systems, data analytics, and intelligent applications",
+      "math_intensity": 0.9,
+      "theory_intensity": 0.8,
+      "practical_intensity": 0.8
+    },
+    {
+      "domain_id": "D_SOFTWARE",
+      "name": "Software Engineering",
+      "parent_domain": "D_CS",
+      "description": "Software design, development, testing, and maintenance",
+      "math_intensity": 0.6,
+      "theory_intensity": 0.6,
+      "practical_intensity": 0.9
+    },
+    {
+      "domain_id": "D_ELECTRONICS",
+      "name": "Electronics & Communication Engineering",
+      "parent_domain": "D_ENGINEERING_TECH",
+      "description": "Electronics, communication systems, and embedded technologies",
+      "math_intensity": 0.8,
+      "theory_intensity": 0.7,
+      "practical_intensity": 0.8
+    },
+    {
+      "domain_id": "D_MECHANICAL",
+      "name": "Mechanical Engineering",
+      "parent_domain": "D_ENGINEERING_TECH",
+      "description": "Mechanical systems, manufacturing, thermodynamics, and design",
+      "math_intensity": 0.7,
+      "theory_intensity": 0.6,
+      "practical_intensity": 0.9
+    },
+    {
+      "domain_id": "D_CIVIL",
+      "name": "Civil & Infrastructure Engineering",
+      "parent_domain": "D_ENGINEERING_TECH",
+      "description": "Construction, infrastructure, transportation, and structural engineering",
+      "math_intensity": 0.6,
+      "theory_intensity": 0.6,
+      "practical_intensity": 0.9
+    },
+    {
+      "domain_id": "D_AEROSPACE",
+      "name": "Aerospace & Aviation Engineering",
+      "parent_domain": "D_ENGINEERING_TECH",
+      "description": "Aircraft, spacecraft, avionics, and flight systems engineering",
+      "math_intensity": 0.9,
+      "theory_intensity": 0.8,
+      "practical_intensity": 0.7
+    },
+
+    {
+      "domain_id": "D_MEDICAL_HEALTH",
+      "name": "Medical, Health & Life Sciences",
+      "parent_domain": null,
+      "description": "Medicine, healthcare, life sciences, and allied health disciplines",
+      "math_intensity": 0.5,
+      "theory_intensity": 0.8,
+      "practical_intensity": 0.7
+    },
+    {
+      "domain_id": "D_MEDICINE",
+      "name": "Medicine (MBBS & Clinical Sciences)",
+      "parent_domain": "D_MEDICAL_HEALTH",
+      "description": "Human medicine, diagnostics, and clinical practice",
+      "math_intensity": 0.4,
+      "theory_intensity": 0.9,
+      "practical_intensity": 0.8
+    },
+    {
+      "domain_id": "D_NURSING",
+      "name": "Nursing & Patient Care",
+      "parent_domain": "D_MEDICAL_HEALTH",
+      "description": "Nursing sciences, patient care, and clinical assistance",
+      "math_intensity": 0.3,
+      "theory_intensity": 0.7,
+      "practical_intensity": 0.9
+    },
+    {
+      "domain_id": "D_PHARMACY",
+      "name": "Pharmacy & Pharmaceutical Sciences",
+      "parent_domain": "D_MEDICAL_HEALTH",
+      "description": "Drug development, pharmacology, and pharmaceutical practice",
+      "math_intensity": 0.5,
+      "theory_intensity": 0.8,
+      "practical_intensity": 0.7
+    },
+    {
+      "domain_id": "D_ALLIED_HEALTH",
+      "name": "Allied Health Sciences",
+      "parent_domain": "D_MEDICAL_HEALTH",
+      "description": "Physiotherapy, radiology, lab sciences, and healthcare technology",
+      "math_intensity": 0.4,
+      "theory_intensity": 0.6,
+      "practical_intensity": 0.9
+    },
+
+    {
+      "domain_id": "D_COMMERCE_MGMT",
+      "name": "Commerce, Management & Economics",
+      "parent_domain": null,
+      "description": "Business, finance, management, economics, and trade-related disciplines",
+      "math_intensity": 0.6,
+      "theory_intensity": 0.6,
+      "practical_intensity": 0.6
+    },
+    {
+      "domain_id": "D_ACCOUNTING",
+      "name": "Accounting & Finance",
+      "parent_domain": "D_COMMERCE_MGMT",
+      "description": "Financial accounting, auditing, taxation, and financial management",
+      "math_intensity": 0.7,
+      "theory_intensity": 0.6,
+      "practical_intensity": 0.6
+    },
+    {
+      "domain_id": "D_CA",
+      "name": "Chartered Accountancy & Professional Finance",
+      "parent_domain": "D_ACCOUNTING",
+      "description": "Professional accounting, auditing, taxation, and corporate finance",
+      "math_intensity": 0.7,
+      "theory_intensity": 0.8,
+      "practical_intensity": 0.5
+    },
+    {
+      "domain_id": "D_BUSINESS",
+      "name": "Business Administration & Management",
+      "parent_domain": "D_COMMERCE_MGMT",
+      "description": "Business strategy, operations, HR, marketing, and leadership",
+      "math_intensity": 0.4,
+      "theory_intensity": 0.6,
+      "practical_intensity": 0.7
+    },
+
+    {
+      "domain_id": "D_LAW_GOVT",
+      "name": "Law, Governance & Public Services",
+      "parent_domain": null,
+      "description": "Law, judiciary, governance, defence, and civil services",
+      "math_intensity": 0.2,
+      "theory_intensity": 0.9,
+      "practical_intensity": 0.4
+    },
+
+    {
+      "domain_id": "D_ARTS_HUMANITIES",
+      "name": "Arts, Humanities & Social Sciences",
+      "parent_domain": null,
+      "description": "Humanities, languages, social sciences, and creative arts",
+      "math_intensity": 0.1,
+      "theory_intensity": 0.9,
+      "practical_intensity": 0.3
+    },
+    {
+      "domain_id": "D_DESIGN",
+      "name": "Design & Creative Arts",
+      "parent_domain": "D_ARTS_HUMANITIES",
+      "description": "Visual communication, product design, fashion, and UI/UX",
+      "math_intensity": 0.2,
+      "theory_intensity": 0.4,
+      "practical_intensity": 0.9
+    },
+
+    {
+      "domain_id": "D_AGRICULTURE",
+      "name": "Agriculture & Allied Sciences",
+      "parent_domain": null,
+      "description": "Agriculture, horticulture, food production, and agribusiness",
+      "math_intensity": 0.4,
+      "theory_intensity": 0.6,
+      "practical_intensity": 0.8
+    },
+
+    {
+      "domain_id": "D_VOCATIONAL_SKILL",
+      "name": "Vocational, Trades & Skill-Based",
+      "parent_domain": null,
+      "description": "Skill-oriented, vocational, and trade-based disciplines",
+      "math_intensity": 0.3,
+      "theory_intensity": 0.3,
+      "practical_intensity": 0.9
+    },
+    {
+      "domain_id": "D_ITI",
+      "name": "ITI Trades",
+      "parent_domain": "D_VOCATIONAL_SKILL",
+      "description": "Industrial Training Institute trades such as electrician, fitter, welder",
+      "math_intensity": 0.3,
+      "theory_intensity": 0.2,
+      "practical_intensity": 0.95
+    },
+
+    {
+      "domain_id": "D_AVIATION",
+      "name": "Aviation & Maritime Studies",
+      "parent_domain": null,
+      "description": "Aviation operations, pilot training, marine and nautical sciences",
+      "math_intensity": 0.6,
+      "theory_intensity": 0.6,
+      "practical_intensity": 0.8
+    },
+
+    {
+      "domain_id": "D_SPORTS_WELLNESS",
+      "name": "Sports, Fitness & Wellness",
+      "parent_domain": null,
+      "description": "Sports sciences, fitness training, physical education, and wellness",
+      "math_intensity": 0.2,
+      "theory_intensity": 0.4,
+      "practical_intensity": 0.9
+    }
+  ]
+}
