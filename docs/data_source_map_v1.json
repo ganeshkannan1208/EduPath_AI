@@ -1,0 +1,139 @@
+{
+  "version": "1.0",
+  "country": "India",
+  "categories": [
+    {
+      "category": "Schools",
+      "coverage": "National + State",
+      "official_sources": [
+        {
+          "name": "CBSE",
+          "type": "Board",
+          "scope": "National"
+        },
+        {
+          "name": "CISCE/ICSE",
+          "type": "Board",
+          "scope": "National"
+        },
+        {
+          "name": "UDISE+",
+          "type": "Government Database",
+          "scope": "National"
+        }
+      ],
+      "state_sources": [
+        {
+          "name": "State Education Boards",
+          "scope": "State",
+          "count": 36,
+          "description": "28 State Boards + 8 Union Territory Boards"
+        }
+      ],
+      "data_fields_available": [
+        "Affiliation Board",
+        "School Name",
+        "Location",
+        "Classes (PreKG-12)",
+        "Medium of Instruction",
+        "Facilities (Sports, Labs, Hostels)",
+        "Management Type (Private/Govt/Aided)",
+        "Accreditation"
+      ]
+    },
+    {
+      "category": "Colleges & Universities",
+      "coverage": "National + State",
+      "official_sources": [
+        {
+          "name": "UGC",
+          "type": "Statutory Body",
+          "role": "University Recognition"
+        },
+        {
+          "name": "AICTE",
+          "type": "Statutory Body",
+          "role": "Technical Program Approval"
+        },
+        {
+          "name": "NIRF",
+          "type": "Ranking Agency",
+          "role": "Annual National Rankings"
+        },
+        {
+          "name": "NAAC",
+          "type": "Accreditation Agency",
+          "role": "Quality Grades"
+        }
+      ],
+      "data_fields_available": [
+        "Institution Type",
+        "Affiliations",
+        "Programs Offered",
+        "Accreditations",
+        "Rankings",
+        "Fees",
+        "Placement Data"
+      ]
+    },
+    {
+      "category": "Exams",
+      "coverage": "National + State",
+      "official_sources": [
+        { "name": "NTA", "role": "JEE, NEET, CUET" },
+        { "name": "UPSC", "role": "Civil Services, NDA, CDS" },
+        { "name": "SSC", "role": "CHSL, CGL" },
+        { "name": "IBPS", "role": "Banking" },
+        { "name": "RRB", "role": "Railways" }
+      ],
+      "state_sources": [
+        { "name": "State PSCs", "role": "State Civil & Recruitment Exams" }
+      ],
+      "data_fields_available": [
+        "Exam Type",
+        "Level",
+        "Eligibility Rules",
+        "Age Limits",
+        "Attempts",
+        "Exam Pattern",
+        "Participating Institutions",
+        "Opening Programs"
+      ]
+    },
+    {
+      "category": "Jobs & Careers",
+      "coverage": "National",
+      "official_sources": [
+        { "name": "NSQF", "role": "Skill Levels" },
+        { "name": "Sector Skill Councils", "role": "Industry Mapping" }
+      ],
+      "data_fields_available": [
+        "Job Role",
+        "Sector",
+        "Required Skills",
+        "Required Education",
+        "Entry Exams",
+        "Career Progression",
+        "Salary Range"
+      ]
+    },
+    {
+      "category": "Vocational & ITI",
+      "coverage": "National",
+      "official_sources": [
+        { "name": "NCVT", "role": "ITI Trade Standards" },
+        { "name": "DGT", "role": "Training Standards" },
+        { "name": "NSDC", "role": "Skill Mapping" },
+        { "name": "NAPS", "role": "Apprenticeships" }
+      ],
+      "data_fields_available": [
+        "Trade",
+        "Duration",
+        "Level",
+        "Eligibility",
+        "Certification",
+        "Apprenticeship Pathways"
+      ]
+    }
+  ]
+}

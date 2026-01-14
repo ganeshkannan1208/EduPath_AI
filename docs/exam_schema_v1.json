@@ -1,0 +1,92 @@
+{
+  "schema_version": "v1.0",
+  "entity": "Exam",
+
+  "exam_schema": {
+    "exam_id": {
+      "type": "string",
+      "description": "Unique identifier for the exam"
+    },
+    "name": {
+      "type": "string",
+      "description": "Official name of the examination"
+    },
+    "exam_level": {
+      "allowed_values": [
+        "School",
+        "Diploma",
+        "Undergraduate",
+        "Postgraduate",
+        "Professional",
+        "Government Recruitment"
+      ]
+    },
+    "conducting_body": {
+      "type": "string",
+      "description": "Organization conducting the exam"
+    },
+    "exam_scope": {
+      "allowed_values": [
+        "National",
+        "State",
+        "Institutional"
+      ]
+    },
+    "exam_type": {
+      "allowed_values": [
+        "Entrance",
+        "Competitive",
+        "Qualification",
+        "Recruitment"
+      ]
+    },
+    "eligibility_rules": {
+      "min_qualification": "string",
+      "required_subjects": {
+        "type": "array",
+        "items": "string"
+      },
+      "age_limit": {
+        "type": "number",
+        "optional": true
+      },
+      "attempt_limit": {
+        "type": "number",
+        "optional": true
+      }
+    },
+    "opens_programs": {
+      "type": "array",
+      "items": {
+        "program_id": "string",
+        "weight": "number"
+      }
+    },
+    "opens_jobs": {
+      "type": "array",
+      "items": {
+        "job_id": "string",
+        "weight": "number"
+      }
+    },
+    "frequency": {
+      "allowed_values": [
+        "Yearly",
+        "Bi-Yearly",
+        "Multiple",
+        "Irregular"
+      ]
+    },
+    "notes": {
+      "type": "string",
+      "optional": true
+    }
+  },
+
+  "design_principles": [
+    "Eligibility rules are mandatory filters",
+    "Exams act as gateways to programs or jobs",
+    "Weights indicate strength of pathway",
+    "Schema supports academic and recruitment exams"
+  ]
+}

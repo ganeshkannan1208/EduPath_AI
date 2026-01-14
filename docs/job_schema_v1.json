@@ -1,0 +1,89 @@
+{
+  "schema_version": "v1.0",
+  "entity": "Job",
+
+  "job_schema": {
+    "job_id": {
+      "type": "string",
+      "description": "Unique identifier for the job role"
+    },
+    "title": {
+      "type": "string",
+      "description": "Job or role title"
+    },
+    "domain_id": {
+      "type": "string",
+      "description": "Primary domain of the job"
+    },
+    "employment_sector": {
+      "allowed_values": [
+        "Government",
+        "Private",
+        "Public Sector",
+        "Self-Employed",
+        "Startup"
+      ]
+    },
+    "employment_type": {
+      "allowed_values": [
+        "Full-time",
+        "Part-time",
+        "Contract",
+        "Freelance"
+      ]
+    },
+    "required_education_levels": {
+      "type": "array",
+      "items": [
+        "School",
+        "Diploma",
+        "Undergraduate",
+        "Postgraduate",
+        "Doctoral"
+      ]
+    },
+    "required_skills": {
+      "type": "array",
+      "items": {
+        "skill_id": "string",
+        "weight": "number"
+      }
+    },
+    "entry_exams": {
+      "type": "array",
+      "items": {
+        "exam_id": "string",
+        "weight": "number"
+      }
+    },
+    "career_growth_score": {
+      "type": "number",
+      "range": [0, 1],
+      "description": "Long-term growth potential of the role"
+    },
+    "job_stability_score": {
+      "type": "number",
+      "range": [0, 1],
+      "description": "Relative stability of the role"
+    },
+    "average_salary_range": {
+      "type": "object",
+      "fields": {
+        "min": "number",
+        "max": "number",
+        "currency": "INR"
+      }
+    },
+    "notes": {
+      "type": "string",
+      "optional": true
+    }
+  },
+
+  "design_principles": [
+    "Jobs are outcome entities, not recommendation roots",
+    "Skills and exams define job accessibility",
+    "Weights support ranking and explanation",
+    "Schema supports government and private sector roles"
+  ]
+}

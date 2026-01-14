@@ -1,0 +1,18 @@
+{
+  "trade_id": "",
+  "name": "",
+  "trade_sector": "",
+  "scheme": "",
+  "duration": {
+    "value": "",
+    "unit": "months or years"
+  },
+  "eligibility": {
+    "min_qualification": "",
+    "required_subjects": []
+  },
+  "certification_body": "",
+  "apprenticeship_available": "",
+  "jobs_unlocked": [],
+  "notes": ""
+}

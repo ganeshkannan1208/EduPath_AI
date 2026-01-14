@@ -1,0 +1,45 @@
+{
+  "institution_id": "",
+  "name": "",
+  "institution_type": "",
+  "ownership": "",
+  "affiliations": [],
+  "accreditation": {
+    "naac_grade": "",
+    "nba": false
+  },
+  "approvals": [],
+  "nirf_rank": "",
+  "location": {
+    "state": "",
+    "city": "",
+    "pincode": ""
+  },
+  "programs_offered": [],
+  "admission_exams": [],
+  "fees_structure": {
+    "min": "",
+    "max": "",
+    "currency": "INR"
+  },
+  "placement_data": {
+    "average_package": "",
+    "highest_package": "",
+    "companies": []
+  },
+  "facilities": {
+    "hostel": false,
+    "library": false,
+    "labs": false,
+    "sports": false,
+    "canteen": false,
+    "wifi": false,
+    "transport": false
+  },
+  "contact": {
+    "website": "",
+    "phone": "",
+    "email": ""
+  },
+  "notes": ""
+}

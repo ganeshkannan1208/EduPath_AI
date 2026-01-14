@@ -1,0 +1,117 @@
+{
+  "relationship_model_version": "v1.0",
+  "description": "Hybrid relationship model defining eligibility and weighted relevance between education stages, domains, programs, exams, skills, and jobs",
+
+  "relationship_types": [
+    {
+      "type": "STAGE_TO_DOMAIN",
+      "description": "Defines which education domains are accessible at a given education stage",
+      "direction": "Stage -> Domain",
+      "rule_based": true,
+      "weight_range": [0.3, 1.0]
+    },
+    {
+      "type": "DOMAIN_TO_DOMAIN",
+      "description": "Represents similarity or transition potential between related domains",
+      "direction": "Domain -> Domain",
+      "rule_based": false,
+      "weight_range": [0.1, 0.9]
+    },
+    {
+      "type": "DOMAIN_TO_PROGRAM",
+      "description": "Maps domains to specific educational programs or courses",
+      "direction": "Domain -> Program",
+      "rule_based": true,
+      "weight_range": [0.5, 1.0]
+    },
+    {
+      "type": "PROGRAM_TO_EXAM",
+      "description": "Defines exams that enable entry into a program",
+      "direction": "Program -> Exam",
+      "rule_based": true,
+      "weight_range": [0.6, 1.0]
+    },
+    {
+      "type": "PROGRAM_TO_JOB",
+      "description": "Represents possible career outcomes after completing a program",
+      "direction": "Program -> Job",
+      "rule_based": false,
+      "weight_range": [0.4, 0.95]
+    },
+    {
+      "type": "SKILL_TO_JOB",
+      "description": "Represents the relevance of a skill for a job role",
+      "direction": "Skill -> Job",
+      "rule_based": false,
+      "weight_range": [0.5, 1.0]
+    }
+  ],
+
+  "weight_interpretation": {
+    "1.0": "Direct and primary pathway",
+    "0.9": "Very strong alignment",
+    "0.8": "Strongly aligned pathway",
+    "0.6": "Moderately aligned pathway",
+    "0.4": "Indirect or alternative pathway",
+    "0.2": "Weak or rare pathway"
+  },
+
+  "relationship_constraints": {
+    "rule_based_relationships": [
+      "STAGE_TO_DOMAIN",
+      "DOMAIN_TO_PROGRAM",
+      "PROGRAM_TO_EXAM"
+    ],
+    "soft_scored_relationships": [
+      "DOMAIN_TO_DOMAIN",
+      "PROGRAM_TO_JOB",
+      "SKILL_TO_JOB"
+    ],
+    "eligibility_violation_policy": "discard_path"
+  },
+
+  "example_relationships": [
+    {
+      "from_entity": "STAGE_AFTER_12",
+      "to_entity": "D_ENGINEERING_TECH",
+      "relationship_type": "STAGE_TO_DOMAIN",
+      "weight": 1.0,
+      "explanation": "Engineering and technology domains are fully accessible after completing 12th standard"
+    },
+    {
+      "from_entity": "D_CS",
+      "to_entity": "D_AI",
+      "relationship_type": "DOMAIN_TO_DOMAIN",
+      "weight": 0.85,
+      "explanation": "Artificial Intelligence is a closely related specialization within Computer Science"
+    },
+    {
+      "from_entity": "D_CS",
+      "to_entity": "P_BTECH_CSE",
+      "relationship_type": "DOMAIN_TO_PROGRAM",
+      "weight": 0.95,
+      "explanation": "B.Tech in Computer Science is a primary undergraduate program within the CS domain"
+    },
+    {
+      "from_entity": "P_BTECH_CSE",
+      "to_entity": "E_JEE_MAIN",
+      "relationship_type": "PROGRAM_TO_EXAM",
+      "weight": 1.0,
+      "explanation": "JEE Main is the primary entrance examination for B.Tech programs"
+    },
+    {
+      "from_entity": "P_BTECH_CSE",
+      "to_entity": "J_SOFTWARE_ENGINEER",
+      "relationship_type": "PROGRAM_TO_JOB",
+      "weight": 0.9,
+      "explanation": "Graduates of B.Tech CSE commonly enter software engineering roles"
+    },
+    {
+      "from_entity": "SK_PYTHON",
+      "to_entity": "J_SOFTWARE_ENGINEER",
+      "relationship_type": "SKILL_TO_JOB",
+      "weight": 0.85,
+      "explanation": "Python programming is a highly relevant skill for software engineering roles"
+    }
+  ]
+}

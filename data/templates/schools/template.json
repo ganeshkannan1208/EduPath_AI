@@ -1,0 +1,37 @@
+{
+  "school_id": "",
+  "name": "",
+  "board": "",
+  "management_type": "",
+  "medium": [],
+  "classes_offered": {
+    "min_class": "",
+    "max_class": ""
+  },
+  "location": {
+    "state": "",
+    "city": "",
+    "pincode": ""
+  },
+  "facilities": {
+    "sports": false,
+    "laboratories": false,
+    "library": false,
+    "hostel": false,
+    "transport": false,
+    "smart_class": false
+  },
+  "fees_range": {
+    "min": "",
+    "max": "",
+    "currency": "INR"
+  },
+  "accreditation": "",
+  "affiliation_number": "",
+  "website": "",
+  "contact": {
+    "phone": "",
+    "email": ""
+  },
+  "notes": ""
+}

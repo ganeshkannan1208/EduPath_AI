@@ -1,0 +1,18 @@
+{
+  "job_id": "",
+  "title": "",
+  "domain_id": "",
+  "employment_sector": "",
+  "employment_type": "",
+  "required_education_levels": [],
+  "required_skills": [],
+  "entry_exams": [],
+  "career_growth_score": "",
+  "job_stability_score": "",
+  "salary_range": {
+    "min": "",
+    "max": "",
+    "currency": "INR"
+  },
+  "notes": ""
+}
