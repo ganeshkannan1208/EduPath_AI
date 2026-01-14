@@ -1,0 +1,24 @@
+{
+  "program_id": "",
+  "name": "",
+  "program_type": "",
+  "domain_id": "",
+  "secondary_domains": [],
+  "duration": {
+    "value": "",
+    "unit": ""
+  },
+  "delivery_mode": "",
+  "eligibility_rules": {
+    "min_qualification": "",
+    "required_subjects": [],
+    "min_percentage": "",
+    "age_limit": ""
+  },
+  "accepted_exams": [],
+  "outcomes": [],
+  "skill_outcomes": [],
+  "practical_exposure": "",
+  "career_stability_score": "",
+  "notes": ""
+}

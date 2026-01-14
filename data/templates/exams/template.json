@@ -1,0 +1,24 @@
+{
+  "exam_id": "",
+  "name": "",
+  "exam_level": "",
+  "exam_type": "",
+  "conducting_body": "",
+  "scope": "",
+  "eligibility_rules": {
+    "min_qualification": "",
+    "required_subjects": [],
+    "age_limit": "",
+    "attempt_limit": ""
+  },
+  "frequency": "",
+  "programs_unlocked": [],
+  "jobs_unlocked": [],
+  "mode": "",
+  "pattern": {
+    "sections": [],
+    "total_marks": "",
+    "duration_minutes": ""
+  },
+  "notes": ""
+}
