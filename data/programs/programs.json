@@ -1,0 +1,138 @@
+[
+  {
+    "program_id": "PROGRAM_BTECH",
+    "name": "Bachelor of Technology",
+    "short_name": "B.Tech",
+    "stream_id": "STREAM_ENGINEERING_UG",
+    "duration": 4,
+    "duration_unit": "years",
+    "delivery_mode": "Full-time",
+    "accepted_exams": [
+      "EXAM_JEE_MAIN",
+      "EXAM_JEE_ADVANCED",
+      "EXAM_WBJEE",
+      "EXAM_MHT_CET",
+      "EXAM_COMEDK",
+      "EXAM_KEAM",
+      "EXAM_KCET",
+      "EXAM_GUJCET"
+    ],
+    "specializations": [
+      "SPEC_CSE",
+      "SPEC_ECE",
+      "SPEC_EEE",
+      "SPEC_MECH",
+      "SPEC_CIVIL",
+      "SPEC_CHEM",
+      "SPEC_IT",
+      "SPEC_AI_ML",
+      "SPEC_DATA_SCIENCE",
+      "SPEC_IOT",
+      "SPEC_ROBOTICS",
+      "SPEC_AEROSPACE",
+      "SPEC_AUTOMOBILE",
+      "SPEC_BIOTECH",
+      "SPEC_METALLURGICAL"
+    ]
+  },
+  {
+    "program_id": "PROGRAM_BE",
+    "name": "Bachelor of Engineering",
+    "short_name": "B.E",
+    "stream_id": "STREAM_ENGINEERING_UG",
+    "duration": 4,
+    "duration_unit": "years",
+    "delivery_mode": "Full-time",
+    "accepted_exams": [
+      "EXAM_JEE_MAIN",
+      "EXAM_JEE_ADVANCED",
+      "EXAM_WBJEE",
+      "EXAM_MHT_CET",
+      "EXAM_COMEDK",
+      "EXAM_KEAM",
+      "EXAM_KCET",
+      "EXAM_GUJCET"
+    ],
+    "specializations": [
+      "SPEC_CSE",
+      "SPEC_ECE",
+      "SPEC_EEE",
+      "SPEC_MECH",
+      "SPEC_CIVIL",
+      "SPEC_CHEM",
+      "SPEC_IT"
+    ]
+  },
+  {
+    "program_id": "PROGRAM_BARCH",
+    "name": "Bachelor of Architecture",
+    "short_name": "B.Arch",
+    "stream_id": "STREAM_ARCHITECTURE_UG",
+    "duration": 5,
+    "duration_unit": "years",
+    "delivery_mode": "Full-time",
+    "accepted_exams": [
+      "EXAM_NATA",
+      "EXAM_JEE_MAIN"
+    ],
+    "specializations": [
+      "SPEC_ARCHITECTURE"
+    ]
+  },
+  {
+    "program_id": "PROGRAM_BPLAN",
+    "name": "Bachelor of Planning",
+    "short_name": "B.Plan",
+    "stream_id": "STREAM_ENGINEERING_UG",
+    "duration": 4,
+    "duration_unit": "years",
+    "delivery_mode": "Full-time",
+    "accepted_exams": [
+      "EXAM_JEE_MAIN",
+      "EXAM_NATA"
+    ],
+    "specializations": [
+      "SPEC_URBAN_PLANNING",
+      "SPEC_REGIONAL_PLANNING"
+    ]
+  },
+  {
+    "program_id": "PROGRAM_BTECH_MTECH_INTEGRATED",
+    "name": "Integrated B.Tech + M.Tech",
+    "short_name": "Integrated B.Tech-M.Tech",
+    "stream_id": "STREAM_ENGINEERING_UG",
+    "duration": 5,
+    "duration_unit": "years",
+    "delivery_mode": "Full-time",
+    "accepted_exams": [
+      "EXAM_JEE_MAIN",
+      "EXAM_JEE_ADVANCED"
+    ],
+    "specializations": [
+      "SPEC_CSE",
+      "SPEC_ECE",
+      "SPEC_MECH",
+      "SPEC_AEROSPACE",
+      "SPEC_AI_ML",
+      "SPEC_DATA_SCIENCE"
+    ]
+  },
+  {
+    "program_id": "PROGRAM_DIPLOMA_ENGINEERING",
+    "name": "Diploma in Engineering",
+    "short_name": "Diploma",
+    "stream_id": "STREAM_DIPLOMA_POLYTECHNIC",
+    "duration": 3,
+    "duration_unit": "years",
+    "delivery_mode": "Full-time",
+    "accepted_exams": [],
+    "specializations": [
+      "SPEC_CSE",
+      "SPEC_MECH",
+      "SPEC_CIVIL",
+      "SPEC_ECE",
+      "SPEC_EEE",
+      "SPEC_AUTOMOBILE"
+    ]
+  }
+]
