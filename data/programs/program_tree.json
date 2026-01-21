@@ -10,6 +10,21 @@
         "program_id": "PROGRAM_BE",
         "short_name": "B.E",
         "name": "Bachelor of Engineering"
+      },
+      {
+        "program_id": "PROGRAM_BTECH_AI_ML",
+        "short_name": "B.Tech AI & ML",
+        "name": "Bachelor of Technology in Artificial Intelligence & Machine Learning"
+      },
+      {
+        "program_id": "PROGRAM_BTECH_ROBOTICS",
+        "short_name": "B.Tech Robotics",
+        "name": "Bachelor of Technology in Robotics & Automation"
+      },
+      {
+        "program_id": "PROGRAM_BTECH_RENEWABLE_ENERGY",
+        "short_name": "B.Tech Renewable Energy",
+        "name": "Bachelor of Technology in Renewable Energy"
       }
     ],
     "Medical": [
@@ -29,6 +44,11 @@
         "program_id": "PROGRAM_BBA",
         "short_name": "BBA",
         "name": "Bachelor of Business Administration"
+      },
+      {
+        "program_id": "PROGRAM_BBA_FINTECH",
+        "short_name": "BBA FinTech",
+        "name": "Bachelor of Business Administration in FinTech"
       }
     ],
     "Science": [
@@ -36,6 +56,31 @@
         "program_id": "PROGRAM_BSC_SCIENCE",
         "short_name": "B.Sc (Science)",
         "name": "Bachelor of Science"
+      },
+      {
+        "program_id": "PROGRAM_BSC_DATA_SCIENCE",
+        "short_name": "B.Sc Data Science",
+        "name": "Bachelor of Science in Data Science"
+      },
+      {
+        "program_id": "PROGRAM_BSC_CYBER_SECURITY",
+        "short_name": "B.Sc Cyber Security",
+        "name": "Bachelor of Science in Cyber Security"
+      },
+      {
+        "program_id": "PROGRAM_BSC_COGNITIVE_SCIENCE",
+        "short_name": "B.Sc Cognitive Science",
+        "name": "Bachelor of Science in Cognitive Science"
+      },
+      {
+        "program_id": "PROGRAM_BSC_BIOINFORMATICS",
+        "short_name": "B.Sc Bioinformatics",
+        "name": "Bachelor of Science in Bioinformatics"
+      },
+      {
+        "program_id": "PROGRAM_BSC_ENVIRONMENTAL_SCIENCE",
+        "short_name": "B.Sc Environmental Science",
+        "name": "Bachelor of Science in Environmental Science"
       }
     ],
     "Commerce": [
@@ -43,6 +88,11 @@
         "program_id": "PROGRAM_BCOM",
         "short_name": "B.Com",
         "name": "Bachelor of Commerce"
+      },
+      {
+        "program_id": "PROGRAM_BCOM_PROFESSIONAL_ACCOUNTING",
+        "short_name": "B.Com Professional Accounting",
+        "name": "Bachelor of Commerce in Professional Accounting"
       }
     ],
     "Arts & Humanities": [
@@ -50,6 +100,11 @@
         "program_id": "PROGRAM_BA_ARTS",
         "short_name": "B.A",
         "name": "Bachelor of Arts"
+      },
+      {
+        "program_id": "PROGRAM_BA_LIBERAL_ARTS",
+        "short_name": "B.A Liberal Arts",
+        "name": "Bachelor of Arts in Liberal Arts"
       }
     ],
     "Law": [
@@ -64,6 +119,11 @@
         "program_id": "PROGRAM_BDES",
         "short_name": "B.Des",
         "name": "Bachelor of Design"
+      },
+      {
+        "program_id": "PROGRAM_BDES_UX_UI",
+        "short_name": "B.Des (UX/UI)",
+        "name": "Bachelor of Design in UX/UI Design"
       }
     ],
     "Architecture": [
@@ -144,6 +204,21 @@
         "program_id": "PROGRAM_PHD_ENGINEERING",
         "short_name": "Ph.D Engineering",
         "name": "Doctor of Philosophy (Engineering)"
+      },
+      {
+        "program_id": "PROGRAM_MTECH_MACHINE_LEARNING",
+        "short_name": "M.Tech Machine Learning",
+        "name": "Master of Technology in Machine Learning"
+      },
+      {
+        "program_id": "PROGRAM_MTECH_AI",
+        "short_name": "M.Tech AI",
+        "name": "Master of Technology in Artificial Intelligence"
+      },
+      {
+        "program_id": "PROGRAM_MTECH_CYBER_SECURITY",
+        "short_name": "M.Tech Cyber Security",
+        "name": "Master of Technology in Cyber Security"
       }
     ],
     "Medical": [
@@ -168,6 +243,16 @@
         "program_id": "PROGRAM_MBA",
         "short_name": "MBA",
         "name": "Master of Business Administration"
+      },
+      {
+        "program_id": "PROGRAM_MBA_BUSINESS_ANALYTICS",
+        "short_name": "MBA Business Analytics",
+        "name": "Master of Business Administration in Business Analytics"
+      },
+      {
+        "program_id": "PROGRAM_MBA_FINTECH",
+        "short_name": "MBA FinTech",
+        "name": "Master of Business Administration in FinTech"
       }
     ],
     "Science": [
@@ -175,6 +260,26 @@
         "program_id": "PROGRAM_MSC_SCIENCE",
         "short_name": "M.Sc (Science)",
         "name": "Master of Science"
+      },
+      {
+        "program_id": "PROGRAM_MSC_DATA_SCIENCE",
+        "short_name": "M.Sc Data Science",
+        "name": "Master of Science in Data Science"
+      },
+      {
+        "program_id": "PROGRAM_MSC_CYBER_SECURITY",
+        "short_name": "M.Sc Cyber Security",
+        "name": "Master of Science in Cyber Security"
+      },
+      {
+        "program_id": "PROGRAM_MSC_COGNITIVE_SCIENCE",
+        "short_name": "M.Sc Cognitive Science",
+        "name": "Master of Science in Cognitive Science"
+      },
+      {
+        "program_id": "PROGRAM_MSC_BIOINFORMATICS",
+        "short_name": "M.Sc Bioinformatics",
+        "name": "Master of Science in Bioinformatics"
       }
     ],
     "Commerce": [
@@ -273,6 +378,16 @@
         "program_id": "PROGRAM_INTEGRATED_BTECH_MTECH",
         "short_name": "B.Tech + M.Tech",
         "name": "Integrated B.Tech + M.Tech"
+      },
+      {
+        "program_id": "PROGRAM_INTEGRATED_MTECH_PHD",
+        "short_name": "Integrated M.Tech + Ph.D",
+        "name": "Integrated M.Tech + Ph.D (IISER Model)"
+      },
+      {
+        "program_id": "PROGRAM_BTECH_MS_INTERNATIONAL",
+        "short_name": "B.Tech + MS (International)",
+        "name": "B.Tech + MS International Pathway"
       }
     ],
     "Law": [
@@ -280,6 +395,13 @@
         "program_id": "PROGRAM_BALLB",
         "short_name": "BA.LLB",
         "name": "Bachelor of Laws (Integrated)"
+      }
+    ],
+    "Management": [
+      {
+        "program_id": "PROGRAM_INTEGRATED_MBA_IIM",
+        "short_name": "Integrated BA + MBA",
+        "name": "Integrated BA + MBA (IIM Model)"
       }
     ]
   },

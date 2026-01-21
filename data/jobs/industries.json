@@ -1,0 +1,1386 @@
+[
+  {
+    "industry_id": "NIC_6201",
+    "section_code": "J",
+    "section_name": "Information and Communication",
+    "division_code": "62",
+    "division_name": "Computer programming, consultancy and related activities",
+    "group_code": "6201",
+    "group_name": "Computer programming activities",
+    "jobs": [
+      "JOB_SOFTWARE_ENGINEER",
+      "JOB_FULLSTACK_DEVELOPER",
+      "JOB_BACKEND_ENGINEER",
+      "JOB_AI_ENGINEER",
+      "JOB_DATA_ENGINEER",
+      "JOB_ML_ENGINEER",
+      "JOB_DATA_SCIENTIST"
+    ]
+  },
+  {
+    "industry_id": "NIC_6202",
+    "section_code": "J",
+    "section_name": "Information and Communication",
+    "division_code": "62",
+    "division_name": "Computer programming, consultancy and related activities",
+    "group_code": "6202",
+    "group_name": "Computer consultancy and systems integration",
+    "jobs": [
+      "JOB_DEVOPS_ENGINEER",
+      "JOB_MLOPS_ENGINEER",
+      "JOB_INFRASTRUCTURE_ENGINEER"
+    ]
+  },
+  {
+    "industry_id": "NIC_6209",
+    "section_code": "J",
+    "section_name": "Information and Communication",
+    "division_code": "62",
+    "division_name": "Computer programming, consultancy and related activities",
+    "group_code": "6209",
+    "group_name": "Other information technology and computer service activities",
+    "jobs": [
+      "JOB_NETWORK_ENGINEER",
+      "JOB_SECURITY_ENGINEER",
+      "JOB_ETHICAL_HACKER",
+      "JOB_SECURITY_ANALYST",
+      "JOB_SOC_ANALYST"
+    ]
+  },
+  {
+    "industry_id": "NIC_6311",
+    "section_code": "J",
+    "section_name": "Information and Communication",
+    "division_code": "63",
+    "division_name": "Information service activities",
+    "group_code": "6311",
+    "group_name": "Data processing, hosting and related activities; web portals",
+    "jobs": [
+      "JOB_BIG_DATA_ENGINEER",
+      "JOB_DATA_SCIENTIST"
+    ]
+  },
+  {
+    "industry_id": "NIC_5819",
+    "section_code": "J",
+    "section_name": "Information and Communication",
+    "division_code": "58",
+    "division_name": "Publishing activities",
+    "group_code": "5819",
+    "group_name": "Other publishing activities",
+    "jobs": [
+      "JOB_JOURNALIST",
+      "JOB_REPORTER",
+      "JOB_EDITOR",
+      "JOB_WRITER",
+      "JOB_CONTENT_STRATEGIST"
+    ]
+  },
+  {
+    "industry_id": "NIC_5920",
+    "section_code": "J",
+    "section_name": "Information and Communication",
+    "division_code": "59",
+    "division_name": "Motion picture, video and television programme production; sound recording and music publishing activities",
+    "group_code": "5920",
+    "group_name": "Sound recording and music publishing activities",
+    "jobs": [
+      "JOB_NEWS_ANCHOR",
+      "JOB_BROADCAST_JOURNALIST"
+    ]
+  },
+  {
+    "industry_id": "NIC_7021",
+    "section_code": "M",
+    "section_name": "Professional, scientific and technical activities",
+    "division_code": "70",
+    "division_name": "Activities of head offices; management consultancy activities",
+    "group_code": "7021",
+    "group_name": "Public relations and communication activities",
+    "jobs": [
+      "JOB_PR_MANAGER",
+      "JOB_COMMUNICATIONS_SPECIALIST"
+    ]
+  },
+  {
+    "industry_id": "NIC_8423",
+    "section_code": "O",
+    "section_name": "Public administration and defence; compulsory social security",
+    "division_code": "84",
+    "division_name": "Public administration and defence; compulsory social security",
+    "group_code": "8423",
+    "group_name": "Defence activities",
+    "jobs": [
+      "JOB_SECURITY_ARCHITECT",
+      "JOB_COMPLIANCE_OFFICER"
+    ]
+  },
+  {
+    "industry_id": "NIC_2811",
+    "section_code": "C",
+    "section_name": "Manufacturing",
+    "division_code": "28",
+    "division_name": "Manufacture of machinery and equipment",
+    "group_code": "2811",
+    "group_name": "Manufacture of engines and turbines",
+    "jobs": [
+      "JOB_MECHANICAL_ENGINEER",
+      "JOB_MANUFACTURING_ENGINEER",
+      "JOB_PROCESS_ENGINEER",
+      "JOB_THERMAL_ENGINEER"
+    ]
+  },
+  {
+    "industry_id": "NIC_2812",
+    "section_code": "C",
+    "section_name": "Manufacturing",
+    "division_code": "28",
+    "division_name": "Manufacture of machinery and equipment",
+    "group_code": "2812",
+    "group_name": "Manufacture of other general purpose machinery",
+    "jobs": [
+      "JOB_ROBOTICS_ENGINEER",
+      "JOB_DESIGN_ENGINEER"
+    ]
+  },
+  {
+    "industry_id": "NIC_2910",
+    "section_code": "C",
+    "section_name": "Manufacturing",
+    "division_code": "29",
+    "division_name": "Manufacture of motor vehicles, trailers and semi-trailers",
+    "group_code": "2910",
+    "group_name": "Manufacture of motor vehicles",
+    "jobs": [
+      "JOB_AUTOMOTIVE_ENGINEER",
+      "JOB_CHASSIS_ENGINEER",
+      "JOB_POWERTRAIN_ENGINEER"
+    ]
+  },
+  {
+    "industry_id": "NIC_3011",
+    "section_code": "C",
+    "section_name": "Manufacturing",
+    "division_code": "30",
+    "division_name": "Manufacture of other transport equipment",
+    "group_code": "3011",
+    "group_name": "Building of ships and boats",
+    "jobs": [
+      "JOB_AEROSPACE_ENGINEER"
+    ]
+  },
+  {
+    "industry_id": "NIC_2710",
+    "section_code": "C",
+    "section_name": "Manufacturing",
+    "division_code": "27",
+    "division_name": "Manufacture of electrical machinery and apparatus",
+    "group_code": "2710",
+    "group_name": "Manufacture of electric motors, generators and transformers",
+    "jobs": [
+      "JOB_ELECTRICAL_ENGINEER",
+      "JOB_POWER_SYSTEMS_ENGINEER"
+    ]
+  },
+  {
+    "industry_id": "NIC_2640",
+    "section_code": "C",
+    "section_name": "Manufacturing",
+    "division_code": "26",
+    "division_name": "Manufacture of computer, electronic and optical products",
+    "group_code": "2640",
+    "group_name": "Manufacture of semiconductors and electronic components",
+    "jobs": [
+      "JOB_EMBEDDED_SYSTEMS_ENGINEER",
+      "JOB_FIRMWARE_ENGINEER"
+    ]
+  },
+  {
+    "industry_id": "NIC_2061",
+    "section_code": "C",
+    "section_name": "Manufacturing",
+    "division_code": "20",
+    "division_name": "Manufacture of chemicals and chemical products",
+    "group_code": "2061",
+    "group_name": "Manufacture of plastics in primary forms",
+    "jobs": [
+      "JOB_CHEMICAL_ENGINEER",
+      "JOB_PROCESS_ENGINEER"
+    ]
+  },
+  {
+    "industry_id": "NIC_2411",
+    "section_code": "C",
+    "section_name": "Manufacturing",
+    "division_code": "24",
+    "division_name": "Manufacture of basic metals",
+    "group_code": "2411",
+    "group_name": "Manufacture of basic iron and steel",
+    "jobs": [
+      "JOB_METALLURGIST",
+      "JOB_PROCESS_ENGINEER"
+    ]
+  },
+  {
+    "industry_id": "NIC_4100",
+    "section_code": "F",
+    "section_name": "Construction",
+    "division_code": "41",
+    "division_name": "Construction of buildings",
+    "group_code": "4100",
+    "group_name": "Construction of buildings",
+    "jobs": [
+      "JOB_CIVIL_ENGINEER",
+      "JOB_STRUCTURAL_ENGINEER",
+      "JOB_SITE_ENGINEER"
+    ]
+  },
+  {
+    "industry_id": "NIC_4211",
+    "section_code": "F",
+    "section_name": "Construction",
+    "division_code": "42",
+    "division_name": "Civil engineering",
+    "group_code": "4211",
+    "group_name": "Construction of roads and motorways",
+    "jobs": [
+      "JOB_CIVIL_ENGINEER",
+      "JOB_TRAFFIC_ENGINEER",
+      "JOB_GEOTECHNICAL_ENGINEER"
+    ]
+  },
+  {
+    "industry_id": "NIC_4213",
+    "section_code": "F",
+    "section_name": "Construction",
+    "division_code": "42",
+    "division_name": "Civil engineering",
+    "group_code": "4213",
+    "group_name": "Construction of utility projects",
+    "jobs": [
+      "JOB_CIVIL_ENGINEER",
+      "JOB_INFRASTRUCTURE_ENGINEER",
+      "JOB_ENVIRONMENTAL_ENGINEER"
+    ]
+  },
+  {
+    "industry_id": "NIC_3530",
+    "section_code": "E",
+    "section_name": "Water supply; sewerage, waste management and remediation activities",
+    "division_code": "35",
+    "division_name": "Water supply; sewerage, waste management and remediation activities",
+    "group_code": "3530",
+    "group_name": "Sewerage",
+    "jobs": [
+      "JOB_ENVIRONMENTAL_ENGINEER"
+    ]
+  },
+  {
+    "industry_id": "NIC_3821",
+    "section_code": "E",
+    "section_name": "Water supply; sewerage, waste management and remediation activities",
+    "division_code": "38",
+    "division_name": "Waste collection, treatment and disposal activities; materials recovery",
+    "group_code": "3821",
+    "group_name": "Waste collection",
+    "jobs": [
+      "JOB_ENVIRONMENTAL_ENGINEER"
+    ]
+  },
+  {
+    "industry_id": "NIC_3510",
+    "section_code": "E",
+    "section_name": "Water supply; sewerage, waste management and remediation activities",
+    "division_code": "35",
+    "division_name": "Water supply; sewerage, waste management and remediation activities",
+    "group_code": "3510",
+    "group_name": "Water collection, treatment and supply",
+    "jobs": [
+      "JOB_ENVIRONMENTAL_ENGINEER"
+    ]
+  },
+  {
+    "industry_id": "NIC_3511",
+    "section_code": "E",
+    "section_name": "Water supply; sewerage, waste management and remediation activities",
+    "division_code": "35",
+    "division_name": "Water supply; sewerage, waste management and remediation activities",
+    "group_code": "3511",
+    "group_name": "Natural water collection and distribution",
+    "jobs": [
+      "JOB_ENVIRONMENTAL_ENGINEER"
+    ]
+  },
+  {
+    "industry_id": "NIC_3512",
+    "section_code": "E",
+    "section_name": "Water supply; sewerage, waste management and remediation activities",
+    "division_code": "35",
+    "division_name": "Water supply; sewerage, waste management and remediation activities",
+    "group_code": "3512",
+    "group_name": "Water treatment and supply",
+    "jobs": [
+      "JOB_ENVIRONMENTAL_ENGINEER"
+    ]
+  },
+  {
+    "industry_id": "NIC_3514",
+    "section_code": "E",
+    "section_name": "Water supply; sewerage, waste management and remediation activities",
+    "division_code": "35",
+    "division_name": "Water supply; sewerage, waste management and remediation activities",
+    "group_code": "3514",
+    "group_name": "Wastewater treatment",
+    "jobs": [
+      "JOB_ENVIRONMENTAL_ENGINEER"
+    ]
+  },
+  {
+    "industry_id": "NIC_3610",
+    "section_code": "E",
+    "section_name": "Water supply; sewerage, waste management and remediation activities",
+    "division_code": "36",
+    "division_name": "Remediation activities and other waste management services",
+    "group_code": "3610",
+    "group_name": "Remediation activities and other waste management services",
+    "jobs": [
+      "JOB_ENVIRONMENTAL_ENGINEER"
+    ]
+  },
+  {
+    "industry_id": "NIC_3511",
+    "section_code": "D",
+    "section_name": "Electricity, gas, steam and air conditioning supply",
+    "division_code": "35",
+    "division_name": "Electricity, gas, steam and air conditioning supply",
+    "group_code": "3511",
+    "group_name": "Electricity generation",
+    "jobs": [
+      "JOB_RENEWABLE_ENERGY_ENGINEER",
+      "JOB_SOLAR_ENGINEER",
+      "JOB_WIND_ENGINEER"
+    ]
+  },
+  {
+    "industry_id": "NIC_2621",
+    "section_code": "C",
+    "section_name": "Manufacturing",
+    "division_code": "26",
+    "division_name": "Manufacture of computer, electronic and optical products",
+    "group_code": "2621",
+    "group_name": "Manufacture of irradiation, electromedical and electrotherapeutic equipment",
+    "jobs": [
+      "JOB_BIOTECH_ENGINEER"
+    ]
+  },
+  {
+    "industry_id": "NIC_2100",
+    "section_code": "C",
+    "section_name": "Manufacturing",
+    "division_code": "21",
+    "division_name": "Manufacture of basic pharmaceutical products and pharmaceutical preparations",
+    "group_code": "2100",
+    "group_name": "Manufacture of basic pharmaceutical products and pharmaceutical preparations",
+    "jobs": [
+      "JOB_PHARMACEUTICAL_SCIENTIST",
+      "JOB_QUALITY_ASSURANCE_OFFICER",
+      "JOB_REGULATORY_AFFAIRS_MANAGER",
+      "JOB_DRUG_SAFETY_OFFICER"
+    ]
+  },
+  {
+    "industry_id": "NIC_6420",
+    "section_code": "K",
+    "section_name": "Financial and insurance activities",
+    "division_code": "64",
+    "division_name": "Financial service activities, except insurance and pension funding",
+    "group_code": "6420",
+    "group_name": "Activities of investment funds",
+    "jobs": [
+      "JOB_FINANCIAL_ANALYST",
+      "JOB_INVESTMENT_BANKER",
+      "JOB_PORTFOLIO_MANAGER",
+      "JOB_QUANT_ANALYST",
+      "JOB_RISK_ANALYST"
+    ]
+  },
+  {
+    "industry_id": "NIC_6411",
+    "section_code": "K",
+    "section_name": "Financial and insurance activities",
+    "division_code": "64",
+    "division_name": "Financial service activities, except insurance and pension funding",
+    "group_code": "6411",
+    "group_name": "Central banking",
+    "jobs": [
+      "JOB_FINANCIAL_ANALYST",
+      "JOB_RISK_ANALYST"
+    ]
+  },
+  {
+    "industry_id": "NIC_6419",
+    "section_code": "K",
+    "section_name": "Financial and insurance activities",
+    "division_code": "64",
+    "division_name": "Financial service activities, except insurance and pension funding",
+    "group_code": "6419",
+    "group_name": "Other financial service activities",
+    "jobs": [
+      "JOB_CORPORATE_FINANCE_MANAGER",
+      "JOB_FINTECH_DEVELOPER",
+      "JOB_BLOCKCHAIN_ENGINEER"
+    ]
+  },
+  {
+    "industry_id": "NIC_6512",
+    "section_code": "K",
+    "section_name": "Financial and insurance activities",
+    "division_code": "65",
+    "division_name": "Insurance, reinsurance and pension funding, except compulsory social security",
+    "group_code": "6512",
+    "group_name": "Non-life insurance",
+    "jobs": [
+      "JOB_RISK_ANALYST"
+    ]
+  },
+  {
+    "industry_id": "NIC_6910",
+    "section_code": "M",
+    "section_name": "Professional, scientific and technical activities",
+    "division_code": "69",
+    "division_name": "Legal and accounting activities",
+    "group_code": "6910",
+    "group_name": "Legal activities",
+    "jobs": [
+      "JOB_CONSTITUTIONAL_LAWYER",
+      "JOB_CORPORATE_LAWYER",
+      "JOB_CRIMINAL_LAWYER",
+      "JOB_COMMERCIAL_LAWYER",
+      "JOB_LEGAL_ADVISOR",
+      "JOB_JUDGE"
+    ]
+  },
+  {
+    "industry_id": "NIC_6920",
+    "section_code": "M",
+    "section_name": "Professional, scientific and technical activities",
+    "division_code": "69",
+    "division_name": "Legal and accounting activities",
+    "group_code": "6920",
+    "group_name": "Accounting, bookkeeping and auditing activities; tax consultancy",
+    "jobs": [
+      "JOB_ACCOUNTANT",
+      "JOB_AUDITOR",
+      "JOB_TAX_CONSULTANT",
+      "JOB_FINANCIAL_CONTROLLER"
+    ]
+  },
+  {
+    "industry_id": "NIC_8610",
+    "section_code": "Q",
+    "section_name": "Human health and social work activities",
+    "division_code": "86",
+    "division_name": "Human health activities",
+    "group_code": "8610",
+    "group_name": "Hospital activities",
+    "jobs": [
+      "JOB_DOCTOR",
+      "JOB_SURGEON",
+      "JOB_DENTIST",
+      "JOB_PEDIATRICIAN",
+      "JOB_NURSE",
+      "JOB_LAB_TECHNICIAN",
+      "JOB_RADIOGRAPHER",
+      "JOB_PHYSIOTHERAPIST",
+      "JOB_SPORTS_MEDICINE_SPECIALIST"
+    ]
+  },
+  {
+    "industry_id": "NIC_8690",
+    "section_code": "Q",
+    "section_name": "Human health and social work activities",
+    "division_code": "86",
+    "division_name": "Human health activities",
+    "group_code": "8690",
+    "group_name": "Other human health activities",
+    "jobs": [
+      "JOB_CLINICAL_PHARMACIST"
+    ]
+  },
+  {
+    "industry_id": "NIC_5510",
+    "section_code": "I",
+    "section_name": "Accommodation and food service activities",
+    "division_code": "55",
+    "division_name": "Accommodation",
+    "group_code": "5510",
+    "group_name": "Hotels and similar accommodation",
+    "jobs": [
+      "JOB_HOTEL_MANAGER",
+      "JOB_FRONT_OFFICE_MANAGER",
+      "JOB_HOUSEKEEPING_MANAGER",
+      "JOB_REVENUE_MANAGER"
+    ]
+  },
+  {
+    "industry_id": "NIC_5610",
+    "section_code": "I",
+    "section_name": "Accommodation and food service activities",
+    "division_code": "56",
+    "division_name": "Food and beverage service activities",
+    "group_code": "5610",
+    "group_name": "Restaurants and mobile food service activities",
+    "jobs": [
+      "JOB_F&B_MANAGER",
+      "JOB_CHEF",
+      "JOB_RESTAURANT_MANAGER"
+    ]
+  },
+  {
+    "industry_id": "NIC_0100",
+    "section_code": "A",
+    "section_name": "Agriculture, forestry and fishing",
+    "division_code": "01",
+    "division_name": "Crop and animal production, hunting and related service activities",
+    "group_code": "0100",
+    "group_name": "Crop and animal production, hunting and related service activities",
+    "jobs": [
+      "JOB_AGRONOMIST",
+      "JOB_AGRICULTURAL_CONSULTANT",
+      "JOB_AGRICULTURAL_ECONOMIST"
+    ]
+  },
+  {
+    "industry_id": "NIC_0200",
+    "section_code": "A",
+    "section_name": "Agriculture, forestry and fishing",
+    "division_code": "02",
+    "division_name": "Forestry and logging",
+    "group_code": "0200",
+    "group_name": "Forestry and logging",
+    "jobs": [
+      "JOB_ENVIRONMENTAL_ENGINEER"
+    ]
+  },
+  {
+    "industry_id": "NIC_0300",
+    "section_code": "A",
+    "section_name": "Agriculture, forestry and fishing",
+    "division_code": "03",
+    "division_name": "Fishing and aquaculture",
+    "group_code": "0300",
+    "group_name": "Fishing and aquaculture",
+    "jobs": [
+      "JOB_HORTICULTURIST"
+    ]
+  },
+  {
+    "industry_id": "NIC_7110",
+    "section_code": "M",
+    "section_name": "Professional, scientific and technical activities",
+    "division_code": "71",
+    "division_name": "Architectural and engineering activities; technical testing and analysis",
+    "group_code": "7110",
+    "group_name": "Architectural activities and related technical consultancy",
+    "jobs": [
+      "JOB_ARCHITECT",
+      "JOB_CONSERVATION_ARCHITECT",
+      "JOB_GREEN_ARCHITECT"
+    ]
+  },
+  {
+    "industry_id": "NIC_7120",
+    "section_code": "M",
+    "section_name": "Professional, scientific and technical activities",
+    "division_code": "71",
+    "division_name": "Architectural and engineering activities; technical testing and analysis",
+    "group_code": "7120",
+    "group_name": "Engineering activities and related technical consultancy",
+    "jobs": [
+      "JOB_URBAN_PLANNER"
+    ]
+  },
+  {
+    "industry_id": "NIC_7211",
+    "section_code": "M",
+    "section_name": "Professional, scientific and technical activities",
+    "division_code": "72",
+    "division_name": "Scientific research and development",
+    "group_code": "7211",
+    "group_name": "Research and experimental development on natural sciences and engineering",
+    "jobs": [
+      "JOB_RESEARCH_SCIENTIST",
+      "JOB_BIOINFORMATICIAN",
+      "JOB_COMPUTATIONAL_BIOLOGIST",
+      "JOB_CLIMATOLOGIST"
+    ]
+  },
+  {
+    "industry_id": "NIC_7219",
+    "section_code": "M",
+    "section_name": "Professional, scientific and technical activities",
+    "division_code": "72",
+    "division_name": "Scientific research and development",
+    "group_code": "7219",
+    "group_name": "Other research and experimental development",
+    "jobs": [
+      "JOB_BIOLOGIST"
+    ]
+  },
+  {
+    "industry_id": "NIC_7490",
+    "section_code": "M",
+    "section_name": "Professional, scientific and technical activities",
+    "division_code": "74",
+    "division_name": "Other professional, scientific and technical activities",
+    "group_code": "7490",
+    "group_name": "Other professional, scientific and technical activities",
+    "jobs": [
+      "JOB_SUSTAINABILITY_CONSULTANT"
+    ]
+  },
+  {
+    "industry_id": "NIC_9111",
+    "section_code": "S",
+    "section_name": "Other service activities",
+    "division_code": "91",
+    "division_name": "Activities of membership organizations",
+    "group_code": "9111",
+    "group_name": "Activities of business and employers membership organizations",
+    "jobs": [
+      "JOB_MARKETING_MANAGER",
+      "JOB_DIGITAL_MARKETER",
+      "JOB_PRODUCT_MANAGER",
+      "JOB_BRAND_MANAGER",
+      "JOB_MARKETING_ANALYST"
+    ]
+  },
+  {
+    "industry_id": "NIC_8219",
+    "section_code": "N",
+    "section_name": "Administrative and support service activities",
+    "division_code": "82",
+    "division_name": "Office administrative, office support and other business support activities",
+    "group_code": "8219",
+    "group_name": "Other office administrative and other business support activities",
+    "jobs": [
+      "JOB_HR_MANAGER",
+      "JOB_RECRUITMENT_SPECIALIST",
+      "JOB_TRAINING_DEVELOPMENT_OFFICER",
+      "JOB_OPERATIONS_MANAGER",
+      "JOB_SUPPLY_CHAIN_MANAGER",
+      "JOB_PROJECT_MANAGER"
+    ]
+  },
+  {
+    "industry_id": "NIC_8010",
+    "section_code": "N",
+    "section_name": "Administrative and support service activities",
+    "division_code": "80",
+    "division_name": "Security and investigation activities",
+    "group_code": "8010",
+    "group_name": "Private security activities",
+    "jobs": [
+      "JOB_SECURITY_ENGINEER"
+    ]
+  },
+  {
+    "industry_id": "NIC_8230",
+    "section_code": "N",
+    "section_name": "Administrative and support service activities",
+    "division_code": "82",
+    "division_name": "Office administrative, office support and other business support activities",
+    "group_code": "8230",
+    "group_name": "Temporary employment agency activities",
+    "jobs": [
+      "JOB_RECRUITMENT_SPECIALIST"
+    ]
+  },
+  {
+    "industry_id": "NIC_8559",
+    "section_code": "P",
+    "section_name": "Education",
+    "division_code": "85",
+    "division_name": "Education",
+    "group_code": "8559",
+    "group_name": "Other education",
+    "jobs": [
+      "JOB_PROFESSOR",
+      "JOB_RESEARCHER"
+    ]
+  },
+  {
+    "industry_id": "NIC_9001",
+    "section_code": "R",
+    "section_name": "Arts, entertainment and recreation",
+    "division_code": "90",
+    "division_name": "Creative, arts and entertainment activities",
+    "group_code": "9001",
+    "group_name": "Performing arts",
+    "jobs": [
+      "JOB_UX_DESIGNER",
+      "JOB_UI_DESIGNER",
+      "JOB_GRAPHIC_DESIGNER",
+      "JOB_PRODUCT_DESIGNER",
+      "JOB_INTERACTION_DESIGNER",
+      "JOB_FASHION_DESIGNER"
+    ]
+  },
+  {
+    "industry_id": "NIC_7410",
+    "section_code": "M",
+    "section_name": "Professional, scientific and technical activities",
+    "division_code": "74",
+    "division_name": "Other professional, scientific and technical activities",
+    "group_code": "7410",
+    "group_name": "Specialized design activities",
+    "jobs": [
+      "JOB_INDUSTRIAL_DESIGNER"
+    ]
+  },
+  {
+    "industry_id": "NIC_5821",
+    "section_code": "J",
+    "section_name": "Information and Communication",
+    "division_code": "58",
+    "division_name": "Publishing activities",
+    "group_code": "5821",
+    "group_name": "Publishing of newspapers",
+    "jobs": [
+      "JOB_JOURNALIST",
+      "JOB_REPORTER",
+      "JOB_EDITOR"
+    ]
+  },
+  {
+    "industry_id": "NIC_5911",
+    "section_code": "J",
+    "section_name": "Information and Communication",
+    "division_code": "59",
+    "division_name": "Motion picture, video and television programme production; sound recording and music publishing activities",
+    "group_code": "5911",
+    "group_name": "Motion picture, video and television programme activities",
+    "jobs": [
+      "JOB_NEWS_ANCHOR",
+      "JOB_BROADCAST_JOURNALIST"
+    ]
+  },
+  {
+    "industry_id": "NIC_2451",
+    "section_code": "C",
+    "section_name": "Manufacturing",
+    "division_code": "24",
+    "division_name": "Manufacture of basic metals",
+    "group_code": "2451",
+    "group_name": "Casting of metals",
+    "jobs": [
+      "JOB_METALLURGIST"
+    ]
+  },
+  {
+    "industry_id": "NIC_2521",
+    "section_code": "C",
+    "section_name": "Manufacturing",
+    "division_code": "25",
+    "division_name": "Manufacture of fabricated metal products, except machinery and equipment",
+    "group_code": "2521",
+    "group_name": "Treatment and disposal of non-hazardous waste",
+    "jobs": [
+      "JOB_PROCESS_ENGINEER"
+    ]
+  },
+  {
+    "industry_id": "NIC_3000",
+    "section_code": "C",
+    "section_name": "Manufacturing",
+    "division_code": "30",
+    "division_name": "Manufacture of other transport equipment",
+    "group_code": "3000",
+    "group_name": "Manufacture of other transport equipment",
+    "jobs": [
+      "JOB_AEROSPACE_ENGINEER",
+      "JOB_FLIGHT_TEST_ENGINEER"
+    ]
+  },
+  {
+    "industry_id": "NIC_2930",
+    "section_code": "C",
+    "section_name": "Manufacturing",
+    "division_code": "29",
+    "division_name": "Manufacture of motor vehicles, trailers and semi-trailers",
+    "group_code": "2930",
+    "group_name": "Manufacture of parts and accessories for motor vehicles",
+    "jobs": [
+      "JOB_AUTOMOTIVE_ENGINEER",
+      "JOB_POWERTRAIN_ENGINEER",
+      "JOB_CHASSIS_ENGINEER"
+    ]
+  },
+  {
+    "industry_id": "NIC_4312",
+    "section_code": "F",
+    "section_name": "Construction",
+    "division_code": "43",
+    "division_name": "Specialized construction activities",
+    "group_code": "4312",
+    "group_name": "Other special trade construction activities",
+    "jobs": [
+      "JOB_SITE_ENGINEER"
+    ]
+  },
+  {
+    "industry_id": "NIC_4220",
+    "section_code": "F",
+    "section_name": "Construction",
+    "division_code": "42",
+    "division_name": "Civil engineering",
+    "group_code": "4220",
+    "group_name": "Construction of railways and underground railways",
+    "jobs": [
+      "JOB_CIVIL_ENGINEER",
+      "JOB_GEOTECHNICAL_ENGINEER"
+    ]
+  },
+  {
+    "industry_id": "NIC_2011",
+    "section_code": "C",
+    "section_name": "Manufacturing",
+    "division_code": "20",
+    "division_name": "Manufacture of chemicals and chemical products",
+    "group_code": "2011",
+    "group_name": "Manufacture of industrial gases",
+    "jobs": [
+      "JOB_CHEMICAL_ENGINEER"
+    ]
+  },
+  {
+    "industry_id": "NIC_2920",
+    "section_code": "C",
+    "section_name": "Manufacturing",
+    "division_code": "29",
+    "division_name": "Manufacture of motor vehicles, trailers and semi-trailers",
+    "group_code": "2920",
+    "group_name": "Manufacture of bodies (coachwork) for motor vehicles; manufacture of trailers and semi-trailers",
+    "jobs": [
+      "JOB_MANUFACTURING_ENGINEER"
+    ]
+  },
+  {
+    "industry_id": "NIC_2733",
+    "section_code": "C",
+    "section_name": "Manufacturing",
+    "division_code": "27",
+    "division_name": "Manufacture of electrical machinery and apparatus",
+    "group_code": "2733",
+    "group_name": "Manufacture of wiring devices",
+    "jobs": [
+      "JOB_ELECTRICAL_ENGINEER"
+    ]
+  },
+  {
+    "industry_id": "NIC_5822",
+    "section_code": "J",
+    "section_name": "Information and Communication",
+    "division_code": "58",
+    "division_name": "Publishing activities",
+    "group_code": "5822",
+    "group_name": "Publishing of journals and periodicals",
+    "jobs": [
+      "JOB_WRITER",
+      "JOB_EDITOR"
+    ]
+  },
+  {
+    "industry_id": "NIC_5814",
+    "section_code": "J",
+    "section_name": "Information and Communication",
+    "division_code": "58",
+    "division_name": "Publishing activities",
+    "group_code": "5814",
+    "group_name": "Publishing of other books",
+    "jobs": [
+      "JOB_WRITER",
+      "JOB_CONTENT_STRATEGIST"
+    ]
+  },
+  {
+    "industry_id": "NIC_8553",
+    "section_code": "P",
+    "section_name": "Education",
+    "division_code": "85",
+    "division_name": "Education",
+    "group_code": "8553",
+    "group_name": "Driving schools",
+    "jobs": [
+      "JOB_RESEARCHER"
+    ]
+  },
+  {
+    "industry_id": "NIC_8552",
+    "section_code": "P",
+    "section_name": "Education",
+    "division_code": "85",
+    "division_name": "Education",
+    "group_code": "8552",
+    "group_name": "Cultural education",
+    "jobs": [
+      "JOB_PROFESSOR",
+      "JOB_RESEARCHER"
+    ]
+  },
+  {
+    "industry_id": "NIC_8541",
+    "section_code": "P",
+    "section_name": "Education",
+    "division_code": "85",
+    "division_name": "Education",
+    "group_code": "8541",
+    "group_name": "Universities",
+    "jobs": [
+      "JOB_PROFESSOR",
+      "JOB_RESEARCHER",
+      "JOB_HISTORIAN",
+      "JOB_GEOGRAPHER",
+      "JOB_PSYCHOLOGIST",
+      "JOB_ECONOMIST"
+    ]
+  },
+  {
+    "industry_id": "NIC_9004",
+    "section_code": "R",
+    "section_name": "Arts, entertainment and recreation",
+    "division_code": "90",
+    "division_name": "Creative, arts and entertainment activities",
+    "group_code": "9004",
+    "group_name": "Artistic and literary creation and interpretation",
+    "jobs": [
+      "JOB_GRAPHIC_DESIGNER",
+      "JOB_FASHION_DESIGNER"
+    ]
+  },
+  {
+    "industry_id": "NIC_7311",
+    "section_code": "M",
+    "section_name": "Professional, scientific and technical activities",
+    "division_code": "73",
+    "division_name": "Advertising and market research",
+    "group_code": "7311",
+    "group_name": "Advertising agencies",
+    "jobs": [
+      "JOB_DIGITAL_MARKETER",
+      "JOB_MARKETING_ANALYST",
+      "JOB_CONTENT_STRATEGIST"
+    ]
+  },
+  {
+    "industry_id": "NIC_7320",
+    "section_code": "M",
+    "section_name": "Professional, scientific and technical activities",
+    "division_code": "73",
+    "division_name": "Advertising and market research",
+    "group_code": "7320",
+    "group_name": "Market research and public opinion polling",
+    "jobs": [
+      "JOB_MARKETING_ANALYST",
+      "JOB_BRAND_MANAGER"
+    ]
+  },
+  {
+    "industry_id": "NIC_6831",
+    "section_code": "K",
+    "section_name": "Financial and insurance activities",
+    "division_code": "68",
+    "division_name": "Real estate activities",
+    "group_code": "6831",
+    "group_name": "Transactions of own real estate",
+    "jobs": [
+      "JOB_FINANCIAL_ANALYST"
+    ]
+  },
+  {
+    "industry_id": "NIC_8121",
+    "section_code": "N",
+    "section_name": "Administrative and support service activities",
+    "division_code": "81",
+    "division_name": "Services to buildings and landscape activities",
+    "group_code": "8121",
+    "group_name": "General cleaning of buildings",
+    "jobs": [
+      "JOB_HOUSEKEEPING_MANAGER"
+    ]
+  },
+  {
+    "industry_id": "NIC_8110",
+    "section_code": "N",
+    "section_name": "Administrative and support service activities",
+    "division_code": "81",
+    "division_name": "Services to buildings and landscape activities",
+    "group_code": "8110",
+    "group_name": "Combined facilities support activities",
+    "jobs": [
+      "JOB_OPERATIONS_MANAGER"
+    ]
+  },
+  {
+    "industry_id": "NIC_0111",
+    "section_code": "A",
+    "section_name": "Agriculture, forestry and fishing",
+    "division_code": "01",
+    "division_name": "Crop and animal production, hunting and related service activities",
+    "group_code": "0111",
+    "group_name": "Growing of cereals (other than rice), leguminous crops and oil seeds",
+    "jobs": [
+      "JOB_AGRONOMIST"
+    ]
+  },
+  {
+    "industry_id": "NIC_0115",
+    "section_code": "A",
+    "section_name": "Agriculture, forestry and fishing",
+    "division_code": "01",
+    "division_name": "Crop and animal production, hunting and related service activities",
+    "group_code": "0115",
+    "group_name": "Growing of vegetables and melons, roots and tubers",
+    "jobs": [
+      "JOB_HORTICULTURIST",
+      "JOB_AGRONOMIST"
+    ]
+  },
+  {
+    "industry_id": "NIC_0116",
+    "section_code": "A",
+    "section_name": "Agriculture, forestry and fishing",
+    "division_code": "01",
+    "division_name": "Crop and animal production, hunting and related service activities",
+    "group_code": "0116",
+    "group_name": "Growing of fruit, nuts, beverage and spice crops",
+    "jobs": [
+      "JOB_HORTICULTURIST"
+    ]
+  },
+  {
+    "industry_id": "NIC_0141",
+    "section_code": "A",
+    "section_name": "Agriculture, forestry and fishing",
+    "division_code": "01",
+    "division_name": "Crop and animal production, hunting and related service activities",
+    "group_code": "0141",
+    "group_name": "Raising of cattle",
+    "jobs": [
+      "JOB_AGRONOMIST"
+    ]
+  },
+  {
+    "industry_id": "NIC_0150",
+    "section_code": "A",
+    "section_name": "Agriculture, forestry and fishing",
+    "division_code": "01",
+    "division_name": "Crop and animal production, hunting and related service activities",
+    "group_code": "0150",
+    "group_name": "Mixed farming",
+    "jobs": [
+      "JOB_AGRICULTURAL_CONSULTANT"
+    ]
+  },
+  {
+    "industry_id": "NIC_0161",
+    "section_code": "A",
+    "section_name": "Agriculture, forestry and fishing",
+    "division_code": "01",
+    "division_name": "Crop and animal production, hunting and related service activities",
+    "group_code": "0161",
+    "group_name": "Support activities for crop production",
+    "jobs": [
+      "JOB_SOIL_SCIENTIST",
+      "JOB_AGRICULTURAL_CONSULTANT"
+    ]
+  },
+  {
+    "industry_id": "NIC_0162",
+    "section_code": "A",
+    "section_name": "Agriculture, forestry and fishing",
+    "division_code": "01",
+    "division_name": "Crop and animal production, hunting and related service activities",
+    "group_code": "0162",
+    "group_name": "Support activities for animal production",
+    "jobs": [
+      "JOB_AGRONOMIST"
+    ]
+  },
+  {
+    "industry_id": "NIC_0163",
+    "section_code": "A",
+    "section_name": "Agriculture, forestry and fishing",
+    "division_code": "01",
+    "division_name": "Crop and animal production, hunting and related service activities",
+    "group_code": "0163",
+    "group_name": "Post-harvest crop activities",
+    "jobs": [
+      "JOB_AGRICULTURAL_ECONOMIST"
+    ]
+  },
+  {
+    "industry_id": "NIC_0164",
+    "section_code": "A",
+    "section_name": "Agriculture, forestry and fishing",
+    "division_code": "01",
+    "division_name": "Crop and animal production, hunting and related service activities",
+    "group_code": "0164",
+    "group_name": "Seed processing for propagation",
+    "jobs": [
+      "JOB_HORTICULTURIST"
+    ]
+  },
+  {
+    "industry_id": "NIC_0210",
+    "section_code": "A",
+    "section_name": "Agriculture, forestry and fishing",
+    "division_code": "02",
+    "division_name": "Forestry and logging",
+    "group_code": "0210",
+    "group_name": "Silviculture and other forestry activities",
+    "jobs": [
+      "JOB_ENVIRONMENTAL_ENGINEER"
+    ]
+  },
+  {
+    "industry_id": "NIC_1040",
+    "section_code": "C",
+    "section_name": "Manufacturing",
+    "division_code": "10",
+    "division_name": "Manufacture of food products",
+    "group_code": "1040",
+    "group_name": "Manufacture of animal feeds",
+    "jobs": [
+      "JOB_PROCESS_ENGINEER"
+    ]
+  },
+  {
+    "industry_id": "NIC_1080",
+    "section_code": "C",
+    "section_name": "Manufacturing",
+    "division_code": "10",
+    "division_name": "Manufacture of food products",
+    "group_code": "1080",
+    "group_name": "Manufacture of other food products",
+    "jobs": [
+      "JOB_CHEF"
+    ]
+  },
+  {
+    "industry_id": "NIC_1101",
+    "section_code": "C",
+    "section_name": "Manufacturing",
+    "division_code": "11",
+    "division_name": "Manufacture of beverages",
+    "group_code": "1101",
+    "group_name": "Distilling, rectifying and blending of spirits",
+    "jobs": [
+      "JOB_F&B_MANAGER"
+    ]
+  },
+  {
+    "industry_id": "NIC_6421",
+    "section_code": "K",
+    "section_name": "Financial and insurance activities",
+    "division_code": "64",
+    "division_name": "Financial service activities, except insurance and pension funding",
+    "group_code": "6421",
+    "group_name": "Investment trusts and similar financial entities",
+    "jobs": [
+      "JOB_PORTFOLIO_MANAGER",
+      "JOB_QUANT_ANALYST"
+    ]
+  },
+  {
+    "industry_id": "NIC_6510",
+    "section_code": "K",
+    "section_name": "Financial and insurance activities",
+    "division_code": "65",
+    "division_name": "Insurance, reinsurance and pension funding, except compulsory social security",
+    "group_code": "6510",
+    "group_name": "Life insurance",
+    "jobs": [
+      "JOB_INVESTMENT_BANKER",
+      "JOB_RISK_ANALYST"
+    ]
+  },
+  {
+    "industry_id": "NIC_6612",
+    "section_code": "K",
+    "section_name": "Financial and insurance activities",
+    "division_code": "66",
+    "division_name": "Activities auxiliary to financial service and insurance activities",
+    "group_code": "6612",
+    "group_name": "Risk and damage evaluation",
+    "jobs": [
+      "JOB_RISK_ANALYST"
+    ]
+  },
+  {
+    "industry_id": "NIC_6613",
+    "section_code": "K",
+    "section_name": "Financial and insurance activities",
+    "division_code": "66",
+    "division_name": "Activities auxiliary to financial service and insurance activities",
+    "group_code": "6613",
+    "group_name": "Activities auxiliary to insurance and pension funding",
+    "jobs": [
+      "JOB_COMPLIANCE_OFFICER"
+    ]
+  },
+  {
+    "industry_id": "NIC_7022",
+    "section_code": "M",
+    "section_name": "Professional, scientific and technical activities",
+    "division_code": "70",
+    "division_name": "Activities of head offices; management consultancy activities",
+    "group_code": "7022",
+    "group_name": "Management consultancy activities other than financial management consultancy",
+    "jobs": [
+      "JOB_OPERATIONS_MANAGER",
+      "JOB_SUPPLY_CHAIN_MANAGER"
+    ]
+  },
+  {
+    "industry_id": "NIC_7490_HR",
+    "section_code": "M",
+    "section_name": "Professional, scientific and technical activities",
+    "division_code": "74",
+    "division_name": "Other professional, scientific and technical activities",
+    "group_code": "7490",
+    "group_name": "Other professional, scientific and technical activities",
+    "jobs": [
+      "JOB_HR_MANAGER",
+      "JOB_TRAINING_DEVELOPMENT_OFFICER"
+    ]
+  },
+  {
+    "industry_id": "NIC_8899",
+    "section_code": "N",
+    "section_name": "Administrative and support service activities",
+    "division_code": "88",
+    "division_name": "Social work activities without accommodation",
+    "group_code": "8899",
+    "group_name": "Other social work activities without accommodation",
+    "jobs": [
+      "JOB_PSYCHOLOGIST"
+    ]
+  },
+  {
+    "industry_id": "NIC_9602",
+    "section_code": "S",
+    "section_name": "Other service activities",
+    "division_code": "96",
+    "division_name": "Other personal service activities",
+    "group_code": "9602",
+    "group_name": "Hairdressing and other beauty treatment",
+    "jobs": [
+      "JOB_UX_DESIGNER"
+    ]
+  },
+  {
+    "industry_id": "NIC_7490_DESIGN",
+    "section_code": "M",
+    "section_name": "Professional, scientific and technical activities",
+    "division_code": "74",
+    "division_name": "Other professional, scientific and technical activities",
+    "group_code": "7490",
+    "group_name": "Other professional, scientific and technical activities",
+    "jobs": [
+      "JOB_UI_DESIGNER",
+      "JOB_INTERACTION_DESIGNER"
+    ]
+  },
+  {
+    "industry_id": "NIC_7490_ARCH",
+    "section_code": "M",
+    "section_name": "Professional, scientific and technical activities",
+    "division_code": "74",
+    "division_name": "Other professional, scientific and technical activities",
+    "group_code": "7490",
+    "group_name": "Other professional, scientific and technical activities",
+    "jobs": [
+      "JOB_URBAN_PLANNER",
+      "JOB_CONSERVATION_ARCHITECT",
+      "JOB_GREEN_ARCHITECT"
+    ]
+  },
+  {
+    "industry_id": "NIC_6463",
+    "section_code": "K",
+    "section_name": "Financial and insurance activities",
+    "division_code": "64",
+    "division_name": "Financial service activities, except insurance and pension funding",
+    "group_code": "6463",
+    "group_name": "Other monetary intermediation",
+    "jobs": [
+      "JOB_FINTECH_DEVELOPER",
+      "JOB_BLOCKCHAIN_ENGINEER"
+    ]
+  },
+  {
+    "industry_id": "NIC_6211",
+    "section_code": "J",
+    "section_name": "Information and Communication",
+    "division_code": "62",
+    "division_name": "Computer programming, consultancy and related activities",
+    "group_code": "6211",
+    "group_name": "Computer programming activities",
+    "jobs": [
+      "JOB_IOT_ENGINEER",
+      "JOB_NLP_ENGINEER",
+      "JOB_COMPUTER_VISION_ENGINEER"
+    ]
+  },
+  {
+    "industry_id": "NIC_2670",
+    "section_code": "C",
+    "section_name": "Manufacturing",
+    "division_code": "26",
+    "division_name": "Manufacture of computer, electronic and optical products",
+    "group_code": "2670",
+    "group_name": "Manufacture of optical instruments and photographic equipment",
+    "jobs": [
+      "JOB_RADIOGRAPHER"
+    ]
+  },
+  {
+    "industry_id": "NIC_2680",
+    "section_code": "C",
+    "section_name": "Manufacturing",
+    "division_code": "26",
+    "division_name": "Manufacture of computer, electronic and optical products",
+    "group_code": "2680",
+    "group_name": "Manufacture of magnetic and optical media",
+    "jobs": [
+      "JOB_DATA_ENGINEER"
+    ]
+  },
+  {
+    "industry_id": "NIC_6729",
+    "section_code": "K",
+    "section_name": "Financial and insurance activities",
+    "division_code": "67",
+    "division_name": "Activities auxiliary to financial service and insurance activities",
+    "group_code": "6729",
+    "group_name": "Other insurance and pension funding activities",
+    "jobs": [
+      "JOB_CORPORATE_FINANCE_MANAGER"
+    ]
+  },
+  {
+    "industry_id": "NIC_7213",
+    "section_code": "M",
+    "section_name": "Professional, scientific and technical activities",
+    "division_code": "72",
+    "division_name": "Scientific research and development",
+    "group_code": "7213",
+    "group_name": "Research and experimental development on social sciences and humanities",
+    "jobs": [
+      "JOB_HISTORIAN",
+      "JOB_ECONOMIST",
+      "JOB_GEOGRAPHER"
+    ]
+  }
+]

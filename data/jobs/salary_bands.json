@@ -1,0 +1,58 @@
+[
+  {
+    "job_id": "JOB_SOFTWARE_ENGINEER",
+    "region_id": "REG_BANGALORE",
+    "salary": {
+      "absolute": { "low": 450000, "high": 2800000, "currency": "INR", "unit": "year" },
+      "percentile": { "p20": 450000, "p50": 900000, "p75": 1600000, "p90": 2400000, "p99": 3500000 }
+    }
+  },
+  {
+    "job_id": "JOB_DATA_SCIENTIST",
+    "region_id": "REG_BANGALORE",
+    "salary": {
+      "absolute": { "low": 600000, "high": 3500000, "currency": "INR", "unit": "year" },
+      "percentile": { "p20": 600000, "p50": 1200000, "p75": 2000000, "p90": 3000000, "p99": 4500000 }
+    }
+  },
+  {
+    "job_id": "JOB_ML_ENGINEER",
+    "region_id": "REG_BANGALORE",
+    "salary": {
+      "absolute": { "low": 700000, "high": 4000000, "currency": "INR", "unit": "year" },
+      "percentile": { "p20": 700000, "p50": 1400000, "p75": 2200000, "p90": 3400000, "p99": 5000000 }
+    }
+  },
+  {
+    "job_id": "JOB_AI_ENGINEER",
+    "region_id": "REG_BANGALORE",
+    "salary": {
+      "absolute": { "low": 800000, "high": 4200000, "currency": "INR", "unit": "year" },
+      "percentile": { "p20": 800000, "p50": 1600000, "p75": 2600000, "p90": 3800000, "p99": 5500000 }
+    }
+  },
+  {
+    "job_id": "JOB_SOFTWARE_ENGINEER",
+    "region_id": "REG_CHENNAI",
+    "salary": {
+      "absolute": { "low": 400000, "high": 2300000, "currency": "INR", "unit": "year" },
+      "percentile": { "p20": 400000, "p50": 800000, "p75": 1300000, "p90": 2000000, "p99": 3000000 }
+    }
+  },
+  {
+    "job_id": "JOB_FINANCIAL_ANALYST",
+    "region_id": "REG_MUMBAI",
+    "salary": {
+      "absolute": { "low": 500000, "high": 2500000, "currency": "INR", "unit": "year" },
+      "percentile": { "p20": 500000, "p50": 900000, "p75": 1500000, "p90": 2200000, "p99": 3500000 }
+    }
+  },
+  {
+    "job_id": "JOB_DOCTOR",
+    "region_id": "REG_CHENNAI",
+    "salary": {
+      "absolute": { "low": 600000, "high": 3000000, "currency": "INR", "unit": "year" },
+      "percentile": { "p20": 600000, "p50": 1000000, "p75": 1800000, "p90": 2500000, "p99": 3500000 }
+    }
+  }
+]

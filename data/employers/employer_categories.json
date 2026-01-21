@@ -1,0 +1,15 @@
+[
+  { "category_id": "EMP_CAT_IT_SERVICES", "name": "IT Services Companies" },
+  { "category_id": "EMP_CAT_TECH_PRODUCT", "name": "Product Technology Companies" },
+  { "category_id": "EMP_CAT_BANKING", "name": "Banks & Financial Institutions" },
+  { "category_id": "EMP_CAT_CONSULTING", "name": "Consulting Firms" },
+  { "category_id": "EMP_CAT_HEALTHCARE", "name": "Hospitals & Healthcare Institutions" },
+  { "category_id": "EMP_CAT_PHARMA", "name": "Pharmaceutical & Biotech Companies" },
+  { "category_id": "EMP_CAT_MANUFACTURING", "name": "Manufacturing & Industrial Firms" },
+  { "category_id": "EMP_CAT_GOVT", "name": "Government & Public Sector Units (PSUs)" },
+  { "category_id": "EMP_CAT_EDUCATION", "name": "Educational & Research Institutions" },
+  { "category_id": "EMP_CAT_MEDIA", "name": "Media & Broadcasting Companies" },
+  { "category_id": "EMP_CAT_HOSPITALITY", "name": "Hospitality & Tourism Companies" },
+  { "category_id": "EMP_CAT_AGRI", "name": "Agriculture & Agri-Tech Companies" },
+  { "category_id": "EMP_CAT_STARTUP", "name": "Startups & Innovation Hubs" }
+]

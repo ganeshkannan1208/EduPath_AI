@@ -1,0 +1,15 @@
+[
+  { "provider_id": "PROVIDER_GOOGLE", "name": "Google" },
+  { "provider_id": "PROVIDER_MICROSOFT", "name": "Microsoft" },
+  { "provider_id": "PROVIDER_AWS", "name": "Amazon Web Services" },
+  { "provider_id": "PROVIDER_CISCO", "name": "Cisco" },
+  { "provider_id": "PROVIDER_ORACLE", "name": "Oracle" },
+  { "provider_id": "PROVIDER_RED_HAT", "name": "Red Hat" },
+  { "provider_id": "PROVIDER_IBM", "name": "IBM" },
+  { "provider_id": "PROVIDER_NPTEL", "name": "NPTEL" },
+  { "provider_id": "PROVIDER_COURSEERA", "name": "Coursera" },
+  { "provider_id": "PROVIDER_EDX", "name": "edX" },
+  { "provider_id": "PROVIDER_UDEMY", "name": "Udemy" },
+  { "provider_id": "PROVIDER_UNACADEMY", "name": "Unacademy" },
+  { "provider_id": "PROVIDER_SKILL_INDIA", "name": "Skill India" }
+]

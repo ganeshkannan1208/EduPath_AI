@@ -1,0 +1,499 @@
+[
+  {
+    "employer_id": "EMP_TCS",
+    "name": "Tata Consultancy Services",
+    "category_id": "EMP_CAT_IT_SERVICES",
+    "jobs": ["JOB_SOFTWARE_ENGINEER", "JOB_DATA_ENGINEER", "JOB_DEVOPS_ENGINEER", "JOB_FULLSTACK_DEVELOPER", "JOB_ML_ENGINEER"],
+    "regions": ["REG_BANGALORE", "REG_CHENNAI", "REG_MUMBAI", "REG_PUNE", "REG_HYDERABAD"]
+  },
+  {
+    "employer_id": "EMP_INFOSYS",
+    "name": "Infosys",
+    "category_id": "EMP_CAT_IT_SERVICES",
+    "jobs": ["JOB_SOFTWARE_ENGINEER", "JOB_AI_ENGINEER", "JOB_DATA_SCIENTIST", "JOB_BACKEND_ENGINEER", "JOB_CLOUD_ENGINEER"],
+    "regions": ["REG_BANGALORE", "REG_CHENNAI", "REG_HYDERABAD", "REG_MYSORE"]
+  },
+  {
+    "employer_id": "EMP_WIPRO",
+    "name": "Wipro",
+    "category_id": "EMP_CAT_IT_SERVICES",
+    "jobs": ["JOB_SOFTWARE_ENGINEER", "JOB_NETWORK_ENGINEER", "JOB_SECURITY_ENGINEER", "JOB_DEVOPS_ENGINEER"],
+    "regions": ["REG_BANGALORE", "REG_HYDERABAD", "REG_PUNE"]
+  },
+  {
+    "employer_id": "EMP_HCL",
+    "name": "HCL Technologies",
+    "category_id": "EMP_CAT_IT_SERVICES",
+    "jobs": ["JOB_SOFTWARE_ENGINEER", "JOB_DATA_SCIENTIST", "JOB_ML_ENGINEER", "JOB_INFRASTRUCTURE_ENGINEER"],
+    "regions": ["REG_NOIDA", "REG_BANGALORE", "REG_PUNE"]
+  },
+  {
+    "employer_id": "EMP_CAPGEMINI",
+    "name": "Capgemini",
+    "category_id": "EMP_CAT_IT_SERVICES",
+    "jobs": ["JOB_SOFTWARE_ENGINEER", "JOB_PROJECT_MANAGER", "JOB_BUSINESS_ANALYST"],
+    "regions": ["REG_BANGALORE", "REG_PUNE", "REG_MUMBAI"]
+  },
+  {
+    "employer_id": "EMP_ACCENTURE",
+    "name": "Accenture",
+    "category_id": "EMP_CAT_CONSULTING",
+    "jobs": ["JOB_SOFTWARE_ENGINEER", "JOB_OPERATIONS_MANAGER", "JOB_PROJECT_MANAGER", "JOB_BUSINESS_ANALYST"],
+    "regions": ["REG_BANGALORE", "REG_MUMBAI", "REG_DELHI_NCR", "REG_PUNE"]
+  },
+  {
+    "employer_id": "EMP_DELOITTE",
+    "name": "Deloitte",
+    "category_id": "EMP_CAT_CONSULTING",
+    "jobs": ["JOB_BUSINESS_ANALYST", "JOB_FINANCIAL_ANALYST", "JOB_MARKETING_ANALYST", "JOB_OPERATIONS_MANAGER"],
+    "regions": ["REG_BANGALORE", "REG_DELHI_NCR", "REG_MUMBAI"]
+  },
+  {
+    "employer_id": "EMP_MCKINSEY",
+    "name": "McKinsey & Company",
+    "category_id": "EMP_CAT_CONSULTING",
+    "jobs": ["JOB_BUSINESS_ANALYST", "JOB_MARKETING_MANAGER", "JOB_OPERATIONS_MANAGER", "JOB_FINANCIAL_ANALYST"],
+    "regions": ["REG_DELHI_NCR", "REG_MUMBAI", "REG_BANGALORE"]
+  },
+  {
+    "employer_id": "EMP_BCG",
+    "name": "Boston Consulting Group",
+    "category_id": "EMP_CAT_CONSULTING",
+    "jobs": ["JOB_BUSINESS_ANALYST", "JOB_PRODUCT_MANAGER", "JOB_FINANCIAL_ANALYST"],
+    "regions": ["REG_MUMBAI", "REG_DELHI_NCR", "REG_BANGALORE"]
+  },
+  {
+    "employer_id": "EMP_GOOGLE",
+    "name": "Google India",
+    "category_id": "EMP_CAT_TECH_PRODUCT",
+    "jobs": ["JOB_SOFTWARE_ENGINEER", "JOB_ML_ENGINEER", "JOB_DATA_SCIENTIST", "JOB_PRODUCT_MANAGER", "JOB_AI_ENGINEER"],
+    "regions": ["REG_BANGALORE", "REG_DELHI_NCR", "REG_HYDERABAD"]
+  },
+  {
+    "employer_id": "EMP_AMAZON",
+    "name": "Amazon India",
+    "category_id": "EMP_CAT_TECH_PRODUCT",
+    "jobs": ["JOB_SOFTWARE_ENGINEER", "JOB_DATA_SCIENTIST", "JOB_PRODUCT_MANAGER", "JOB_DEVOPS_ENGINEER"],
+    "regions": ["REG_BANGALORE", "REG_HYDERABAD", "REG_DELHI_NCR"]
+  },
+  {
+    "employer_id": "EMP_MICROSOFT",
+    "name": "Microsoft India",
+    "category_id": "EMP_CAT_TECH_PRODUCT",
+    "jobs": ["JOB_SOFTWARE_ENGINEER", "JOB_DATA_SCIENTIST", "JOB_AI_ENGINEER", "JOB_ML_ENGINEER", "JOB_CLOUD_ENGINEER"],
+    "regions": ["REG_BANGALORE", "REG_DELHI_NCR", "REG_HYDERABAD"]
+  },
+  {
+    "employer_id": "EMP_FLIPKART",
+    "name": "Flipkart",
+    "category_id": "EMP_CAT_TECH_PRODUCT",
+    "jobs": ["JOB_SOFTWARE_ENGINEER", "JOB_PRODUCT_MANAGER", "JOB_DATA_SCIENTIST", "JOB_MARKETING_MANAGER"],
+    "regions": ["REG_BANGALORE", "REG_HYDERABAD"]
+  },
+  {
+    "employer_id": "EMP_OLA",
+    "name": "Ola",
+    "category_id": "EMP_CAT_TECH_PRODUCT",
+    "jobs": ["JOB_SOFTWARE_ENGINEER", "JOB_DATA_SCIENTIST", "JOB_PRODUCT_MANAGER", "JOB_ML_ENGINEER"],
+    "regions": ["REG_BANGALORE"]
+  },
+  {
+    "employer_id": "EMP_ICICI",
+    "name": "ICICI Bank",
+    "category_id": "EMP_CAT_BANKING",
+    "jobs": ["JOB_FINANCIAL_ANALYST", "JOB_RISK_ANALYST", "JOB_QUANT_ANALYST", "JOB_CORPORATE_FINANCE_MANAGER"],
+    "regions": ["REG_MUMBAI", "REG_BANGALORE", "REG_PUNE", "REG_DELHI_NCR"]
+  },
+  {
+    "employer_id": "EMP_HDFC",
+    "name": "HDFC Bank",
+    "category_id": "EMP_CAT_BANKING",
+    "jobs": ["JOB_FINANCIAL_ANALYST", "JOB_INVESTMENT_BANKER", "JOB_PORTFOLIO_MANAGER", "JOB_RISK_ANALYST"],
+    "regions": ["REG_MUMBAI", "REG_BANGALORE", "REG_DELHI_NCR"]
+  },
+  {
+    "employer_id": "EMP_AXIS",
+    "name": "Axis Bank",
+    "category_id": "EMP_CAT_BANKING",
+    "jobs": ["JOB_FINANCIAL_ANALYST", "JOB_CORPORATE_FINANCE_MANAGER", "JOB_RISK_ANALYST"],
+    "regions": ["REG_MUMBAI", "REG_BANGALORE", "REG_DELHI_NCR"]
+  },
+  {
+    "employer_id": "EMP_SBI",
+    "name": "State Bank of India",
+    "category_id": "EMP_CAT_BANKING",
+    "jobs": ["JOB_FINANCIAL_ANALYST", "JOB_RISK_ANALYST", "JOB_CORPORATE_FINANCE_MANAGER"],
+    "regions": ["REG_MUMBAI", "REG_DELHI_NCR", "REG_BANGALORE", "REG_KOLKATA"]
+  },
+  {
+    "employer_id": "EMP_KOTAK",
+    "name": "Kotak Mahindra Bank",
+    "category_id": "EMP_CAT_BANKING",
+    "jobs": ["JOB_INVESTMENT_BANKER", "JOB_PORTFOLIO_MANAGER", "JOB_QUANT_ANALYST"],
+    "regions": ["REG_MUMBAI", "REG_BANGALORE"]
+  },
+  {
+    "employer_id": "EMP_GOLDMAN",
+    "name": "Goldman Sachs India",
+    "category_id": "EMP_CAT_BANKING",
+    "jobs": ["JOB_QUANT_ANALYST", "JOB_INVESTMENT_BANKER", "JOB_PORTFOLIO_MANAGER", "JOB_SOFTWARE_ENGINEER"],
+    "regions": ["REG_MUMBAI", "REG_BANGALORE"]
+  },
+  {
+    "employer_id": "EMP_JPMORGAN",
+    "name": "JPMorgan Chase",
+    "category_id": "EMP_CAT_BANKING",
+    "jobs": ["JOB_FINANCIAL_ANALYST", "JOB_QUANT_ANALYST", "JOB_RISK_ANALYST"],
+    "regions": ["REG_MUMBAI", "REG_BANGALORE"]
+  },
+  {
+    "employer_id": "EMP_APOLLO",
+    "name": "Apollo Hospitals",
+    "category_id": "EMP_CAT_HEALTHCARE",
+    "jobs": ["JOB_DOCTOR", "JOB_SURGEON", "JOB_NURSE", "JOB_LAB_TECHNICIAN", "JOB_RADIOGRAPHER"],
+    "regions": ["REG_CHENNAI", "REG_HYDERABAD", "REG_BANGALORE", "REG_DELHI_NCR"]
+  },
+  {
+    "employer_id": "EMP_FORTIS",
+    "name": "Fortis Healthcare",
+    "category_id": "EMP_CAT_HEALTHCARE",
+    "jobs": ["JOB_DOCTOR", "JOB_SURGEON", "JOB_NURSE", "JOB_PHYSIOTHERAPIST"],
+    "regions": ["REG_DELHI_NCR", "REG_BANGALORE", "REG_PUNE"]
+  },
+  {
+    "employer_id": "EMP_MANIPAL",
+    "name": "Manipal Hospitals",
+    "category_id": "EMP_CAT_HEALTHCARE",
+    "jobs": ["JOB_DOCTOR", "JOB_SURGEON", "JOB_NURSE", "JOB_LAB_TECHNICIAN"],
+    "regions": ["REG_BANGALORE", "REG_PUNE", "REG_DELHI_NCR"]
+  },
+  {
+    "employer_id": "EMP_MAX",
+    "name": "Max Healthcare",
+    "category_id": "EMP_CAT_HEALTHCARE",
+    "jobs": ["JOB_DOCTOR", "JOB_SURGEON", "JOB_NURSE", "JOB_PHYSIOTHERAPIST"],
+    "regions": ["REG_DELHI_NCR", "REG_MUMBAI"]
+  },
+  {
+    "employer_id": "EMP_MEDANTA",
+    "name": "Medanta Hospitals",
+    "category_id": "EMP_CAT_HEALTHCARE",
+    "jobs": ["JOB_DOCTOR", "JOB_SURGEON", "JOB_NURSE"],
+    "regions": ["REG_DELHI_NCR", "REG_GURUGRAM"]
+  },
+  {
+    "employer_id": "EMP_CIPLA",
+    "name": "Cipla Pharmaceuticals",
+    "category_id": "EMP_CAT_PHARMA",
+    "jobs": ["JOB_PHARMACEUTICAL_SCIENTIST", "JOB_QUALITY_ASSURANCE_OFFICER", "JOB_REGULATORY_AFFAIRS_MANAGER"],
+    "regions": ["REG_MUMBAI", "REG_BANGALORE", "REG_HYDERABAD"]
+  },
+  {
+    "employer_id": "EMP_LUPIN",
+    "name": "Lupin Limited",
+    "category_id": "EMP_CAT_PHARMA",
+    "jobs": ["JOB_PHARMACEUTICAL_SCIENTIST", "JOB_DRUG_SAFETY_OFFICER", "JOB_QUALITY_ASSURANCE_OFFICER"],
+    "regions": ["REG_MUMBAI", "REG_PUNE"]
+  },
+  {
+    "employer_id": "EMP_RANBAXY",
+    "name": "Ranbaxy Laboratories",
+    "category_id": "EMP_CAT_PHARMA",
+    "jobs": ["JOB_PHARMACEUTICAL_SCIENTIST", "JOB_REGULATORY_AFFAIRS_MANAGER", "JOB_QUALITY_ASSURANCE_OFFICER"],
+    "regions": ["REG_DELHI_NCR", "REG_MOHALI"]
+  },
+  {
+    "employer_id": "EMP_DR_REDDY",
+    "name": "Dr. Reddy's Laboratories",
+    "category_id": "EMP_CAT_PHARMA",
+    "jobs": ["JOB_PHARMACEUTICAL_SCIENTIST", "JOB_CLINICAL_PHARMACIST", "JOB_REGULATORY_AFFAIRS_MANAGER"],
+    "regions": ["REG_HYDERABAD", "REG_BANGALORE"]
+  },
+  {
+    "employer_id": "EMP_TATA_STEEL",
+    "name": "Tata Steel",
+    "category_id": "EMP_CAT_MANUFACTURING",
+    "jobs": ["JOB_MECHANICAL_ENGINEER", "JOB_METALLURGIST", "JOB_MANUFACTURING_ENGINEER", "JOB_PROCESS_ENGINEER"],
+    "regions": ["REG_JAMSHEDPUR", "REG_BANGALORE", "REG_PUNE"]
+  },
+  {
+    "employer_id": "EMP_MARUTI",
+    "name": "Maruti Suzuki India",
+    "category_id": "EMP_CAT_MANUFACTURING",
+    "jobs": ["JOB_AUTOMOTIVE_ENGINEER", "JOB_MANUFACTURING_ENGINEER", "JOB_DESIGN_ENGINEER"],
+    "regions": ["REG_DELHI_NCR", "REG_PUNE"]
+  },
+  {
+    "employer_id": "EMP_HYUNDAI",
+    "name": "Hyundai Motor India",
+    "category_id": "EMP_CAT_MANUFACTURING",
+    "jobs": ["JOB_AUTOMOTIVE_ENGINEER", "JOB_POWERTRAIN_ENGINEER", "JOB_CHASSIS_ENGINEER"],
+    "regions": ["REG_CHENNAI"]
+  },
+  {
+    "employer_id": "EMP_BAJAJ",
+    "name": "Bajaj Auto",
+    "category_id": "EMP_CAT_MANUFACTURING",
+    "jobs": ["JOB_MECHANICAL_ENGINEER", "JOB_DESIGN_ENGINEER", "JOB_MANUFACTURING_ENGINEER"],
+    "regions": ["REG_PUNE"]
+  },
+  {
+    "employer_id": "EMP_SIEMENS",
+    "name": "Siemens India",
+    "category_id": "EMP_CAT_MANUFACTURING",
+    "jobs": ["JOB_ELECTRICAL_ENGINEER", "JOB_MECHANICAL_ENGINEER", "JOB_EMBEDDED_SYSTEMS_ENGINEER"],
+    "regions": ["REG_BANGALORE", "REG_MUMBAI", "REG_DELHI_NCR"]
+  },
+  {
+    "employer_id": "EMP_L&T",
+    "name": "Larsen & Toubro",
+    "category_id": "EMP_CAT_MANUFACTURING",
+    "jobs": ["JOB_CIVIL_ENGINEER", "JOB_STRUCTURAL_ENGINEER", "JOB_MECHANICAL_ENGINEER", "JOB_ELECTRICAL_ENGINEER"],
+    "regions": ["REG_MUMBAI", "REG_BANGALORE", "REG_HYDERABAD"]
+  },
+  {
+    "employer_id": "EMP_GODREJ",
+    "name": "Godrej & Boyce",
+    "category_id": "EMP_CAT_MANUFACTURING",
+    "jobs": ["JOB_MECHANICAL_ENGINEER", "JOB_DESIGN_ENGINEER", "JOB_PROCESS_ENGINEER"],
+    "regions": ["REG_MUMBAI"]
+  },
+  {
+    "employer_id": "EMP_ISRO",
+    "name": "Indian Space Research Organisation",
+    "category_id": "EMP_CAT_GOVT",
+    "jobs": ["JOB_AEROSPACE_ENGINEER", "JOB_MECHANICAL_ENGINEER", "JOB_ELECTRICAL_ENGINEER", "JOB_SOFTWARE_ENGINEER"],
+    "regions": ["REG_BANGALORE", "REG_SRIHARIKOTA"]
+  },
+  {
+    "employer_id": "EMP_NTPC",
+    "name": "National Thermal Power Corporation",
+    "category_id": "EMP_CAT_GOVT",
+    "jobs": ["JOB_RENEWABLE_ENERGY_ENGINEER", "JOB_ELECTRICAL_ENGINEER", "JOB_MECHANICAL_ENGINEER"],
+    "regions": ["REG_DELHI_NCR", "REG_MUMBAI", "REG_KOLKATA"]
+  },
+  {
+    "employer_id": "EMP_NHAI",
+    "name": "National Highways Authority of India",
+    "category_id": "EMP_CAT_GOVT",
+    "jobs": ["JOB_CIVIL_ENGINEER", "JOB_TRAFFIC_ENGINEER", "JOB_ENVIRONMENTAL_ENGINEER"],
+    "regions": ["REG_DELHI_NCR", "REG_MUMBAI"]
+  },
+  {
+    "employer_id": "EMP_RAILWAY",
+    "name": "Indian Railways",
+    "category_id": "EMP_CAT_GOVT",
+    "jobs": ["JOB_CIVIL_ENGINEER", "JOB_MECHANICAL_ENGINEER", "JOB_ELECTRICAL_ENGINEER"],
+    "regions": ["REG_DELHI_NCR", "REG_MUMBAI", "REG_KOLKATA", "REG_BANGALORE"]
+  },
+  {
+    "employer_id": "EMP_ONGC",
+    "name": "Oil and Natural Gas Corporation",
+    "category_id": "EMP_CAT_GOVT",
+    "jobs": ["JOB_PETROLEUM_ENGINEER", "JOB_MECHANICAL_ENGINEER", "JOB_ELECTRICAL_ENGINEER"],
+    "regions": ["REG_DELHI_NCR", "REG_MUMBAI"]
+  },
+  {
+    "employer_id": "EMP_DRDO",
+    "name": "Defence Research and Development Organisation",
+    "category_id": "EMP_CAT_GOVT",
+    "jobs": ["JOB_AEROSPACE_ENGINEER", "JOB_MECHANICAL_ENGINEER", "JOB_SECURITY_ENGINEER"],
+    "regions": ["REG_DELHI_NCR", "REG_BANGALORE"]
+  },
+  {
+    "employer_id": "EMP_IIT_DELHI",
+    "name": "Indian Institute of Technology Delhi",
+    "category_id": "EMP_CAT_EDUCATION",
+    "jobs": ["JOB_PROFESSOR", "JOB_RESEARCHER"],
+    "regions": ["REG_DELHI_NCR"]
+  },
+  {
+    "employer_id": "EMP_IIT_BOMBAY",
+    "name": "Indian Institute of Technology Bombay",
+    "category_id": "EMP_CAT_EDUCATION",
+    "jobs": ["JOB_PROFESSOR", "JOB_RESEARCHER"],
+    "regions": ["REG_MUMBAI"]
+  },
+  {
+    "employer_id": "EMP_IIT_MADRAS",
+    "name": "Indian Institute of Technology Madras",
+    "category_id": "EMP_CAT_EDUCATION",
+    "jobs": ["JOB_PROFESSOR", "JOB_RESEARCHER"],
+    "regions": ["REG_CHENNAI"]
+  },
+  {
+    "employer_id": "EMP_IIT_KANPUR",
+    "name": "Indian Institute of Technology Kanpur",
+    "category_id": "EMP_CAT_EDUCATION",
+    "jobs": ["JOB_PROFESSOR", "JOB_RESEARCHER"],
+    "regions": ["REG_KANPUR"]
+  },
+  {
+    "employer_id": "EMP_IIM_AHMEDABAD",
+    "name": "Indian Institute of Management Ahmedabad",
+    "category_id": "EMP_CAT_EDUCATION",
+    "jobs": ["JOB_PROFESSOR", "JOB_RESEARCHER", "JOB_ACADEMIC_DIRECTOR"],
+    "regions": ["REG_AHMEDABAD"]
+  },
+  {
+    "employer_id": "EMP_DELHI_UNIVERSITY",
+    "name": "Delhi University",
+    "category_id": "EMP_CAT_EDUCATION",
+    "jobs": ["JOB_PROFESSOR", "JOB_RESEARCHER"],
+    "regions": ["REG_DELHI_NCR"]
+  },
+  {
+    "employer_id": "EMP_BBC",
+    "name": "BBC Media Actions India",
+    "category_id": "EMP_CAT_MEDIA",
+    "jobs": ["JOB_JOURNALIST", "JOB_REPORTER", "JOB_CONTENT_STRATEGIST"],
+    "regions": ["REG_DELHI_NCR"]
+  },
+  {
+    "employer_id": "EMP_NDTV",
+    "name": "NDTV",
+    "category_id": "EMP_CAT_MEDIA",
+    "jobs": ["JOB_NEWS_ANCHOR", "JOB_JOURNALIST", "JOB_REPORTER"],
+    "regions": ["REG_DELHI_NCR", "REG_MUMBAI"]
+  },
+  {
+    "employer_id": "EMP_ZEE",
+    "name": "Zee Entertainment",
+    "category_id": "EMP_CAT_MEDIA",
+    "jobs": ["JOB_NEWS_ANCHOR", "JOB_BROADCAST_JOURNALIST", "JOB_PRODUCER"],
+    "regions": ["REG_MUMBAI", "REG_DELHI_NCR"]
+  },
+  {
+    "employer_id": "EMP_ET",
+    "name": "The Economic Times",
+    "category_id": "EMP_CAT_MEDIA",
+    "jobs": ["JOB_JOURNALIST", "JOB_EDITOR", "JOB_REPORTER", "JOB_WRITER"],
+    "regions": ["REG_DELHI_NCR", "REG_MUMBAI"]
+  },
+  {
+    "employer_id": "EMP_DECCAN",
+    "name": "Deccan Chronicle",
+    "category_id": "EMP_CAT_MEDIA",
+    "jobs": ["JOB_JOURNALIST", "JOB_REPORTER", "JOB_EDITOR"],
+    "regions": ["REG_HYDERABAD", "REG_BANGALORE"]
+  },
+  {
+    "employer_id": "EMP_ITC",
+    "name": "ITC Limited",
+    "category_id": "EMP_CAT_HOSPITALITY",
+    "jobs": ["JOB_HOTEL_MANAGER", "JOB_F&B_MANAGER", "JOB_CHEF", "JOB_FRONT_OFFICE_MANAGER"],
+    "regions": ["REG_DELHI_NCR", "REG_BANGALORE", "REG_PUNE", "REG_MUMBAI"]
+  },
+  {
+    "employer_id": "EMP_OBEROI",
+    "name": "Oberoi Hotels",
+    "category_id": "EMP_CAT_HOSPITALITY",
+    "jobs": ["JOB_HOTEL_MANAGER", "JOB_F&B_MANAGER", "JOB_HOUSEKEEPING_MANAGER"],
+    "regions": ["REG_DELHI_NCR", "REG_MUMBAI", "REG_BANGALORE"]
+  },
+  {
+    "employer_id": "EMP_TAJ",
+    "name": "Taj Hotels",
+    "category_id": "EMP_CAT_HOSPITALITY",
+    "jobs": ["JOB_HOTEL_MANAGER", "JOB_F&B_MANAGER", "JOB_REVENUE_MANAGER"],
+    "regions": ["REG_MUMBAI", "REG_DELHI_NCR", "REG_BANGALORE", "REG_GOAN"]
+  },
+  {
+    "employer_id": "EMP_HYATT",
+    "name": "Hyatt Hotels",
+    "category_id": "EMP_CAT_HOSPITALITY",
+    "jobs": ["JOB_HOTEL_MANAGER", "JOB_FRONT_OFFICE_MANAGER", "JOB_CHEF"],
+    "regions": ["REG_MUMBAI", "REG_BANGALORE", "REG_DELHI_NCR"]
+  },
+  {
+    "employer_id": "EMP_MAHINDRA_AGRI",
+    "name": "Mahindra & Mahindra Agriculture",
+    "category_id": "EMP_CAT_AGRI",
+    "jobs": ["JOB_AGRONOMIST", "JOB_AGRICULTURAL_CONSULTANT", "JOB_SOIL_SCIENTIST"],
+    "regions": ["REG_MUMBAI", "REG_PUNE"]
+  },
+  {
+    "employer_id": "EMP_SYNGENTA",
+    "name": "Syngenta India",
+    "category_id": "EMP_CAT_AGRI",
+    "jobs": ["JOB_AGRONOMIST", "JOB_HORTICULTURIST", "JOB_SOIL_SCIENTIST"],
+    "regions": ["REG_BANGALORE", "REG_HYDERABAD"]
+  },
+  {
+    "employer_id": "EMP_BAYER_AGRI",
+    "name": "Bayer Crop Science",
+    "category_id": "EMP_CAT_AGRI",
+    "jobs": ["JOB_AGRONOMIST", "JOB_AGRICULTURAL_ECONOMIST"],
+    "regions": ["REG_BANGALORE", "REG_PUNE"]
+  },
+  {
+    "employer_id": "EMP_ZERODHA",
+    "name": "Zerodha",
+    "category_id": "EMP_CAT_STARTUP",
+    "jobs": ["JOB_SOFTWARE_ENGINEER", "JOB_DATA_SCIENTIST", "JOB_PRODUCT_MANAGER", "JOB_ML_ENGINEER"],
+    "regions": ["REG_BANGALORE"]
+  },
+  {
+    "employer_id": "EMP_BYJU",
+    "name": "BYJU'S",
+    "category_id": "EMP_CAT_STARTUP",
+    "jobs": ["JOB_SOFTWARE_ENGINEER", "JOB_PRODUCT_MANAGER", "JOB_DATA_SCIENTIST", "JOB_CONTENT_STRATEGIST"],
+    "regions": ["REG_BANGALORE"]
+  },
+  {
+    "employer_id": "EMP_RAZORPAY",
+    "name": "Razorpay",
+    "category_id": "EMP_CAT_STARTUP",
+    "jobs": ["JOB_SOFTWARE_ENGINEER", "JOB_FINTECH_DEVELOPER", "JOB_DATA_SCIENTIST", "JOB_PRODUCT_MANAGER"],
+    "regions": ["REG_BANGALORE"]
+  },
+  {
+    "employer_id": "EMP_UNACADEMY",
+    "name": "Unacademy",
+    "category_id": "EMP_CAT_STARTUP",
+    "jobs": ["JOB_SOFTWARE_ENGINEER", "JOB_CONTENT_STRATEGIST", "JOB_PRODUCT_MANAGER"],
+    "regions": ["REG_BANGALORE"]
+  },
+  {
+    "employer_id": "EMP_FRESH_WORKS",
+    "name": "Freshworks",
+    "category_id": "EMP_CAT_STARTUP",
+    "jobs": ["JOB_SOFTWARE_ENGINEER", "JOB_DATA_SCIENTIST", "JOB_ML_ENGINEER"],
+    "regions": ["REG_BANGALORE", "REG_CHENNAI"]
+  },
+  {
+    "employer_id": "EMP_OYO",
+    "name": "OYO Rooms",
+    "category_id": "EMP_CAT_STARTUP",
+    "jobs": ["JOB_HOTEL_MANAGER", "JOB_OPERATIONS_MANAGER", "JOB_DATA_SCIENTIST"],
+    "regions": ["REG_DELHI_NCR", "REG_BANGALORE"]
+  },
+  {
+    "employer_id": "EMP_PAYTM",
+    "name": "Paytm",
+    "category_id": "EMP_CAT_STARTUP",
+    "jobs": ["JOB_SOFTWARE_ENGINEER", "JOB_FINTECH_DEVELOPER", "JOB_BLOCKCHAIN_ENGINEER"],
+    "regions": ["REG_DELHI_NCR", "REG_BANGALORE"]
+  },
+  {
+    "employer_id": "EMP_PHONEPE",
+    "name": "PhonePe",
+    "category_id": "EMP_CAT_STARTUP",
+    "jobs": ["JOB_SOFTWARE_ENGINEER", "JOB_DATA_SCIENTIST", "JOB_PRODUCT_MANAGER"],
+    "regions": ["REG_BANGALORE"]
+  },
+  {
+    "employer_id": "EMP_CRED",
+    "name": "CRED",
+    "category_id": "EMP_CAT_STARTUP",
+    "jobs": ["JOB_SOFTWARE_ENGINEER", "JOB_ML_ENGINEER", "JOB_PRODUCT_MANAGER"],
+    "regions": ["REG_BANGALORE"]
+  },
+  {
+    "employer_id": "EMP_DREAM11",
+    "name": "Dream11",
+    "category_id": "EMP_CAT_STARTUP",
+    "jobs": ["JOB_SOFTWARE_ENGINEER", "JOB_DATA_SCIENTIST", "JOB_PRODUCT_MANAGER"],
+    "regions": ["REG_MUMBAI"]
+  }
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "certification_id": "CERT_GOOGLE_DATA_ANALYTICS",
+    "name": "Google Data Analytics Professional Certificate",
+    "provider_id": "PROVIDER_GOOGLE",
+    "level": "L2",
+    "mapped_skills": ["SKILL_PYTHON", "SKILL_SQL", "SKILL_DATA_VISUALIZATION"],
+    "mapped_jobs": ["JOB_DATA_ANALYST", "JOB_DATA_SCIENTIST"],
+    "delivery_mode": "Online"
+  },
+  {
+    "certification_id": "CERT_AWS_SOLUTIONS_ARCHITECT",
+    "name": "AWS Solutions Architect Associate",
+    "provider_id": "PROVIDER_AWS",
+    "level": "L3",
+    "mapped_skills": ["SKILL_CLOUD", "SKILL_ARCHITECTURE"],
+    "mapped_jobs": ["JOB_DEVOPS_ENGINEER", "JOB_CLOUD_ENGINEER", "JOB_INFRASTRUCTURE_ENGINEER"],
+    "delivery_mode": "Online"
+  },
+  {
+    "certification_id": "CERT_AWS_DATA_ANALYTICS",
+    "name": "AWS Data Analytics Specialty",
+    "provider_id": "PROVIDER_AWS",
+    "level": "L4",
+    "mapped_skills": ["SKILL_BIG_DATA", "SKILL_MACHINE_LEARNING"],
+    "mapped_jobs": ["JOB_DATA_SCIENTIST", "JOB_ML_ENGINEER"],
+    "delivery_mode": "Online"
+  },
+  {
+    "certification_id": "CERT_CISCO_CCNA",
+    "name": "Cisco Certified Network Associate",
+    "provider_id": "PROVIDER_CISCO",
+    "level": "L2",
+    "mapped_skills": ["SKILL_NETWORKING"],
+    "mapped_jobs": ["JOB_NETWORK_ENGINEER"],
+    "delivery_mode": "Exam+Training"
+  },
+  {
+    "certification_id": "CERT_RED_HAT_RHCE",
+    "name": "Red Hat Certified Engineer",
+    "provider_id": "PROVIDER_RED_HAT",
+    "level": "L3",
+    "mapped_skills": ["SKILL_LINUX_ADMIN"],
+    "mapped_jobs": ["JOB_DEVOPS_ENGINEER", "JOB_INFRASTRUCTURE_ENGINEER"],
+    "delivery_mode": "Exam"
+  },
+  {
+    "certification_id": "CERT_GOOGLE_ML_ENGINEER",
+    "name": "Google Professional Machine Learning Engineer",
+    "provider_id": "PROVIDER_GOOGLE",
+    "level": "L4",
+    "mapped_skills": ["SKILL_ML", "SKILL_DEEP_LEARNING", "SKILL_MLOPS"],
+    "mapped_jobs": ["JOB_ML_ENGINEER", "JOB_AI_ENGINEER"],
+    "delivery_mode": "Exam"
+  },
+  {
+    "certification_id": "CERT_COMPTIA_SECURITY_PLUS",
+    "name": "CompTIA Security+",
+    "provider_id": "PROVIDER_IBM",
+    "level": "L2",
+    "mapped_skills": ["SKILL_SECURITY"],
+    "mapped_jobs": ["JOB_SECURITY_ANALYST", "JOB_ETHICAL_HACKER"],
+    "delivery_mode": "Exam"
+  }
+]
