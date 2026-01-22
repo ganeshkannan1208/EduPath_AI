@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:edu="http://edupath.ai/ontology#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://edupath.ai/ontology#PROGRAM_BTECH_AI_ML">
+    <rdf:type rdf:resource="http://edupath.ai/ontology#Program"/>
+    <rdfs:label>B.Tech AI &amp; ML</rdfs:label>
+    <edu:requires rdf:resource="http://edupath.ai/ontology#EXAM_JEE_MAIN"/>
+    <edu:leads_to rdf:resource="http://edupath.ai/ontology#SPEC_AI_ML"/>
+    <edu:leads_to rdf:resource="http://edupath.ai/ontology#SPEC_DATA_SCIENCE"/>
+    <edu:leads_to rdf:resource="http://edupath.ai/ontology#PROGRAM_MTECH"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://edupath.ai/ontology#PROGRAM_BBA">
+    <rdf:type rdf:resource="http://edupath.ai/ontology#Program"/>
+    <rdfs:label>BBA</rdfs:label>
+    <edu:requires rdf:resource="http://edupath.ai/ontology#EXAM_12TH_BOARD"/>
+    <edu:leads_to rdf:resource="http://edupath.ai/ontology#SPEC_FINANCE"/>
+    <edu:leads_to rdf:resource="http://edupath.ai/ontology#SPEC_MARKETING"/>
+    <edu:leads_to rdf:resource="http://edupath.ai/ontology#PROGRAM_MBA"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://edupath.ai/ontology#CERT_PMP">
+    <rdf:type rdf:resource="http://edupath.ai/ontology#Certification"/>
+    <rdfs:label>Project Management Professional</rdfs:label>
+    <edu:teaches rdf:resource="http://edupath.ai/ontology#SKILL_PROJECT_MANAGEMENT"/>
+    <edu:teaches rdf:resource="http://edupath.ai/ontology#SKILL_BUSINESS_ACUMEN"/>
+    <edu:qualifies_for rdf:resource="http://edupath.ai/ontology#JOB_BUSINESS_ANALYST"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://edupath.ai/ontology#JOB_BUSINESS_ANALYST">
+    <rdf:type rdf:resource="http://edupath.ai/ontology#Job"/>
+    <rdfs:label>Business Analyst</rdfs:label>
+    <edu:can_be_reached_from rdf:resource="http://edupath.ai/ontology#SPEC_FINANCE"/>
+    <edu:belongs_to rdf:resource="http://edupath.ai/ontology#NIC_6201"/>
+    <edu:demands rdf:resource="http://edupath.ai/ontology#SKILL_PROJECT_MANAGEMENT"/>
+    <edu:demands rdf:resource="http://edupath.ai/ontology#SKILL_BUSINESS_ACUMEN"/>
+    <edu:hired_by rdf:resource="http://edupath.ai/ontology#EMP_TCS"/>
+    <edu:hired_by rdf:resource="http://edupath.ai/ontology#EMP_INFOSYS"/>
+    <edu:salary_in rdf:resource="http://edupath.ai/ontology#REG_BANGALORE"/>
+    <edu:trending_in rdf:resource="http://edupath.ai/ontology#REG_BANGALORE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://edupath.ai/ontology#can_be_reached_from">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://edupath.ai/ontology#EMP_TCS">
+    <rdf:type rdf:resource="http://edupath.ai/ontology#Employer"/>
+    <rdfs:label>Tata Consultancy Services</rdfs:label>
+    <edu:located_in rdf:resource="http://edupath.ai/ontology#REG_BANGALORE"/>
+    <edu:located_in rdf:resource="http://edupath.ai/ontology#REG_DELHI"/>
+    <edu:located_in rdf:resource="http://edupath.ai/ontology#REG_MUMBAI"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://edupath.ai/ontology#PROGRAM_BSC">
+    <rdf:type rdf:resource="http://edupath.ai/ontology#Program"/>
+    <rdfs:label>B.Sc</rdfs:label>
+    <edu:requires rdf:resource="http://edupath.ai/ontology#EXAM_12TH_BOARD"/>
+    <edu:leads_to rdf:resource="http://edupath.ai/ontology#SPEC_PHYSICS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://edupath.ai/ontology#PROGRAM_LLB">
+    <rdf:type rdf:resource="http://edupath.ai/ontology#Program"/>
+    <rdfs:label>LLB (Bachelor of Laws)</rdfs:label>
+    <edu:requires rdf:resource="http://edupath.ai/ontology#EXAM_CLAT"/>
+    <edu:leads_to rdf:resource="http://edupath.ai/ontology#SPEC_CONSTITUTIONAL_LAW"/>
+    <edu:leads_to rdf:resource="http://edupath.ai/ontology#PROGRAM_LLM"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://edupath.ai/ontology#PROGRAM_BA">
+    <rdf:type rdf:resource="http://edupath.ai/ontology#Program"/>
+    <rdfs:label>Bachelor of Arts</rdfs:label>
+    <edu:requires rdf:resource="http://edupath.ai/ontology#EXAM_12TH_BOARD"/>
+    <edu:leads_to rdf:resource="http://edupath.ai/ontology#SPEC_LITERATURE"/>
+    <edu:leads_to rdf:resource="http://edupath.ai/ontology#PROGRAM_MA"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://edupath.ai/ontology#PROGRAM_BCA">
+    <rdf:type rdf:resource="http://edupath.ai/ontology#Program"/>
+    <rdfs:label>Bachelor of Computer Applications</rdfs:label>
+    <edu:requires rdf:resource="http://edupath.ai/ontology#EXAM_12TH_BOARD"/>
+    <edu:leads_to rdf:resource="http://edupath.ai/ontology#SPEC_CSE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://edupath.ai/ontology#JOB_DATA_SCIENTIST">
+    <rdf:type rdf:resource="http://edupath.ai/ontology#Job"/>
+    <rdfs:label>Data Scientist</rdfs:label>
+    <edu:can_be_reached_from rdf:resource="http://edupath.ai/ontology#SPEC_DATA_SCIENCE"/>
+    <edu:belongs_to rdf:resource="http://edupath.ai/ontology#NIC_6201"/>
+    <edu:demands rdf:resource="http://edupath.ai/ontology#SKILL_DATA_ANALYSIS"/>
+    <edu:demands rdf:resource="http://edupath.ai/ontology#SKILL_PYTHON"/>
+    <edu:hired_by rdf:resource="http://edupath.ai/ontology#EMP_TCS"/>
+    <edu:hired_by rdf:resource="http://edupath.ai/ontology#EMP_INFOSYS"/>
+    <edu:salary_in rdf:resource="http://edupath.ai/ontology#REG_BANGALORE"/>
+    <edu:trending_in rdf:resource="http://edupath.ai/ontology#REG_BANGALORE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://edupath.ai/ontology#JOB_MEDICAL_DOCTOR">
+    <rdf:type rdf:resource="http://edupath.ai/ontology#Job"/>
+    <rdfs:label>Medical Doctor</rdfs:label>
+    <edu:can_be_reached_from rdf:resource="http://edupath.ai/ontology#SPEC_GENERAL_MEDICINE"/>
+    <edu:belongs_to rdf:resource="http://edupath.ai/ontology#NIC_8620"/>
+    <edu:demands rdf:resource="http://edupath.ai/ontology#SKILL_CLINICAL_DIAGNOSIS"/>
+    <edu:hired_by rdf:resource="http://edupath.ai/ontology#EMP_APOLLO"/>
+    <edu:salary_in rdf:resource="http://edupath.ai/ontology#REG_BANGALORE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://edupath.ai/ontology#SPEC_AI_ML">
+    <rdf:type rdf:resource="http://edupath.ai/ontology#Specialization"/>
+    <rdfs:label>Artificial Intelligence and Machine Learning</rdfs:label>
+    <edu:leads_to rdf:resource="http://edupath.ai/ontology#JOB_ML_ENGINEER"/>
+    <edu:leads_to rdf:resource="http://edupath.ai/ontology#JOB_DATA_SCIENTIST"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://edupath.ai/ontology#EMP_INFOSYS">
+    <rdf:type rdf:resource="http://edupath.ai/ontology#Employer"/>
+    <rdfs:label>Infosys</rdfs:label>
+    <edu:located_in rdf:resource="http://edupath.ai/ontology#REG_BANGALORE"/>
+    <edu:located_in rdf:resource="http://edupath.ai/ontology#REG_DELHI"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://edupath.ai/ontology#PROGRAM_MTECH">
+    <rdf:type rdf:resource="http://edupath.ai/ontology#Program"/>
+    <rdfs:label>M.Tech</rdfs:label>
+    <edu:leads_to rdf:resource="http://edupath.ai/ontology#SPEC_AI_ML"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://edupath.ai/ontology#SPEC_CSE">
+    <rdf:type rdf:resource="http://edupath.ai/ontology#Specialization"/>
+    <rdfs:label>Computer Science Engineering</rdfs:label>
+    <edu:leads_to rdf:resource="http://edupath.ai/ontology#JOB_ML_ENGINEER"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://edupath.ai/ontology#SKILL_DATA_ANALYSIS">
+    <rdf:type rdf:resource="http://edupath.ai/ontology#Skill"/>
+    <rdfs:label>Data Analysis</rdfs:label>
+    <edu:qualifies_for rdf:resource="http://edupath.ai/ontology#JOB_DATA_SCIENTIST"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://edupath.ai/ontology#SPEC_FINANCE">
+    <rdf:type rdf:resource="http://edupath.ai/ontology#Specialization"/>
+    <rdfs:label>Finance</rdfs:label>
+    <edu:leads_to rdf:resource="http://edupath.ai/ontology#JOB_BUSINESS_ANALYST"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://edupath.ai/ontology#CERT_GOOGLE_ML_ENGINEER">
+    <rdf:type rdf:resource="http://edupath.ai/ontology#Certification"/>
+    <rdfs:label>Google ML Engineer</rdfs:label>
+    <edu:teaches rdf:resource="http://edupath.ai/ontology#SKILL_MACHINE_LEARNING"/>
+    <edu:teaches rdf:resource="http://edupath.ai/ontology#SKILL_PYTHON"/>
+    <edu:qualifies_for rdf:resource="http://edupath.ai/ontology#JOB_ML_ENGINEER"/>
+    <edu:qualifies_for rdf:resource="http://edupath.ai/ontology#JOB_DATA_SCIENTIST"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://edupath.ai/ontology#leads_to">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://edupath.ai/ontology#PROGRAM_POLYTECHNIC">
+    <rdf:type rdf:resource="http://edupath.ai/ontology#Program"/>
+    <rdfs:label>Polytechnic Engineering Diploma</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://edupath.ai/ontology#SPEC_GENERAL_MEDICINE">
+    <edu:leads_to rdf:resource="http://edupath.ai/ontology#JOB_MEDICAL_DOCTOR"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://edupath.ai/ontology#SKILL_MACHINE_LEARNING">
+    <rdf:type rdf:resource="http://edupath.ai/ontology#Skill"/>
+    <rdfs:label>Machine Learning</rdfs:label>
+    <edu:qualifies_for rdf:resource="http://edupath.ai/ontology#JOB_ML_ENGINEER"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://edupath.ai/ontology#JOB_LAWYER">
+    <rdf:type rdf:resource="http://edupath.ai/ontology#Job"/>
+    <rdfs:label>Lawyer</rdfs:label>
+    <edu:can_be_reached_from rdf:resource="http://edupath.ai/ontology#SPEC_CONSTITUTIONAL_LAW"/>
+    <edu:belongs_to rdf:resource="http://edupath.ai/ontology#NIC_6910"/>
+    <edu:demands rdf:resource="http://edupath.ai/ontology#SKILL_LEGAL_RESEARCH"/>
+    <edu:salary_in rdf:resource="http://edupath.ai/ontology#REG_DELHI"/>
+    <edu:salary_in rdf:resource="http://edupath.ai/ontology#REG_MUMBAI"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://edupath.ai/ontology#JOB_ML_ENGINEER">
+    <rdf:type rdf:resource="http://edupath.ai/ontology#Job"/>
+    <rdfs:label>Machine Learning Engineer</rdfs:label>
+    <edu:can_be_reached_from rdf:resource="http://edupath.ai/ontology#SPEC_AI_ML"/>
+    <edu:belongs_to rdf:resource="http://edupath.ai/ontology#NIC_6201"/>
+    <edu:demands rdf:resource="http://edupath.ai/ontology#SKILL_MACHINE_LEARNING"/>
+    <edu:demands rdf:resource="http://edupath.ai/ontology#SKILL_PYTHON"/>
+    <edu:hired_by rdf:resource="http://edupath.ai/ontology#EMP_TCS"/>
+    <edu:hired_by rdf:resource="http://edupath.ai/ontology#EMP_INFOSYS"/>
+    <edu:salary_in rdf:resource="http://edupath.ai/ontology#REG_BANGALORE"/>
+    <edu:salary_in rdf:resource="http://edupath.ai/ontology#REG_DELHI"/>
+    <edu:salary_in rdf:resource="http://edupath.ai/ontology#REG_MUMBAI"/>
+    <edu:trending_in rdf:resource="http://edupath.ai/ontology#REG_BANGALORE"/>
+    <edu:trending_in rdf:resource="http://edupath.ai/ontology#REG_DELHI"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://edupath.ai/ontology#PROGRAM_LLM">
+    <rdf:type rdf:resource="http://edupath.ai/ontology#Program"/>
+    <rdfs:label>LLM (Master of Laws)</rdfs:label>
+    <edu:leads_to rdf:resource="http://edupath.ai/ontology#SPEC_CONSTITUTIONAL_LAW"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://edupath.ai/ontology#SPEC_MARKETING">
+    <rdf:type rdf:resource="http://edupath.ai/ontology#Specialization"/>
+    <rdfs:label>Marketing</rdfs:label>
+    <edu:leads_to rdf:resource="http://edupath.ai/ontology#JOB_BUSINESS_ANALYST"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://edupath.ai/ontology#belongs_to">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://edupath.ai/ontology#PROGRAM_MA">
+    <rdf:type rdf:resource="http://edupath.ai/ontology#Program"/>
+    <rdfs:label>Master of Arts</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://edupath.ai/ontology#teaches">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://edupath.ai/ontology#PROGRAM_BE">
+    <rdf:type rdf:resource="http://edupath.ai/ontology#Program"/>
+    <rdfs:label>B.E (General)</rdfs:label>
+    <edu:requires rdf:resource="http://edupath.ai/ontology#EXAM_JEE_MAIN"/>
+    <edu:leads_to rdf:resource="http://edupath.ai/ontology#SPEC_CSE"/>
+    <edu:leads_to rdf:resource="http://edupath.ai/ontology#PROGRAM_MTECH"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://edupath.ai/ontology#Job">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://edupath.ai/ontology#SKILL_BUSINESS_ACUMEN">
+    <rdf:type rdf:resource="http://edupath.ai/ontology#Skill"/>
+    <rdfs:label>Business Acumen</rdfs:label>
+    <edu:qualifies_for rdf:resource="http://edupath.ai/ontology#JOB_BUSINESS_ANALYST"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://edupath.ai/ontology#SPEC_DATA_SCIENCE">
+    <rdf:type rdf:resource="http://edupath.ai/ontology#Specialization"/>
+    <rdfs:label>Data Science</rdfs:label>
+    <edu:leads_to rdf:resource="http://edupath.ai/ontology#JOB_DATA_SCIENTIST"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://edupath.ai/ontology#Region">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://edupath.ai/ontology#PROGRAM_MBA">
+    <rdf:type rdf:resource="http://edupath.ai/ontology#Program"/>
+    <rdfs:label>MBA</rdfs:label>
+    <edu:leads_to rdf:resource="http://edupath.ai/ontology#SPEC_FINANCE"/>
+    <edu:leads_to rdf:resource="http://edupath.ai/ontology#SPEC_MARKETING"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://edupath.ai/ontology#CERT_AWS_SOLUTIONS">
+    <rdf:type rdf:resource="http://edupath.ai/ontology#Certification"/>
+    <rdfs:label>AWS Solutions Architect</rdfs:label>
+    <edu:teaches rdf:resource="http://edupath.ai/ontology#SKILL_PYTHON"/>
+    <edu:teaches rdf:resource="http://edupath.ai/ontology#SKILL_PROJECT_MANAGEMENT"/>
+    <edu:qualifies_for rdf:resource="http://edupath.ai/ontology#JOB_ML_ENGINEER"/>
+    <edu:qualifies_for rdf:resource="http://edupath.ai/ontology#JOB_BUSINESS_ANALYST"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://edupath.ai/ontology#SKILL_PROJECT_MANAGEMENT">
+    <rdf:type rdf:resource="http://edupath.ai/ontology#Skill"/>
+    <rdfs:label>Project Management</rdfs:label>
+    <edu:qualifies_for rdf:resource="http://edupath.ai/ontology#JOB_BUSINESS_ANALYST"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://edupath.ai/ontology#PROGRAM_MBBS">
+    <rdf:type rdf:resource="http://edupath.ai/ontology#Program"/>
+    <rdfs:label>MBBS</rdfs:label>
+    <edu:requires rdf:resource="http://edupath.ai/ontology#EXAM_NEET"/>
+    <edu:leads_to rdf:resource="http://edupath.ai/ontology#SPEC_GENERAL_MEDICINE"/>
+    <edu:leads_to rdf:resource="http://edupath.ai/ontology#PROGRAM_MD"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://edupath.ai/ontology#EMP_APOLLO">
+    <rdf:type rdf:resource="http://edupath.ai/ontology#Employer"/>
+    <rdfs:label>Apollo Hospitals</rdfs:label>
+    <edu:located_in rdf:resource="http://edupath.ai/ontology#REG_BANGALORE"/>
+    <edu:located_in rdf:resource="http://edupath.ai/ontology#REG_DELHI"/>
+    <edu:located_in rdf:resource="http://edupath.ai/ontology#REG_MUMBAI"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://edupath.ai/ontology#PROGRAM_BED">
+    <rdf:type rdf:resource="http://edupath.ai/ontology#Program"/>
+    <rdfs:label>B.Ed</rdfs:label>
+    <edu:requires rdf:resource="http://edupath.ai/ontology#EXAM_12TH_BOARD"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://edupath.ai/ontology#located_in">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://edupath.ai/ontology#hired_by">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://edupath.ai/ontology#Program">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://edupath.ai/ontology#PROGRAM_BDS">
+    <edu:requires rdf:resource="http://edupath.ai/ontology#EXAM_NEET"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://edupath.ai/ontology#Industry">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://edupath.ai/ontology#PROGRAM_MCOM">
+    <rdf:type rdf:resource="http://edupath.ai/ontology#Program"/>
+    <rdfs:label>M.Com</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://edupath.ai/ontology#qualifies_for">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://edupath.ai/ontology#SKILL_PYTHON">
+    <rdf:type rdf:resource="http://edupath.ai/ontology#Skill"/>
+    <rdfs:label>Python Programming</rdfs:label>
+    <edu:qualifies_for rdf:resource="http://edupath.ai/ontology#JOB_ML_ENGINEER"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://edupath.ai/ontology#salary_in">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://edupath.ai/ontology#REG_BANGALORE">
+    <rdf:type rdf:resource="http://edupath.ai/ontology#Region"/>
+    <rdfs:label>Bangalore</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://edupath.ai/ontology#PROGRAM_BCOM">
+    <rdf:type rdf:resource="http://edupath.ai/ontology#Program"/>
+    <rdfs:label>B.Com</rdfs:label>
+    <edu:requires rdf:resource="http://edupath.ai/ontology#EXAM_12TH_BOARD"/>
+    <edu:leads_to rdf:resource="http://edupath.ai/ontology#SPEC_ACCOUNTING"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://edupath.ai/ontology#NIC_6201">
+    <rdf:type rdf:resource="http://edupath.ai/ontology#Industry"/>
+    <rdfs:label>Computer programming activities</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://edupath.ai/ontology#Certification">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://edupath.ai/ontology#PROGRAM_MD">
+    <rdf:type rdf:resource="http://edupath.ai/ontology#Program"/>
+    <rdfs:label>MD (Doctor of Medicine)</rdfs:label>
+    <edu:leads_to rdf:resource="http://edupath.ai/ontology#SPEC_CARDIOLOGY"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://edupath.ai/ontology#Specialization">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://edupath.ai/ontology#trending_in">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://edupath.ai/ontology#Skill">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://edupath.ai/ontology#PROGRAM_MSC">
+    <rdf:type rdf:resource="http://edupath.ai/ontology#Program"/>
+    <rdfs:label>M.Sc</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://edupath.ai/ontology#Employer">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://edupath.ai/ontology#demands">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://edupath.ai/ontology#requires">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://edupath.ai/ontology#REG_DELHI">
+    <rdf:type rdf:resource="http://edupath.ai/ontology#Region"/>
+    <rdfs:label>New Delhi</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://edupath.ai/ontology#SPEC_CONSTITUTIONAL_LAW">
+    <edu:leads_to rdf:resource="http://edupath.ai/ontology#JOB_LAWYER"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://edupath.ai/ontology#REG_MUMBAI">
+    <rdf:type rdf:resource="http://edupath.ai/ontology#Region"/>
+    <rdfs:label>Mumbai</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>
