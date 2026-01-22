@@ -1,0 +1,375 @@
+[
+  {
+    "id": "PROGRAM_BTECH_AI_ML",
+    "type": "Program",
+    "label": "B.Tech AI & ML",
+    "attributes": {
+      "stream": "Engineering UG",
+      "duration": 4,
+      "unit": "years"
+    }
+  },
+  {
+    "id": "PROGRAM_BE",
+    "type": "Program",
+    "label": "B.E (General)",
+    "attributes": {
+      "stream": "Engineering UG",
+      "duration": 4,
+      "unit": "years"
+    }
+  },
+  {
+    "id": "PROGRAM_MTECH",
+    "type": "Program",
+    "label": "M.Tech",
+    "attributes": {
+      "stream": "Engineering PG",
+      "duration": 2,
+      "unit": "years"
+    }
+  },
+  {
+    "id": "PROGRAM_MBBS",
+    "type": "Program",
+    "label": "MBBS",
+    "attributes": {
+      "stream": "Medical UG",
+      "duration": 5.5,
+      "unit": "years"
+    }
+  },
+  {
+    "id": "PROGRAM_MD",
+    "type": "Program",
+    "label": "MD (Doctor of Medicine)",
+    "attributes": {
+      "stream": "Medical PG",
+      "duration": 3,
+      "unit": "years"
+    }
+  },
+  {
+    "id": "PROGRAM_BBA",
+    "type": "Program",
+    "label": "BBA",
+    "attributes": {
+      "stream": "Management UG",
+      "duration": 3,
+      "unit": "years"
+    }
+  },
+  {
+    "id": "PROGRAM_MBA",
+    "type": "Program",
+    "label": "MBA",
+    "attributes": {
+      "stream": "Management PG",
+      "duration": 2,
+      "unit": "years"
+    }
+  },
+  {
+    "id": "PROGRAM_BA",
+    "type": "Program",
+    "label": "Bachelor of Arts",
+    "attributes": {
+      "stream": "Arts & Humanities UG",
+      "duration": 3,
+      "unit": "years"
+    }
+  },
+  {
+    "id": "PROGRAM_MA",
+    "type": "Program",
+    "label": "Master of Arts",
+    "attributes": {
+      "stream": "Arts & Humanities PG",
+      "duration": 2,
+      "unit": "years"
+    }
+  },
+  {
+    "id": "PROGRAM_BCOM",
+    "type": "Program",
+    "label": "B.Com",
+    "attributes": {
+      "stream": "Commerce UG",
+      "duration": 3,
+      "unit": "years"
+    }
+  },
+  {
+    "id": "PROGRAM_MCOM",
+    "type": "Program",
+    "label": "M.Com",
+    "attributes": {
+      "stream": "Commerce PG",
+      "duration": 2,
+      "unit": "years"
+    }
+  },
+  {
+    "id": "PROGRAM_BSC",
+    "type": "Program",
+    "label": "B.Sc",
+    "attributes": {
+      "stream": "Science UG",
+      "duration": 3,
+      "unit": "years"
+    }
+  },
+  {
+    "id": "PROGRAM_MSC",
+    "type": "Program",
+    "label": "M.Sc",
+    "attributes": {
+      "stream": "Science PG",
+      "duration": 2,
+      "unit": "years"
+    }
+  },
+  {
+    "id": "PROGRAM_BED",
+    "type": "Program",
+    "label": "B.Ed",
+    "attributes": {
+      "stream": "Education UG",
+      "duration": 2,
+      "unit": "years"
+    }
+  },
+  {
+    "id": "PROGRAM_LLB",
+    "type": "Program",
+    "label": "LLB (Bachelor of Laws)",
+    "attributes": {
+      "stream": "Law UG",
+      "duration": 3,
+      "unit": "years"
+    }
+  },
+  {
+    "id": "PROGRAM_LLM",
+    "type": "Program",
+    "label": "LLM (Master of Laws)",
+    "attributes": {
+      "stream": "Law PG",
+      "duration": 2,
+      "unit": "years"
+    }
+  },
+  {
+    "id": "PROGRAM_POLYTECHNIC",
+    "type": "Program",
+    "label": "Polytechnic Engineering Diploma",
+    "attributes": {
+      "stream": "Polytechnic Diploma",
+      "duration": 3,
+      "unit": "years"
+    }
+  },
+  {
+    "id": "PROGRAM_BCA",
+    "type": "Program",
+    "label": "Bachelor of Computer Applications",
+    "attributes": {
+      "stream": "Engineering UG",
+      "duration": 3,
+      "unit": "years"
+    }
+  },
+  {
+    "id": "SPEC_AI_ML",
+    "type": "Specialization",
+    "label": "Artificial Intelligence and Machine Learning",
+    "attributes": {
+      "domain": "Engineering"
+    }
+  },
+  {
+    "id": "SPEC_DATA_SCIENCE",
+    "type": "Specialization",
+    "label": "Data Science",
+    "attributes": {
+      "domain": "Engineering"
+    }
+  },
+  {
+    "id": "SPEC_CSE",
+    "type": "Specialization",
+    "label": "Computer Science Engineering",
+    "attributes": {
+      "domain": "Engineering"
+    }
+  },
+  {
+    "id": "SPEC_FINANCE",
+    "type": "Specialization",
+    "label": "Finance",
+    "attributes": {
+      "domain": "Management"
+    }
+  },
+  {
+    "id": "SPEC_MARKETING",
+    "type": "Specialization",
+    "label": "Marketing",
+    "attributes": {
+      "domain": "Management"
+    }
+  },
+  {
+    "id": "JOB_ML_ENGINEER",
+    "type": "Job",
+    "label": "Machine Learning Engineer",
+    "attributes": {
+      "domain": "Engineering"
+    }
+  },
+  {
+    "id": "JOB_DATA_SCIENTIST",
+    "type": "Job",
+    "label": "Data Scientist",
+    "attributes": {
+      "domain": "Engineering"
+    }
+  },
+  {
+    "id": "JOB_BUSINESS_ANALYST",
+    "type": "Job",
+    "label": "Business Analyst",
+    "attributes": {
+      "domain": "Management"
+    }
+  },
+  {
+    "id": "JOB_MEDICAL_DOCTOR",
+    "type": "Job",
+    "label": "Medical Doctor",
+    "attributes": {
+      "domain": "Medical"
+    }
+  },
+  {
+    "id": "JOB_LAWYER",
+    "type": "Job",
+    "label": "Lawyer",
+    "attributes": {
+      "domain": "Legal"
+    }
+  },
+  {
+    "id": "NIC_6201",
+    "type": "Industry",
+    "label": "Computer programming activities",
+    "attributes": {
+      "section": "J",
+      "division": "62",
+      "group": "6201"
+    }
+  },
+  {
+    "id": "EMP_TCS",
+    "type": "Employer",
+    "label": "Tata Consultancy Services",
+    "attributes": {
+      "category": "IT Services"
+    }
+  },
+  {
+    "id": "EMP_INFOSYS",
+    "type": "Employer",
+    "label": "Infosys",
+    "attributes": {
+      "category": "IT Services"
+    }
+  },
+  {
+    "id": "EMP_APOLLO",
+    "type": "Employer",
+    "label": "Apollo Hospitals",
+    "attributes": {
+      "category": "Healthcare"
+    }
+  },
+  {
+    "id": "REG_BANGALORE",
+    "type": "Region",
+    "label": "Bangalore",
+    "attributes": {
+      "state": "Karnataka",
+      "is_metro": true
+    }
+  },
+  {
+    "id": "REG_DELHI",
+    "type": "Region",
+    "label": "New Delhi",
+    "attributes": {
+      "state": "Delhi",
+      "is_metro": true
+    }
+  },
+  {
+    "id": "REG_MUMBAI",
+    "type": "Region",
+    "label": "Mumbai",
+    "attributes": {
+      "state": "Maharashtra",
+      "is_metro": true
+    }
+  },
+  {
+    "id": "CERT_GOOGLE_ML_ENGINEER",
+    "type": "Certification",
+    "label": "Google ML Engineer",
+    "attributes": {
+      "provider": "Google",
+      "level": "L4"
+    }
+  },
+  {
+    "id": "CERT_AWS_SOLUTIONS",
+    "type": "Certification",
+    "label": "AWS Solutions Architect",
+    "attributes": {
+      "provider": "AWS",
+      "level": "Associate"
+    }
+  },
+  {
+    "id": "CERT_PMP",
+    "type": "Certification",
+    "label": "Project Management Professional",
+    "attributes": {
+      "provider": "PMI",
+      "level": "Professional"
+    }
+  },
+  {
+    "id": "SKILL_MACHINE_LEARNING",
+    "type": "Skill",
+    "label": "Machine Learning"
+  },
+  {
+    "id": "SKILL_PYTHON",
+    "type": "Skill",
+    "label": "Python Programming"
+  },
+  {
+    "id": "SKILL_DATA_ANALYSIS",
+    "type": "Skill",
+    "label": "Data Analysis"
+  },
+  {
+    "id": "SKILL_PROJECT_MANAGEMENT",
+    "type": "Skill",
+    "label": "Project Management"
+  },
+  {
+    "id": "SKILL_BUSINESS_ACUMEN",
+    "type": "Skill",
+    "label": "Business Acumen"
+  }
+]

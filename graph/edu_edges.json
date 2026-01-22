@@ -1,0 +1,689 @@
+[
+  {
+    "source": "PROGRAM_BTECH_AI_ML",
+    "target": "EXAM_JEE_MAIN",
+    "label": "requires",
+    "direction": "forward"
+  },
+  {
+    "source": "PROGRAM_BE",
+    "target": "EXAM_JEE_MAIN",
+    "label": "requires",
+    "direction": "forward"
+  },
+  {
+    "source": "PROGRAM_BCA",
+    "target": "EXAM_12TH_BOARD",
+    "label": "requires",
+    "direction": "forward"
+  },
+  {
+    "source": "PROGRAM_MBBS",
+    "target": "EXAM_NEET",
+    "label": "requires",
+    "direction": "forward"
+  },
+  {
+    "source": "PROGRAM_BDS",
+    "target": "EXAM_NEET",
+    "label": "requires",
+    "direction": "forward"
+  },
+  {
+    "source": "PROGRAM_BBA",
+    "target": "EXAM_12TH_BOARD",
+    "label": "requires",
+    "direction": "forward"
+  },
+  {
+    "source": "PROGRAM_BA",
+    "target": "EXAM_12TH_BOARD",
+    "label": "requires",
+    "direction": "forward"
+  },
+  {
+    "source": "PROGRAM_BCOM",
+    "target": "EXAM_12TH_BOARD",
+    "label": "requires",
+    "direction": "forward"
+  },
+  {
+    "source": "PROGRAM_BSC",
+    "target": "EXAM_12TH_BOARD",
+    "label": "requires",
+    "direction": "forward"
+  },
+  {
+    "source": "PROGRAM_BED",
+    "target": "EXAM_12TH_BOARD",
+    "label": "requires",
+    "direction": "forward"
+  },
+  {
+    "source": "PROGRAM_LLB",
+    "target": "EXAM_CLAT",
+    "label": "requires",
+    "direction": "forward"
+  },
+  {
+    "source": "PROGRAM_BTECH_AI_ML",
+    "target": "SPEC_AI_ML",
+    "label": "leads_to",
+    "direction": "forward"
+  },
+  {
+    "source": "PROGRAM_BTECH_AI_ML",
+    "target": "SPEC_DATA_SCIENCE",
+    "label": "leads_to",
+    "direction": "forward"
+  },
+  {
+    "source": "PROGRAM_BE",
+    "target": "SPEC_CSE",
+    "label": "leads_to",
+    "direction": "forward"
+  },
+  {
+    "source": "PROGRAM_BCA",
+    "target": "SPEC_CSE",
+    "label": "leads_to",
+    "direction": "forward"
+  },
+  {
+    "source": "PROGRAM_MBBS",
+    "target": "SPEC_GENERAL_MEDICINE",
+    "label": "leads_to",
+    "direction": "forward"
+  },
+  {
+    "source": "PROGRAM_BBA",
+    "target": "SPEC_FINANCE",
+    "label": "leads_to",
+    "direction": "forward"
+  },
+  {
+    "source": "PROGRAM_BBA",
+    "target": "SPEC_MARKETING",
+    "label": "leads_to",
+    "direction": "forward"
+  },
+  {
+    "source": "PROGRAM_BA",
+    "target": "SPEC_LITERATURE",
+    "label": "leads_to",
+    "direction": "forward"
+  },
+  {
+    "source": "PROGRAM_BCOM",
+    "target": "SPEC_ACCOUNTING",
+    "label": "leads_to",
+    "direction": "forward"
+  },
+  {
+    "source": "PROGRAM_BSC",
+    "target": "SPEC_PHYSICS",
+    "label": "leads_to",
+    "direction": "forward"
+  },
+  {
+    "source": "PROGRAM_LLB",
+    "target": "SPEC_CONSTITUTIONAL_LAW",
+    "label": "leads_to",
+    "direction": "forward"
+  },
+  {
+    "source": "PROGRAM_MTECH",
+    "target": "SPEC_AI_ML",
+    "label": "leads_to",
+    "direction": "forward"
+  },
+  {
+    "source": "PROGRAM_MBA",
+    "target": "SPEC_FINANCE",
+    "label": "leads_to",
+    "direction": "forward"
+  },
+  {
+    "source": "PROGRAM_MBA",
+    "target": "SPEC_MARKETING",
+    "label": "leads_to",
+    "direction": "forward"
+  },
+  {
+    "source": "PROGRAM_MD",
+    "target": "SPEC_CARDIOLOGY",
+    "label": "leads_to",
+    "direction": "forward"
+  },
+  {
+    "source": "PROGRAM_LLM",
+    "target": "SPEC_CONSTITUTIONAL_LAW",
+    "label": "leads_to",
+    "direction": "forward"
+  },
+  {
+    "source": "SPEC_AI_ML",
+    "target": "JOB_ML_ENGINEER",
+    "label": "leads_to",
+    "direction": "forward"
+  },
+  {
+    "source": "SPEC_AI_ML",
+    "target": "JOB_DATA_SCIENTIST",
+    "label": "leads_to",
+    "direction": "forward"
+  },
+  {
+    "source": "SPEC_DATA_SCIENCE",
+    "target": "JOB_DATA_SCIENTIST",
+    "label": "leads_to",
+    "direction": "forward"
+  },
+  {
+    "source": "SPEC_CSE",
+    "target": "JOB_ML_ENGINEER",
+    "label": "leads_to",
+    "direction": "forward"
+  },
+  {
+    "source": "SPEC_FINANCE",
+    "target": "JOB_BUSINESS_ANALYST",
+    "label": "leads_to",
+    "direction": "forward"
+  },
+  {
+    "source": "SPEC_MARKETING",
+    "target": "JOB_BUSINESS_ANALYST",
+    "label": "leads_to",
+    "direction": "forward"
+  },
+  {
+    "source": "SPEC_GENERAL_MEDICINE",
+    "target": "JOB_MEDICAL_DOCTOR",
+    "label": "leads_to",
+    "direction": "forward"
+  },
+  {
+    "source": "SPEC_CONSTITUTIONAL_LAW",
+    "target": "JOB_LAWYER",
+    "label": "leads_to",
+    "direction": "forward"
+  },
+  {
+    "source": "JOB_ML_ENGINEER",
+    "target": "SPEC_AI_ML",
+    "label": "can_be_reached_from",
+    "direction": "backward"
+  },
+  {
+    "source": "JOB_DATA_SCIENTIST",
+    "target": "SPEC_DATA_SCIENCE",
+    "label": "can_be_reached_from",
+    "direction": "backward"
+  },
+  {
+    "source": "JOB_BUSINESS_ANALYST",
+    "target": "SPEC_FINANCE",
+    "label": "can_be_reached_from",
+    "direction": "backward"
+  },
+  {
+    "source": "JOB_MEDICAL_DOCTOR",
+    "target": "SPEC_GENERAL_MEDICINE",
+    "label": "can_be_reached_from",
+    "direction": "backward"
+  },
+  {
+    "source": "JOB_LAWYER",
+    "target": "SPEC_CONSTITUTIONAL_LAW",
+    "label": "can_be_reached_from",
+    "direction": "backward"
+  },
+  {
+    "source": "JOB_ML_ENGINEER",
+    "target": "NIC_6201",
+    "label": "belongs_to",
+    "direction": "forward"
+  },
+  {
+    "source": "JOB_DATA_SCIENTIST",
+    "target": "NIC_6201",
+    "label": "belongs_to",
+    "direction": "forward"
+  },
+  {
+    "source": "JOB_BUSINESS_ANALYST",
+    "target": "NIC_6201",
+    "label": "belongs_to",
+    "direction": "forward"
+  },
+  {
+    "source": "JOB_MEDICAL_DOCTOR",
+    "target": "NIC_8620",
+    "label": "belongs_to",
+    "direction": "forward",
+    "attributes": {
+      "nic_code": "8620",
+      "description": "Other professional, scientific and technical activities"
+    }
+  },
+  {
+    "source": "JOB_LAWYER",
+    "target": "NIC_6910",
+    "label": "belongs_to",
+    "direction": "forward",
+    "attributes": {
+      "nic_code": "6910",
+      "description": "Legal activities"
+    }
+  },
+  {
+    "source": "JOB_ML_ENGINEER",
+    "target": "SKILL_MACHINE_LEARNING",
+    "label": "demands",
+    "direction": "forward"
+  },
+  {
+    "source": "JOB_ML_ENGINEER",
+    "target": "SKILL_PYTHON",
+    "label": "demands",
+    "direction": "forward"
+  },
+  {
+    "source": "JOB_DATA_SCIENTIST",
+    "target": "SKILL_DATA_ANALYSIS",
+    "label": "demands",
+    "direction": "forward"
+  },
+  {
+    "source": "JOB_DATA_SCIENTIST",
+    "target": "SKILL_PYTHON",
+    "label": "demands",
+    "direction": "forward"
+  },
+  {
+    "source": "JOB_BUSINESS_ANALYST",
+    "target": "SKILL_PROJECT_MANAGEMENT",
+    "label": "demands",
+    "direction": "forward"
+  },
+  {
+    "source": "JOB_BUSINESS_ANALYST",
+    "target": "SKILL_BUSINESS_ACUMEN",
+    "label": "demands",
+    "direction": "forward"
+  },
+  {
+    "source": "JOB_MEDICAL_DOCTOR",
+    "target": "SKILL_CLINICAL_DIAGNOSIS",
+    "label": "demands",
+    "direction": "forward"
+  },
+  {
+    "source": "JOB_LAWYER",
+    "target": "SKILL_LEGAL_RESEARCH",
+    "label": "demands",
+    "direction": "forward"
+  },
+  {
+    "source": "SKILL_MACHINE_LEARNING",
+    "target": "JOB_ML_ENGINEER",
+    "label": "qualifies_for",
+    "direction": "forward"
+  },
+  {
+    "source": "SKILL_PYTHON",
+    "target": "JOB_ML_ENGINEER",
+    "label": "qualifies_for",
+    "direction": "forward"
+  },
+  {
+    "source": "SKILL_DATA_ANALYSIS",
+    "target": "JOB_DATA_SCIENTIST",
+    "label": "qualifies_for",
+    "direction": "forward"
+  },
+  {
+    "source": "SKILL_PROJECT_MANAGEMENT",
+    "target": "JOB_BUSINESS_ANALYST",
+    "label": "qualifies_for",
+    "direction": "forward"
+  },
+  {
+    "source": "SKILL_BUSINESS_ACUMEN",
+    "target": "JOB_BUSINESS_ANALYST",
+    "label": "qualifies_for",
+    "direction": "forward"
+  },
+  {
+    "source": "CERT_GOOGLE_ML_ENGINEER",
+    "target": "SKILL_MACHINE_LEARNING",
+    "label": "teaches",
+    "direction": "forward"
+  },
+  {
+    "source": "CERT_GOOGLE_ML_ENGINEER",
+    "target": "SKILL_PYTHON",
+    "label": "teaches",
+    "direction": "forward"
+  },
+  {
+    "source": "CERT_AWS_SOLUTIONS",
+    "target": "SKILL_PYTHON",
+    "label": "teaches",
+    "direction": "forward"
+  },
+  {
+    "source": "CERT_AWS_SOLUTIONS",
+    "target": "SKILL_PROJECT_MANAGEMENT",
+    "label": "teaches",
+    "direction": "forward"
+  },
+  {
+    "source": "CERT_PMP",
+    "target": "SKILL_PROJECT_MANAGEMENT",
+    "label": "teaches",
+    "direction": "forward"
+  },
+  {
+    "source": "CERT_PMP",
+    "target": "SKILL_BUSINESS_ACUMEN",
+    "label": "teaches",
+    "direction": "forward"
+  },
+  {
+    "source": "CERT_GOOGLE_ML_ENGINEER",
+    "target": "JOB_ML_ENGINEER",
+    "label": "qualifies_for",
+    "direction": "forward"
+  },
+  {
+    "source": "CERT_GOOGLE_ML_ENGINEER",
+    "target": "JOB_DATA_SCIENTIST",
+    "label": "qualifies_for",
+    "direction": "forward"
+  },
+  {
+    "source": "CERT_AWS_SOLUTIONS",
+    "target": "JOB_ML_ENGINEER",
+    "label": "qualifies_for",
+    "direction": "forward"
+  },
+  {
+    "source": "CERT_AWS_SOLUTIONS",
+    "target": "JOB_BUSINESS_ANALYST",
+    "label": "qualifies_for",
+    "direction": "forward"
+  },
+  {
+    "source": "CERT_PMP",
+    "target": "JOB_BUSINESS_ANALYST",
+    "label": "qualifies_for",
+    "direction": "forward"
+  },
+  {
+    "source": "JOB_ML_ENGINEER",
+    "target": "EMP_TCS",
+    "label": "hired_by",
+    "direction": "forward"
+  },
+  {
+    "source": "JOB_ML_ENGINEER",
+    "target": "EMP_INFOSYS",
+    "label": "hired_by",
+    "direction": "forward"
+  },
+  {
+    "source": "JOB_DATA_SCIENTIST",
+    "target": "EMP_TCS",
+    "label": "hired_by",
+    "direction": "forward"
+  },
+  {
+    "source": "JOB_DATA_SCIENTIST",
+    "target": "EMP_INFOSYS",
+    "label": "hired_by",
+    "direction": "forward"
+  },
+  {
+    "source": "JOB_BUSINESS_ANALYST",
+    "target": "EMP_TCS",
+    "label": "hired_by",
+    "direction": "forward"
+  },
+  {
+    "source": "JOB_BUSINESS_ANALYST",
+    "target": "EMP_INFOSYS",
+    "label": "hired_by",
+    "direction": "forward"
+  },
+  {
+    "source": "JOB_MEDICAL_DOCTOR",
+    "target": "EMP_APOLLO",
+    "label": "hired_by",
+    "direction": "forward"
+  },
+  {
+    "source": "EMP_TCS",
+    "target": "REG_BANGALORE",
+    "label": "located_in",
+    "direction": "forward"
+  },
+  {
+    "source": "EMP_TCS",
+    "target": "REG_DELHI",
+    "label": "located_in",
+    "direction": "forward"
+  },
+  {
+    "source": "EMP_TCS",
+    "target": "REG_MUMBAI",
+    "label": "located_in",
+    "direction": "forward"
+  },
+  {
+    "source": "EMP_INFOSYS",
+    "target": "REG_BANGALORE",
+    "label": "located_in",
+    "direction": "forward"
+  },
+  {
+    "source": "EMP_INFOSYS",
+    "target": "REG_DELHI",
+    "label": "located_in",
+    "direction": "forward"
+  },
+  {
+    "source": "EMP_APOLLO",
+    "target": "REG_BANGALORE",
+    "label": "located_in",
+    "direction": "forward"
+  },
+  {
+    "source": "EMP_APOLLO",
+    "target": "REG_DELHI",
+    "label": "located_in",
+    "direction": "forward"
+  },
+  {
+    "source": "EMP_APOLLO",
+    "target": "REG_MUMBAI",
+    "label": "located_in",
+    "direction": "forward"
+  },
+  {
+    "source": "JOB_ML_ENGINEER",
+    "target": "REG_BANGALORE",
+    "label": "salary_in",
+    "direction": "forward",
+    "attributes": {
+      "salary_range": "12-25 LPA",
+      "currency": "INR"
+    }
+  },
+  {
+    "source": "JOB_ML_ENGINEER",
+    "target": "REG_BANGALORE",
+    "label": "trending_in",
+    "direction": "forward",
+    "attributes": {
+      "demand_level": "High",
+      "growth_rate": "25%"
+    }
+  },
+  {
+    "source": "JOB_ML_ENGINEER",
+    "target": "REG_DELHI",
+    "label": "salary_in",
+    "direction": "forward",
+    "attributes": {
+      "salary_range": "12-24 LPA",
+      "currency": "INR"
+    }
+  },
+  {
+    "source": "JOB_ML_ENGINEER",
+    "target": "REG_DELHI",
+    "label": "trending_in",
+    "direction": "forward",
+    "attributes": {
+      "demand_level": "High",
+      "growth_rate": "23%"
+    }
+  },
+  {
+    "source": "JOB_ML_ENGINEER",
+    "target": "REG_MUMBAI",
+    "label": "salary_in",
+    "direction": "forward",
+    "attributes": {
+      "salary_range": "11-23 LPA",
+      "currency": "INR"
+    }
+  },
+  {
+    "source": "JOB_DATA_SCIENTIST",
+    "target": "REG_BANGALORE",
+    "label": "salary_in",
+    "direction": "forward",
+    "attributes": {
+      "salary_range": "13-28 LPA",
+      "currency": "INR"
+    }
+  },
+  {
+    "source": "JOB_DATA_SCIENTIST",
+    "target": "REG_BANGALORE",
+    "label": "trending_in",
+    "direction": "forward",
+    "attributes": {
+      "demand_level": "Very High",
+      "growth_rate": "28%"
+    }
+  },
+  {
+    "source": "JOB_BUSINESS_ANALYST",
+    "target": "REG_BANGALORE",
+    "label": "salary_in",
+    "direction": "forward",
+    "attributes": {
+      "salary_range": "8-16 LPA",
+      "currency": "INR"
+    }
+  },
+  {
+    "source": "JOB_BUSINESS_ANALYST",
+    "target": "REG_BANGALORE",
+    "label": "trending_in",
+    "direction": "forward",
+    "attributes": {
+      "demand_level": "High",
+      "growth_rate": "18%"
+    }
+  },
+  {
+    "source": "JOB_MEDICAL_DOCTOR",
+    "target": "REG_BANGALORE",
+    "label": "salary_in",
+    "direction": "forward",
+    "attributes": {
+      "salary_range": "6-15 LPA",
+      "currency": "INR"
+    }
+  },
+  {
+    "source": "JOB_LAWYER",
+    "target": "REG_DELHI",
+    "label": "salary_in",
+    "direction": "forward",
+    "attributes": {
+      "salary_range": "5-20 LPA",
+      "currency": "INR"
+    }
+  },
+  {
+    "source": "JOB_LAWYER",
+    "target": "REG_MUMBAI",
+    "label": "salary_in",
+    "direction": "forward",
+    "attributes": {
+      "salary_range": "5-18 LPA",
+      "currency": "INR"
+    }
+  },
+  {
+    "source": "PROGRAM_BTECH_AI_ML",
+    "target": "PROGRAM_MTECH",
+    "label": "leads_to",
+    "direction": "forward",
+    "attributes": {
+      "pathway_type": "vertical-progression",
+      "description": "UG to PG progression"
+    }
+  },
+  {
+    "source": "PROGRAM_BE",
+    "target": "PROGRAM_MTECH",
+    "label": "leads_to",
+    "direction": "forward",
+    "attributes": {
+      "pathway_type": "vertical-progression"
+    }
+  },
+  {
+    "source": "PROGRAM_MBBS",
+    "target": "PROGRAM_MD",
+    "label": "leads_to",
+    "direction": "forward",
+    "attributes": {
+      "pathway_type": "vertical-progression"
+    }
+  },
+  {
+    "source": "PROGRAM_BBA",
+    "target": "PROGRAM_MBA",
+    "label": "leads_to",
+    "direction": "forward",
+    "attributes": {
+      "pathway_type": "vertical-progression"
+    }
+  },
+  {
+    "source": "PROGRAM_BA",
+    "target": "PROGRAM_MA",
+    "label": "leads_to",
+    "direction": "forward",
+    "attributes": {
+      "pathway_type": "vertical-progression"
+    }
+  },
+  {
+    "source": "PROGRAM_LLB",
+    "target": "PROGRAM_LLM",
+    "label": "leads_to",
+    "direction": "forward",
+    "attributes": {
+      "pathway_type": "vertical-progression"
+    }
+  }
+]
