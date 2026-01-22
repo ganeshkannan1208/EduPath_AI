@@ -371,5 +371,113 @@
     "id": "SKILL_BUSINESS_ACUMEN",
     "type": "Skill",
     "label": "Business Acumen"
+  },
+  {
+    "id": "EXAM_JEE_MAIN",
+    "type": "Exam",
+    "label": "JEE Main"
+  },
+  {
+    "id": "EXAM_NEET",
+    "type": "Exam",
+    "label": "NEET"
+  },
+  {
+    "id": "EXAM_12TH_BOARD",
+    "type": "Exam",
+    "label": "12th Board"
+  },
+  {
+    "id": "EXAM_CLAT",
+    "type": "Exam",
+    "label": "CLAT (Common Law Admission Test)"
+  },
+  {
+    "id": "PROGRAM_BDS",
+    "type": "Program",
+    "label": "Bachelor of Dental Surgery",
+    "attributes": {
+      "stream": "Medical UG",
+      "duration": 4,
+      "unit": "years"
+    }
+  },
+  {
+    "id": "SPEC_GENERAL_MEDICINE",
+    "type": "Specialization",
+    "label": "General Medicine",
+    "attributes": {
+      "domain": "Medical"
+    }
+  },
+  {
+    "id": "SPEC_LITERATURE",
+    "type": "Specialization",
+    "label": "Literature",
+    "attributes": {
+      "domain": "Arts"
+    }
+  },
+  {
+    "id": "SPEC_ACCOUNTING",
+    "type": "Specialization",
+    "label": "Accounting",
+    "attributes": {
+      "domain": "Commerce"
+    }
+  },
+  {
+    "id": "SPEC_PHYSICS",
+    "type": "Specialization",
+    "label": "Physics",
+    "attributes": {
+      "domain": "Science"
+    }
+  },
+  {
+    "id": "SPEC_CONSTITUTIONAL_LAW",
+    "type": "Specialization",
+    "label": "Constitutional Law",
+    "attributes": {
+      "domain": "Law"
+    }
+  },
+  {
+    "id": "SPEC_CARDIOLOGY",
+    "type": "Specialization",
+    "label": "Cardiology",
+    "attributes": {
+      "domain": "Medical"
+    }
+  },
+  {
+    "id": "NIC_8620",
+    "type": "Industry",
+    "label": "Other professional, scientific and technical activities",
+    "attributes": {
+      "section": "M",
+      "division": "86",
+      "group": "8620"
+    }
+  },
+  {
+    "id": "NIC_6910",
+    "type": "Industry",
+    "label": "Legal activities",
+    "attributes": {
+      "section": "M",
+      "division": "69",
+      "group": "6910"
+    }
+  },
+  {
+    "id": "SKILL_CLINICAL_DIAGNOSIS",
+    "type": "Skill",
+    "label": "Clinical Diagnosis"
+  },
+  {
+    "id": "SKILL_LEGAL_RESEARCH",
+    "type": "Skill",
+    "label": "Legal Research"
   }
 ]

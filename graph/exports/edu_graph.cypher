@@ -43,6 +43,21 @@ MERGE (:Skill :Node {id:'SKILL_PYTHON', label:'Python Programming'});
 MERGE (:Skill :Node {id:'SKILL_DATA_ANALYSIS', label:'Data Analysis'});
 MERGE (:Skill :Node {id:'SKILL_PROJECT_MANAGEMENT', label:'Project Management'});
 MERGE (:Skill :Node {id:'SKILL_BUSINESS_ACUMEN', label:'Business Acumen'});
+MERGE (:Exam :Node {id:'EXAM_JEE_MAIN', label:'JEE Main'});
+MERGE (:Exam :Node {id:'EXAM_NEET', label:'NEET'});
+MERGE (:Exam :Node {id:'EXAM_12TH_BOARD', label:'12th Board'});
+MERGE (:Exam :Node {id:'EXAM_CLAT', label:'CLAT (Common Law Admission Test)'});
+MERGE (:Program :Node {id:'PROGRAM_BDS', label:'Bachelor of Dental Surgery'});
+MERGE (:Specialization :Node {id:'SPEC_GENERAL_MEDICINE', label:'General Medicine'});
+MERGE (:Specialization :Node {id:'SPEC_LITERATURE', label:'Literature'});
+MERGE (:Specialization :Node {id:'SPEC_ACCOUNTING', label:'Accounting'});
+MERGE (:Specialization :Node {id:'SPEC_PHYSICS', label:'Physics'});
+MERGE (:Specialization :Node {id:'SPEC_CONSTITUTIONAL_LAW', label:'Constitutional Law'});
+MERGE (:Specialization :Node {id:'SPEC_CARDIOLOGY', label:'Cardiology'});
+MERGE (:Industry :Node {id:'NIC_8620', label:'Other professional, scientific and technical activities'});
+MERGE (:Industry :Node {id:'NIC_6910', label:'Legal activities'});
+MERGE (:Skill :Node {id:'SKILL_CLINICAL_DIAGNOSIS', label:'Clinical Diagnosis'});
+MERGE (:Skill :Node {id:'SKILL_LEGAL_RESEARCH', label:'Legal Research'});
 MATCH (a {id:'PROGRAM_BTECH_AI_ML'}),(b {id:'EXAM_JEE_MAIN'})
 MERGE (a)-[:REQUIRES]->(b);
 MATCH (a {id:'PROGRAM_BE'}),(b {id:'EXAM_JEE_MAIN'})
