@@ -1,0 +1,195 @@
+[
+  {
+    "path_index": 0,
+    "path": [
+      "PROGRAM_BTECH_AI_ML",
+      "JOB_ML_ENGINEER",
+      "EMP_TCS",
+      "REG_BANGALORE"
+    ],
+    "path_label": "B.Tech AI & ML → ML Engineer → TCS → Bangalore",
+    "final_score": 0.733,
+    "components": {
+      "S1_eligibility": 0.7,
+      "S2_alignment": 0.7,
+      "S3_salary": 0.44,
+      "S4_demand": 0.85,
+      "S5_region": 1.0,
+      "S6_skill_gap": 0.8,
+      "S7_robustness": 1.0
+    },
+    "weights": {
+      "S1": 0.2,
+      "S2": 0.15,
+      "S3": 0.2,
+      "S4": 0.2,
+      "S5": 0.1,
+      "S6": 0.1,
+      "S7": 0.05
+    },
+    "explanation": {
+      "eligibility": "Good - Partially eligible, may need prep",
+      "alignment": "Good - Common but not direct path",
+      "salary": "Low - Entry-level salary (p75 ≈ 22.0 LPA)",
+      "demand": "Very high - Strong growth forecast (85%)",
+      "region": "Perfect - Same city (Bangalore)",
+      "skill_gap": "Low gap - 1/5 skills to acquire",
+      "robustness": "Highly robust - Multiple employers & industries"
+    },
+    "rank": 1
+  },
+  {
+    "path_index": 1,
+    "path": [
+      "PROGRAM_BE",
+      "JOB_DATA_SCIENTIST",
+      "EMP_INFOSYS",
+      "REG_DELHI"
+    ],
+    "path_label": "B.Tech CSE → Data Scientist → Infosys → Delhi",
+    "final_score": 0.7057,
+    "components": {
+      "S1_eligibility": 0.7,
+      "S2_alignment": 0.7,
+      "S3_salary": 0.5,
+      "S4_demand": 0.92,
+      "S5_region": 0.6,
+      "S6_skill_gap": 0.6667,
+      "S7_robustness": 1.0
+    },
+    "weights": {
+      "S1": 0.2,
+      "S2": 0.15,
+      "S3": 0.2,
+      "S4": 0.2,
+      "S5": 0.1,
+      "S6": 0.1,
+      "S7": 0.05
+    },
+    "explanation": {
+      "eligibility": "Good - Partially eligible, may need prep",
+      "alignment": "Good - Common but not direct path",
+      "salary": "Good - Moderate salary (p75 ≈ 25.0 LPA)",
+      "demand": "Very high - Strong growth forecast (92%)",
+      "region": "Acceptable - Within India",
+      "skill_gap": "Moderate gap - 2/6 skills needed",
+      "robustness": "Highly robust - Multiple employers & industries"
+    },
+    "rank": 2
+  },
+  {
+    "path_index": 2,
+    "path": [
+      "PROGRAM_BBA",
+      "JOB_BUSINESS_ANALYST",
+      "EMP_TCS",
+      "REG_BANGALORE"
+    ],
+    "path_label": "BBA → Business Analyst → TCS → Bangalore",
+    "final_score": 0.668,
+    "components": {
+      "S1_eligibility": 0.7,
+      "S2_alignment": 0.7,
+      "S3_salary": 0.24,
+      "S4_demand": 0.75,
+      "S5_region": 1.0,
+      "S6_skill_gap": 0.75,
+      "S7_robustness": 1.0
+    },
+    "weights": {
+      "S1": 0.2,
+      "S2": 0.15,
+      "S3": 0.2,
+      "S4": 0.2,
+      "S5": 0.1,
+      "S6": 0.1,
+      "S7": 0.05
+    },
+    "explanation": {
+      "eligibility": "Good - Partially eligible, may need prep",
+      "alignment": "Good - Common but not direct path",
+      "salary": "Low - Entry-level salary (p75 ≈ 12.0 LPA)",
+      "demand": "Moderate - Stable demand (75%)",
+      "region": "Perfect - Same city (Bangalore)",
+      "skill_gap": "Moderate gap - 1/4 skills needed",
+      "robustness": "Highly robust - Multiple employers & industries"
+    },
+    "rank": 3
+  },
+  {
+    "path_index": 3,
+    "path": [
+      "PROGRAM_MBBS",
+      "JOB_MEDICAL_DOCTOR",
+      "EMP_APOLLO",
+      "REG_BANGALORE"
+    ],
+    "path_label": "MBBS → Medical Doctor → Apollo → Bangalore",
+    "final_score": 0.665,
+    "components": {
+      "S1_eligibility": 0.7,
+      "S2_alignment": 0.7,
+      "S3_salary": 0.2,
+      "S4_demand": 0.65,
+      "S5_region": 1.0,
+      "S6_skill_gap": 1.0,
+      "S7_robustness": 1.0
+    },
+    "weights": {
+      "S1": 0.2,
+      "S2": 0.15,
+      "S3": 0.2,
+      "S4": 0.2,
+      "S5": 0.1,
+      "S6": 0.1,
+      "S7": 0.05
+    },
+    "explanation": {
+      "eligibility": "Good - Partially eligible, may need prep",
+      "alignment": "Good - Common but not direct path",
+      "salary": "Low - Entry-level salary (p75 ≈ 10.0 LPA)",
+      "demand": "Moderate - Stable demand (65%)",
+      "region": "Perfect - Same city (Bangalore)",
+      "skill_gap": "Low gap - 0/3 skills to acquire",
+      "robustness": "Highly robust - Multiple employers & industries"
+    },
+    "rank": 4
+  },
+  {
+    "path_index": 4,
+    "path": [
+      "PROGRAM_LLB",
+      "JOB_LAWYER"
+    ],
+    "path_label": "LLB → Lawyer → Solo Practice → Delhi",
+    "final_score": 0.43,
+    "components": {
+      "S1_eligibility": 0.0,
+      "S2_alignment": 1.0,
+      "S3_salary": 0.3,
+      "S4_demand": 0.5,
+      "S5_region": 0.6,
+      "S6_skill_gap": 0.25,
+      "S7_robustness": 0.7
+    },
+    "weights": {
+      "S1": 0.2,
+      "S2": 0.15,
+      "S3": 0.2,
+      "S4": 0.2,
+      "S5": 0.1,
+      "S6": 0.1,
+      "S7": 0.05
+    },
+    "explanation": {
+      "eligibility": "Poor - Significant prerequisites missing",
+      "alignment": "Excellent - Direct program-to-job path",
+      "salary": "Low - Entry-level salary (p75 ≈ 15.0 LPA)",
+      "demand": "Moderate - Stable demand (50%)",
+      "region": "Acceptable - Within India",
+      "skill_gap": "High gap - 3/4 skills to learn",
+      "robustness": "Moderate - Some alternatives available"
+    },
+    "rank": 5
+  }
+]
