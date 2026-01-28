@@ -1,0 +1,365 @@
+{
+  "taxonomy": {
+    "categories": [
+      {
+        "category_id": "CAT_ENGINEERING",
+        "category_name": "Engineering",
+        "description": "Engineering entrance exams for B.Tech and B.E programs",
+        "exams": [
+          "EXAM_JEE_MAIN",
+          "EXAM_JEE_ADVANCED",
+          "EXAM_BITSAT",
+          "EXAM_VITEEE",
+          "EXAM_SRMJEEE",
+          "EXAM_COMEDK",
+          "EXAM_WBJEE",
+          "EXAM_MHT_CET",
+          "EXAM_KEAM",
+          "EXAM_KCET",
+          "EXAM_GUJCET"
+        ]
+      },
+      {
+        "category_id": "CAT_MEDICAL",
+        "category_name": "Medical",
+        "description": "Medical and healthcare entrance exams",
+        "exams": [
+          "EXAM_NEET_UG",
+          "EXAM_NEET_PG",
+          "EXAM_INI_CET",
+          "EXAM_FMGE",
+          "EXAM_AIIMS_NURSING"
+        ]
+      },
+      {
+        "category_id": "CAT_MANAGEMENT",
+        "category_name": "Management",
+        "description": "MBA and management program entrance exams",
+        "exams": [
+          "EXAM_CAT",
+          "EXAM_XAT",
+          "EXAM_MAT",
+          "EXAM_CMAT",
+          "EXAM_SNAP",
+          "EXAM_NMAT",
+          "EXAM_IIFT"
+        ]
+      },
+      {
+        "category_id": "CAT_LAW",
+        "category_name": "Law",
+        "description": "Law program entrance exams",
+        "exams": [
+          "EXAM_CLAT_UG",
+          "EXAM_CLAT_PG",
+          "EXAM_AILET",
+          "EXAM_LSAT_INDIA"
+        ]
+      },
+      {
+        "category_id": "CAT_ARCHITECTURE_DESIGN",
+        "category_name": "Architecture & Design",
+        "description": "Architecture and design program entrance exams",
+        "exams": [
+          "EXAM_NATA",
+          "EXAM_NID_DAT",
+          "EXAM_NIFT",
+          "EXAM_UCEED",
+          "EXAM_CEED"
+        ]
+      },
+      {
+        "category_id": "CAT_AGRICULTURE",
+        "category_name": "Agriculture",
+        "description": "Agriculture and related program entrance exams",
+        "exams": [
+          "EXAM_ICAR_AIEEA",
+          "EXAM_STATE_AGRICULTURE"
+        ]
+      },
+      {
+        "category_id": "CAT_CUET",
+        "category_name": "CUET",
+        "description": "Central University Entrance Test for multi-disciplinary programs",
+        "exams": [
+          "EXAM_CUET_UG",
+          "EXAM_CUET_PG"
+        ]
+      }
+    ]
+  },
+  "level_hierarchy": {
+    "UG-entry": {
+      "description": "Undergraduate entry level exams",
+      "exams": [
+        "EXAM_JEE_MAIN",
+        "EXAM_JEE_ADVANCED",
+        "EXAM_BITSAT",
+        "EXAM_VITEEE",
+        "EXAM_SRMJEEE",
+        "EXAM_COMEDK",
+        "EXAM_WBJEE",
+        "EXAM_MHT_CET",
+        "EXAM_KEAM",
+        "EXAM_KCET",
+        "EXAM_GUJCET",
+        "EXAM_NEET_UG",
+        "EXAM_AIIMS_NURSING",
+        "EXAM_CLAT_UG",
+        "EXAM_AILET",
+        "EXAM_LSAT_INDIA",
+        "EXAM_NATA",
+        "EXAM_NID_DAT",
+        "EXAM_NIFT",
+        "EXAM_UCEED",
+        "EXAM_ICAR_AIEEA",
+        "EXAM_STATE_AGRICULTURE",
+        "EXAM_CUET_UG"
+      ]
+    },
+    "PG-entry": {
+      "description": "Postgraduate entry level exams",
+      "exams": [
+        "EXAM_NEET_PG",
+        "EXAM_INI_CET",
+        "EXAM_CAT",
+        "EXAM_XAT",
+        "EXAM_MAT",
+        "EXAM_CMAT",
+        "EXAM_SNAP",
+        "EXAM_NMAT",
+        "EXAM_IIFT",
+        "EXAM_CLAT_PG",
+        "EXAM_CEED",
+        "EXAM_CUET_PG"
+      ]
+    },
+    "Professional": {
+      "description": "Professional licensing exams",
+      "exams": [
+        "EXAM_FMGE"
+      ]
+    }
+  },
+  "scope_hierarchy": {
+    "National": {
+      "description": "National level exams",
+      "exams": [
+        "EXAM_JEE_MAIN",
+        "EXAM_JEE_ADVANCED",
+        "EXAM_BITSAT",
+        "EXAM_VITEEE",
+        "EXAM_SRMJEEE",
+        "EXAM_NEET_UG",
+        "EXAM_NEET_PG",
+        "EXAM_INI_CET",
+        "EXAM_FMGE",
+        "EXAM_AIIMS_NURSING",
+        "EXAM_CAT",
+        "EXAM_XAT",
+        "EXAM_MAT",
+        "EXAM_CMAT",
+        "EXAM_SNAP",
+        "EXAM_NMAT",
+        "EXAM_IIFT",
+        "EXAM_CLAT_UG",
+        "EXAM_CLAT_PG",
+        "EXAM_AILET",
+        "EXAM_LSAT_INDIA",
+        "EXAM_NATA",
+        "EXAM_NID_DAT",
+        "EXAM_NIFT",
+        "EXAM_UCEED",
+        "EXAM_CEED",
+        "EXAM_ICAR_AIEEA",
+        "EXAM_CUET_UG",
+        "EXAM_CUET_PG"
+      ]
+    },
+    "State": {
+      "description": "State level exams",
+      "exams": [
+        "EXAM_COMEDK",
+        "EXAM_WBJEE",
+        "EXAM_MHT_CET",
+        "EXAM_KEAM",
+        "EXAM_KCET",
+        "EXAM_GUJCET",
+        "EXAM_STATE_AGRICULTURE"
+      ]
+    }
+  },
+  "mode_hierarchy": {
+    "Online": {
+      "description": "Online mode exams",
+      "exams": [
+        "EXAM_JEE_MAIN",
+        "EXAM_JEE_ADVANCED",
+        "EXAM_BITSAT",
+        "EXAM_VITEEE",
+        "EXAM_SRMJEEE",
+        "EXAM_COMEDK",
+        "EXAM_WBJEE",
+        "EXAM_MHT_CET",
+        "EXAM_NEET_PG",
+        "EXAM_INI_CET",
+        "EXAM_FMGE",
+        "EXAM_CAT",
+        "EXAM_XAT",
+        "EXAM_MAT",
+        "EXAM_CMAT",
+        "EXAM_SNAP",
+        "EXAM_NMAT",
+        "EXAM_IIFT",
+        "EXAM_CLAT_UG",
+        "EXAM_CLAT_PG",
+        "EXAM_AILET",
+        "EXAM_LSAT_INDIA",
+        "EXAM_NATA",
+        "EXAM_NID_DAT",
+        "EXAM_NIFT",
+        "EXAM_UCEED",
+        "EXAM_CEED",
+        "EXAM_ICAR_AIEEA",
+        "EXAM_CUET_UG",
+        "EXAM_CUET_PG"
+      ]
+    },
+    "Offline": {
+      "description": "Offline mode exams",
+      "exams": [
+        "EXAM_KEAM",
+        "EXAM_KCET",
+        "EXAM_GUJCET",
+        "EXAM_NEET_UG",
+        "EXAM_AIIMS_NURSING"
+      ]
+    },
+    "Online/Offline": {
+      "description": "Both online and offline modes",
+      "exams": [
+        "EXAM_MAT",
+        "EXAM_STATE_AGRICULTURE"
+      ]
+    }
+  },
+  "program_mapping": {
+    "Engineering Programs": {
+      "description": "Programs unlocked by engineering exams",
+      "programs": [
+        "B.Tech",
+        "B.E",
+        "B.Arch",
+        "B.Plan",
+        "B.Pharm",
+        "M.Sc",
+        "Dual Degree"
+      ]
+    },
+    "Medical Programs": {
+      "description": "Programs unlocked by medical exams",
+      "programs": [
+        "MBBS",
+        "BDS",
+        "BSc Nursing",
+        "BAMS",
+        "BHMS",
+        "BUMS",
+        "BPT",
+        "BSc Paramedical",
+        "MD",
+        "MS",
+        "PG Diploma",
+        "DM",
+        "MCh"
+      ]
+    },
+    "Management Programs": {
+      "description": "Programs unlocked by management exams",
+      "programs": [
+        "MBA",
+        "PGDM",
+        "Executive MBA"
+      ]
+    },
+    "Law Programs": {
+      "description": "Programs unlocked by law exams",
+      "programs": [
+        "BA LLB",
+        "B.Com LLB",
+        "B.A. LLB (Hons)",
+        "M.A. LLB",
+        "LL.M"
+      ]
+    },
+    "Design Programs": {
+      "description": "Programs unlocked by design exams",
+      "programs": [
+        "B.Arch",
+        "B.Planning",
+        "B.Des",
+        "B.A. Design",
+        "Graphic Design",
+        "B.Des Fashion",
+        "B.Tech Fashion Technology",
+        "B.Tech Design",
+        "M.Des",
+        "M.Tech Design"
+      ]
+    },
+    "Agriculture Programs": {
+      "description": "Programs unlocked by agriculture exams",
+      "programs": [
+        "B.Sc Agriculture",
+        "B.Sc Horticulture",
+        "B.Sc Fisheries"
+      ]
+    }
+  },
+  "career_mapping": {
+    "Engineering Careers": [
+      "Engineer",
+      "Civil Engineer",
+      "Mechanical Engineer",
+      "Electrical Engineer",
+      "Software Engineer",
+      "Architect",
+      "Researcher"
+    ],
+    "Medical Careers": [
+      "Doctor",
+      "Dentist",
+      "Nurse",
+      "Physiotherapist",
+      "Surgeon",
+      "Medical Specialist",
+      "Consultant"
+    ],
+    "Management Careers": [
+      "Business Analyst",
+      "Management Consultant",
+      "Corporate Manager",
+      "Investment Banker"
+    ],
+    "Legal Careers": [
+      "Lawyer",
+      "Advocate",
+      "Legal Consultant",
+      "Law Professor",
+      "Notary"
+    ],
+    "Design Careers": [
+      "Designer",
+      "Graphic Designer",
+      "Product Designer",
+      "Industrial Designer",
+      "Fashion Designer",
+      "UX Designer"
+    ],
+    "Agriculture Careers": [
+      "Agricultural Officer",
+      "Farmer",
+      "Agricultural Scientist"
+    ]
+  }
+}

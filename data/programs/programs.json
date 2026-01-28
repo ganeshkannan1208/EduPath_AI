@@ -1,0 +1,787 @@
+[
+  {
+    "program_id": "PROGRAM_BTECH",
+    "name": "Bachelor of Technology",
+    "short_name": "B.Tech",
+    "stream_id": "STREAM_ENGINEERING_UG",
+    "duration": 4,
+    "duration_unit": "years",
+    "delivery_mode": "Full-time",
+    "accepted_exams": [
+      "EXAM_JEE_MAIN",
+      "EXAM_JEE_ADVANCED",
+      "EXAM_WBJEE",
+      "EXAM_MHT_CET",
+      "EXAM_COMEDK",
+      "EXAM_KEAM",
+      "EXAM_KCET",
+      "EXAM_GUJCET"
+    ],
+    "specializations": [
+      "SPEC_CSE",
+      "SPEC_ECE",
+      "SPEC_EEE",
+      "SPEC_MECH",
+      "SPEC_CIVIL",
+      "SPEC_CHEM",
+      "SPEC_IT",
+      "SPEC_AI_ML",
+      "SPEC_DATA_SCIENCE",
+      "SPEC_IOT",
+      "SPEC_ROBOTICS",
+      "SPEC_AEROSPACE",
+      "SPEC_AUTOMOBILE",
+      "SPEC_BIOTECH",
+      "SPEC_METALLURGICAL"
+    ]
+  },
+  {
+    "program_id": "PROGRAM_BE",
+    "name": "Bachelor of Engineering",
+    "short_name": "B.E",
+    "stream_id": "STREAM_ENGINEERING_UG",
+    "duration": 4,
+    "duration_unit": "years",
+    "delivery_mode": "Full-time",
+    "accepted_exams": [
+      "EXAM_JEE_MAIN",
+      "EXAM_JEE_ADVANCED",
+      "EXAM_WBJEE",
+      "EXAM_MHT_CET"
+    ],
+    "specializations": [
+      "SPEC_CSE",
+      "SPEC_MECH",
+      "SPEC_CIVIL",
+      "SPEC_ECE",
+      "SPEC_EEE",
+      "SPEC_AUTOMOBILE"
+    ]
+  },
+  {
+    "program_id": "PROGRAM_MTECH",
+    "name": "Master of Technology",
+    "short_name": "M.Tech",
+    "stream_id": "STREAM_ENGINEERING_PG",
+    "duration": 2,
+    "duration_unit": "years",
+    "delivery_mode": "Full-time",
+    "accepted_exams": ["EXAM_GATE"],
+    "specializations": [
+      "SPEC_CSE", "SPEC_ECE", "SPEC_EEE", "SPEC_MECH", "SPEC_CIVIL",
+      "SPEC_AI_ML", "SPEC_DATA_SCIENCE", "SPEC_ROBOTICS",
+      "SPEC_AEROSPACE", "SPEC_BIOTECH"
+    ]
+  },
+  {
+    "program_id": "PROGRAM_ME",
+    "name": "Master of Engineering",
+    "short_name": "M.E",
+    "stream_id": "STREAM_ENGINEERING_PG",
+    "duration": 2,
+    "duration_unit": "years",
+    "delivery_mode": "Full-time",
+    "accepted_exams": ["EXAM_GATE"],
+    "specializations": [
+      "SPEC_CSE", "SPEC_MECH", "SPEC_ECE", "SPEC_CIVIL"
+    ]
+  },
+  {
+    "program_id": "PROGRAM_PHD_ENGINEERING",
+    "name": "Doctor of Philosophy (Engineering)",
+    "short_name": "Ph.D Engineering",
+    "stream_id": "STREAM_ENGINEERING_PG",
+    "duration": 5,
+    "duration_unit": "years",
+    "delivery_mode": "Full-time",
+    "accepted_exams": ["EXAM_GATE"],
+    "specializations": [
+      "SPEC_CSE", "SPEC_MECH", "SPEC_ECE", "SPEC_AI_ML", "SPEC_DATA_SCIENCE"
+    ]
+  },
+  {
+    "program_id": "PROGRAM_INTEGRATED_BTECH_MTECH",
+    "name": "Integrated B.Tech + M.Tech",
+    "short_name": "B.Tech + M.Tech",
+    "stream_id": "STREAM_ENGINEERING_UG",
+    "duration": 5,
+    "duration_unit": "years",
+    "delivery_mode": "Full-time",
+    "accepted_exams": [
+      "EXAM_JEE_MAIN",
+      "EXAM_JEE_ADVANCED"
+    ],
+    "specializations": [
+      "SPEC_CSE", "SPEC_ECE", "SPEC_MECH", "SPEC_CIVIL", "SPEC_AI_ML", "SPEC_ROBOTICS"
+    ]
+  },
+  {
+    "program_id": "PROGRAM_DIPLOMA_ENGINEERING",
+    "name": "Diploma in Engineering",
+    "short_name": "Diploma (Engg)",
+    "stream_id": "STREAM_DIPLOMA_POLYTECHNIC",
+    "duration": 3,
+    "duration_unit": "years",
+    "delivery_mode": "Full-time",
+    "accepted_exams": ["EXAM_12TH_BOARD"],
+    "specializations": [
+      "SPEC_CSE",
+      "SPEC_MECH",
+      "SPEC_CIVIL",
+      "SPEC_ECE",
+      "SPEC_EEE",
+      "SPEC_AUTOMOBILE"
+    ]
+  },
+  {
+    "program_id": "PROGRAM_MBBS",
+    "name": "Bachelor of Medicine, Bachelor of Surgery",
+    "short_name": "MBBS",
+    "stream_id": "STREAM_MEDICAL_UG",
+    "duration": 5.5,
+    "duration_unit": "years",
+    "delivery_mode": "Full-time",
+    "accepted_exams": [
+      "EXAM_NEET"
+    ],
+    "specializations": []
+  },
+  {
+    "program_id": "PROGRAM_BDS",
+    "name": "Bachelor of Dental Surgery",
+    "short_name": "BDS",
+    "stream_id": "STREAM_MEDICAL_UG",
+    "duration": 4,
+    "duration_unit": "years",
+    "delivery_mode": "Full-time",
+    "accepted_exams": ["EXAM_NEET"],
+    "specializations": []
+  },
+  {
+    "program_id": "PROGRAM_MD",
+    "name": "Doctor of Medicine",
+    "short_name": "MD",
+    "stream_id": "STREAM_MEDICAL_PG",
+    "duration": 3,
+    "duration_unit": "years",
+    "delivery_mode": "Full-time",
+    "accepted_exams": ["EXAM_NEET_PG"],
+    "specializations": []
+  },
+  {
+    "program_id": "PROGRAM_MS",
+    "name": "Master of Surgery",
+    "short_name": "MS",
+    "stream_id": "STREAM_MEDICAL_PG",
+    "duration": 3,
+    "duration_unit": "years",
+    "delivery_mode": "Full-time",
+    "accepted_exams": ["EXAM_NEET_PG"],
+    "specializations": []
+  },
+  {
+    "program_id": "PROGRAM_MDS",
+    "name": "Master of Dental Surgery",
+    "short_name": "MDS",
+    "stream_id": "STREAM_MEDICAL_PG",
+    "duration": 3,
+    "duration_unit": "years",
+    "delivery_mode": "Full-time",
+    "accepted_exams": ["EXAM_NEET_PG"],
+    "specializations": []
+  },
+  {
+    "program_id": "PROGRAM_BBA",
+    "name": "Bachelor of Business Administration",
+    "short_name": "BBA",
+    "stream_id": "STREAM_MANAGEMENT_UG",
+    "duration": 3,
+    "duration_unit": "years",
+    "delivery_mode": "Full-time",
+    "accepted_exams": ["EXAM_12TH_BOARD"],
+    "specializations": ["SPEC_FINANCE", "SPEC_MARKETING", "SPEC_HR", "SPEC_OPERATIONS"]
+  },
+  {
+    "program_id": "PROGRAM_MBA",
+    "name": "Master of Business Administration",
+    "short_name": "MBA",
+    "stream_id": "STREAM_MANAGEMENT_PG",
+    "duration": 2,
+    "duration_unit": "years",
+    "delivery_mode": "Full-time",
+    "accepted_exams": ["EXAM_CAT", "EXAM_XAT"],
+    "specializations": []
+  },
+  {
+    "program_id": "PROGRAM_BCOM",
+    "name": "Bachelor of Commerce",
+    "short_name": "B.Com",
+    "stream_id": "STREAM_COMMERCE_UG",
+    "duration": 3,
+    "duration_unit": "years",
+    "delivery_mode": "Full-time",
+    "accepted_exams": ["EXAM_12TH_BOARD"],
+    "specializations": ["SPEC_ACCOUNTING", "SPEC_TAXATION", "SPEC_FINANCE"]
+  },
+  {
+    "program_id": "PROGRAM_MCOM",
+    "name": "Master of Commerce",
+    "short_name": "M.Com",
+    "stream_id": "STREAM_COMMERCE_PG",
+    "duration": 2,
+    "duration_unit": "years",
+    "delivery_mode": "Full-time",
+    "accepted_exams": ["EXAM_ENTRANCE"],
+    "specializations": ["SPEC_ACCOUNTING", "SPEC_TAXATION", "SPEC_FINANCE"]
+  },
+  {
+    "program_id": "PROGRAM_BSC_SCIENCE",
+    "name": "Bachelor of Science",
+    "short_name": "B.Sc (Science)",
+    "stream_id": "STREAM_SCIENCE_UG",
+    "duration": 3,
+    "duration_unit": "years",
+    "delivery_mode": "Full-time",
+    "accepted_exams": ["EXAM_12TH_BOARD"],
+    "specializations": ["SPEC_PHYSICS", "SPEC_CHEMISTRY", "SPEC_BIOLOGY", "SPEC_MATHEMATICS"]
+  },
+  {
+    "program_id": "PROGRAM_MSC_SCIENCE",
+    "name": "Master of Science",
+    "short_name": "M.Sc (Science)",
+    "stream_id": "STREAM_SCIENCE_PG",
+    "duration": 2,
+    "duration_unit": "years",
+    "delivery_mode": "Full-time",
+    "accepted_exams": ["EXAM_ENTRANCE"],
+    "specializations": ["SPEC_PHYSICS", "SPEC_CHEMISTRY", "SPEC_BIOLOGY", "SPEC_MATHEMATICS"]
+  },
+  {
+    "program_id": "PROGRAM_BA_ARTS",
+    "name": "Bachelor of Arts",
+    "short_name": "B.A",
+    "stream_id": "STREAM_ARTS_UG",
+    "duration": 3,
+    "duration_unit": "years",
+    "delivery_mode": "Full-time",
+    "accepted_exams": ["EXAM_12TH_BOARD"],
+    "specializations": ["SPEC_LITERATURE", "SPEC_HISTORY", "SPEC_GEOGRAPHY", "SPEC_PSYCHOLOGY", "SPEC_ECONOMICS"]
+  },
+  {
+    "program_id": "PROGRAM_MA_ARTS",
+    "name": "Master of Arts",
+    "short_name": "M.A",
+    "stream_id": "STREAM_ARTS_PG",
+    "duration": 2,
+    "duration_unit": "years",
+    "delivery_mode": "Full-time",
+    "accepted_exams": ["EXAM_ENTRANCE"],
+    "specializations": ["SPEC_LITERATURE", "SPEC_HISTORY", "SPEC_GEOGRAPHY", "SPEC_PSYCHOLOGY", "SPEC_ECONOMICS"]
+  },
+  {
+    "program_id": "PROGRAM_BALLB",
+    "name": "Bachelor of Laws (Integrated)",
+    "short_name": "BA.LLB",
+    "stream_id": "STREAM_LAW_UG",
+    "duration": 5,
+    "duration_unit": "years",
+    "delivery_mode": "Full-time",
+    "accepted_exams": ["EXAM_CLAT"],
+    "specializations": []
+  },
+  {
+    "program_id": "PROGRAM_LLM",
+    "name": "Master of Laws",
+    "short_name": "LL.M",
+    "stream_id": "STREAM_LAW_PG",
+    "duration": 2,
+    "duration_unit": "years",
+    "delivery_mode": "Full-time",
+    "accepted_exams": ["EXAM_ENTRANCE"],
+    "specializations": ["SPEC_CONSTITUTIONAL_LAW", "SPEC_CORPORATE_LAW", "SPEC_CRIMINAL_LAW", "SPEC_COMMERCIAL_LAW"]
+  },
+  {
+    "program_id": "PROGRAM_BDES",
+    "name": "Bachelor of Design",
+    "short_name": "B.Des",
+    "stream_id": "STREAM_DESIGN_UG",
+    "duration": 4,
+    "duration_unit": "years",
+    "delivery_mode": "Full-time",
+    "accepted_exams": ["EXAM_NID_DAT"],
+    "specializations": []
+  },
+  {
+    "program_id": "PROGRAM_MDES",
+    "name": "Master of Design",
+    "short_name": "M.Des",
+    "stream_id": "STREAM_DESIGN_PG",
+    "duration": 2,
+    "duration_unit": "years",
+    "delivery_mode": "Full-time",
+    "accepted_exams": ["EXAM_ENTRANCE"],
+    "specializations": ["SPEC_GRAPHIC_DESIGN", "SPEC_PRODUCT_DESIGN", "SPEC_UX_DESIGN", "SPEC_FASHION_DESIGN"]
+  },
+  {
+    "program_id": "PROGRAM_BARCH",
+    "name": "Bachelor of Architecture",
+    "short_name": "B.Arch",
+    "stream_id": "STREAM_ARCHITECTURE_UG",
+    "duration": 5,
+    "duration_unit": "years",
+    "delivery_mode": "Full-time",
+    "accepted_exams": ["EXAM_JEE_MAIN", "EXAM_NATA"],
+    "specializations": []
+  },
+  {
+    "program_id": "PROGRAM_BPLAN",
+    "name": "Bachelor of Planning",
+    "short_name": "B.Plan",
+    "stream_id": "STREAM_ARCHITECTURE_UG",
+    "duration": 4,
+    "duration_unit": "years",
+    "delivery_mode": "Full-time",
+    "accepted_exams": ["EXAM_JEE_MAIN"],
+    "specializations": []
+  },
+  {
+    "program_id": "PROGRAM_MARCH",
+    "name": "Master of Architecture",
+    "short_name": "M.Arch",
+    "stream_id": "STREAM_ARCHITECTURE_PG",
+    "duration": 2,
+    "duration_unit": "years",
+    "delivery_mode": "Full-time",
+    "accepted_exams": ["EXAM_ENTRANCE"],
+    "specializations": ["SPEC_ARCHITECTURAL_DESIGN", "SPEC_RESTORATION", "SPEC_SUSTAINABLE_DESIGN"]
+  },
+  {
+    "program_id": "PROGRAM_MPLAN",
+    "name": "Master of Planning",
+    "short_name": "M.Plan",
+    "stream_id": "STREAM_ARCHITECTURE_PG",
+    "duration": 2,
+    "duration_unit": "years",
+    "delivery_mode": "Full-time",
+    "accepted_exams": ["EXAM_ENTRANCE"],
+    "specializations": ["SPEC_URBAN_PLANNING", "SPEC_REGIONAL_PLANNING", "SPEC_TRANSPORT_PLANNING"]
+  },
+  {
+    "program_id": "PROGRAM_BPHARM",
+    "name": "Bachelor of Pharmacy",
+    "short_name": "B.Pharm",
+    "stream_id": "STREAM_PHARMACY_UG",
+    "duration": 4,
+    "duration_unit": "years",
+    "delivery_mode": "Full-time",
+    "accepted_exams": ["EXAM_JEE_MAIN"],
+    "specializations": []
+  },
+  {
+    "program_id": "PROGRAM_MPHARM",
+    "name": "Master of Pharmacy",
+    "short_name": "M.Pharm",
+    "stream_id": "STREAM_PHARMACY_PG",
+    "duration": 2,
+    "duration_unit": "years",
+    "delivery_mode": "Full-time",
+    "accepted_exams": ["EXAM_ENTRANCE"],
+    "specializations": ["SPEC_PHARMACEUTICAL_CHEMISTRY", "SPEC_PHARMACOLOGY", "SPEC_QUALITY_ASSURANCE"]
+  },
+  {
+    "program_id": "PROGRAM_BSC_AGRICULTURE",
+    "name": "Bachelor of Science (Agriculture)",
+    "short_name": "B.Sc (Agri)",
+    "stream_id": "STREAM_AGRICULTURE_UG",
+    "duration": 4,
+    "duration_unit": "years",
+    "delivery_mode": "Full-time",
+    "accepted_exams": ["EXAM_ICAR"],
+    "specializations": []
+  },
+  {
+    "program_id": "PROGRAM_MSC_AGRICULTURE",
+    "name": "Master of Science (Agriculture)",
+    "short_name": "M.Sc (Agri)",
+    "stream_id": "STREAM_AGRICULTURE_PG",
+    "duration": 2,
+    "duration_unit": "years",
+    "delivery_mode": "Full-time",
+    "accepted_exams": ["EXAM_ENTRANCE"],
+    "specializations": ["SPEC_AGRONOMY", "SPEC_HORTICULTURE", "SPEC_SOIL_SCIENCE", "SPEC_AGRICULTURAL_ECONOMICS"]
+  },
+  {
+    "program_id": "PROGRAM_BSC_NURSING",
+    "name": "Bachelor of Science (Nursing)",
+    "short_name": "B.Sc (Nursing)",
+    "stream_id": "STREAM_NURSING_UG",
+    "duration": 4,
+    "duration_unit": "years",
+    "delivery_mode": "Full-time",
+    "accepted_exams": ["EXAM_NEET"],
+    "specializations": []
+  },
+  {
+    "program_id": "PROGRAM_MSC_NURSING",
+    "name": "Master of Science (Nursing)",
+    "short_name": "M.Sc (Nursing)",
+    "stream_id": "STREAM_NURSING_PG",
+    "duration": 2,
+    "duration_unit": "years",
+    "delivery_mode": "Full-time",
+    "accepted_exams": ["EXAM_ENTRANCE"],
+    "specializations": ["SPEC_MEDICAL_SURGICAL_NURSING", "SPEC_PEDIATRIC_NURSING", "SPEC_COMMUNITY_HEALTH_NURSING"]
+  },
+  {
+    "program_id": "PROGRAM_BSC_PARAMEDICAL",
+    "name": "Bachelor of Science (Paramedical)",
+    "short_name": "B.Sc (Para)",
+    "stream_id": "STREAM_PARAMEDICAL_UG",
+    "duration": 3,
+    "duration_unit": "years",
+    "delivery_mode": "Full-time",
+    "accepted_exams": [],
+    "specializations": []
+  },
+  {
+    "program_id": "PROGRAM_MSC_PARAMEDICAL",
+    "name": "Master of Science (Paramedical)",
+    "short_name": "M.Sc (Para)",
+    "stream_id": "STREAM_PARAMEDICAL_PG",
+    "duration": 2,
+    "duration_unit": "years",
+    "delivery_mode": "Full-time",
+    "accepted_exams": ["EXAM_ENTRANCE"],
+    "specializations": ["SPEC_MEDICAL_LAB_TECHNOLOGY", "SPEC_RADIOGRAPHY", "SPEC_ANESTHESIA_TECHNOLOGY"]
+  },
+  {
+    "program_id": "PROGRAM_BSC_PHYSIOTHERAPY",
+    "name": "Bachelor of Science (Physiotherapy)",
+    "short_name": "B.Sc (Physio)",
+    "stream_id": "STREAM_PHYSIOTHERAPY_UG",
+    "duration": 4,
+    "duration_unit": "years",
+    "delivery_mode": "Full-time",
+    "accepted_exams": ["EXAM_NEET"],
+    "specializations": []
+  },
+  {
+    "program_id": "PROGRAM_MSC_PHYSIOTHERAPY",
+    "name": "Master of Science (Physiotherapy)",
+    "short_name": "M.Sc (Physio)",
+    "stream_id": "STREAM_PHYSIOTHERAPY_PG",
+    "duration": 2,
+    "duration_unit": "years",
+    "delivery_mode": "Full-time",
+    "accepted_exams": ["EXAM_ENTRANCE"],
+    "specializations": ["SPEC_ORTHOPEDIC_PHYSIOTHERAPY", "SPEC_CARDIOPULMONARY_PHYSIOTHERAPY", "SPEC_NEUROLOGICAL_PHYSIOTHERAPY"]
+  },
+  {
+    "program_id": "PROGRAM_BA_JOURNALISM",
+    "name": "Bachelor of Arts (Journalism & Mass Communication)",
+    "short_name": "B.A (Journalism)",
+    "stream_id": "STREAM_JOURNALISM_UG",
+    "duration": 3,
+    "duration_unit": "years",
+    "delivery_mode": "Full-time",
+    "accepted_exams": ["EXAM_12TH_BOARD"],
+    "specializations": ["SPEC_PRINT_JOURNALISM", "SPEC_BROADCAST_JOURNALISM", "SPEC_DIGITAL_MEDIA", "SPEC_PUBLIC_RELATIONS"]
+  },
+  {
+    "program_id": "PROGRAM_MA_JOURNALISM",
+    "name": "Master of Arts (Journalism & Mass Communication)",
+    "short_name": "M.A (Journalism)",
+    "stream_id": "STREAM_JOURNALISM_PG",
+    "duration": 2,
+    "duration_unit": "years",
+    "delivery_mode": "Full-time",
+    "accepted_exams": ["EXAM_ENTRANCE"],
+    "specializations": ["SPEC_PRINT_JOURNALISM", "SPEC_BROADCAST_JOURNALISM", "SPEC_DIGITAL_MEDIA", "SPEC_PUBLIC_RELATIONS"]
+  },
+  {
+    "program_id": "PROGRAM_BSC_HOSPITALITY",
+    "name": "Bachelor of Science (Hotel Management)",
+    "short_name": "B.Sc (Hotel Mgmt)",
+    "stream_id": "STREAM_HOSPITALITY_UG",
+    "duration": 3,
+    "duration_unit": "years",
+    "delivery_mode": "Full-time",
+    "accepted_exams": ["EXAM_12TH_BOARD"],
+    "specializations": ["SPEC_FOOD_BEVERAGE", "SPEC_FRONT_OFFICE", "SPEC_HOUSEKEEPING", "SPEC_HOTEL_MARKETING"]
+  },
+  {
+    "program_id": "PROGRAM_MSC_HOSPITALITY",
+    "name": "Master of Science (Hotel Management)",
+    "short_name": "M.Sc (Hotel Mgmt)",
+    "stream_id": "STREAM_HOSPITALITY_PG",
+    "duration": 2,
+    "duration_unit": "years",
+    "delivery_mode": "Full-time",
+    "accepted_exams": ["EXAM_ENTRANCE"],
+    "specializations": ["SPEC_FOOD_BEVERAGE", "SPEC_FRONT_OFFICE", "SPEC_HOUSEKEEPING", "SPEC_HOTEL_MARKETING"]
+  },
+  {
+    "program_id": "PROGRAM_BSC_DATA_SCIENCE",
+    "name": "Bachelor of Science in Data Science",
+    "short_name": "B.Sc Data Science",
+    "stream_id": "STREAM_SCIENCE_UG",
+    "duration": 3,
+    "duration_unit": "years",
+    "delivery_mode": "Full-time",
+    "accepted_exams": [],
+    "specializations": ["SPEC_DATA_SCIENCE", "SPEC_MACHINE_LEARNING", "SPEC_STATISTICS"]
+  },
+  {
+    "program_id": "PROGRAM_BTECH_AI_ML",
+    "name": "Bachelor of Technology in Artificial Intelligence & Machine Learning",
+    "short_name": "B.Tech AI & ML",
+    "stream_id": "STREAM_ENGINEERING_UG",
+    "duration": 4,
+    "duration_unit": "years",
+    "delivery_mode": "Full-time",
+    "accepted_exams": ["EXAM_JEE_MAIN", "EXAM_JEE_ADVANCED", "EXAM_MHT_CET", "EXAM_COMEDK"],
+    "specializations": ["SPEC_AI_ML", "SPEC_DATA_SCIENCE", "SPEC_ROBOTICS"]
+  },
+  {
+    "program_id": "PROGRAM_BTECH_ROBOTICS",
+    "name": "Bachelor of Technology in Robotics & Automation",
+    "short_name": "B.Tech Robotics",
+    "stream_id": "STREAM_ENGINEERING_UG",
+    "duration": 4,
+    "duration_unit": "years",
+    "delivery_mode": "Full-time",
+    "accepted_exams": ["EXAM_JEE_MAIN", "EXAM_JEE_ADVANCED"],
+    "specializations": ["SPEC_ROBOTICS", "SPEC_IOT", "SPEC_EMBEDDED_SYSTEMS"]
+  },
+  {
+    "program_id": "PROGRAM_BSC_CYBER_SECURITY",
+    "name": "Bachelor of Science in Cyber Security",
+    "short_name": "B.Sc Cyber Security",
+    "stream_id": "STREAM_SCIENCE_UG",
+    "duration": 3,
+    "duration_unit": "years",
+    "delivery_mode": "Full-time",
+    "accepted_exams": [],
+    "specializations": ["SPEC_CYBER_SECURITY", "SPEC_NETWORK_SECURITY", "SPEC_ETHICAL_HACKING"]
+  },
+  {
+    "program_id": "PROGRAM_BBA_FINTECH",
+    "name": "Bachelor of Business Administration in FinTech",
+    "short_name": "BBA FinTech",
+    "stream_id": "STREAM_MANAGEMENT_UG",
+    "duration": 3,
+    "duration_unit": "years",
+    "delivery_mode": "Full-time",
+    "accepted_exams": [],
+    "specializations": ["SPEC_FINTECH", "SPEC_RISK_MANAGEMENT"]
+  },
+  {
+    "program_id": "PROGRAM_BCOM_PROFESSIONAL_ACCOUNTING",
+    "name": "Bachelor of Commerce in Professional Accounting",
+    "short_name": "B.Com Professional Accounting",
+    "stream_id": "STREAM_COMMERCE_UG",
+    "duration": 3,
+    "duration_unit": "years",
+    "delivery_mode": "Full-time",
+    "accepted_exams": [],
+    "specializations": ["SPEC_ACCOUNTING", "SPEC_TAXATION", "SPEC_AUDITING"]
+  },
+  {
+    "program_id": "PROGRAM_BSC_COGNITIVE_SCIENCE",
+    "name": "Bachelor of Science in Cognitive Science",
+    "short_name": "B.Sc Cognitive Science",
+    "stream_id": "STREAM_SCIENCE_UG",
+    "duration": 3,
+    "duration_unit": "years",
+    "delivery_mode": "Full-time",
+    "accepted_exams": [],
+    "specializations": ["SPEC_COGNITIVE_SCIENCE", "SPEC_NEUROSCIENCE"]
+  },
+  {
+    "program_id": "PROGRAM_BSC_BIOINFORMATICS",
+    "name": "Bachelor of Science in Bioinformatics",
+    "short_name": "B.Sc Bioinformatics",
+    "stream_id": "STREAM_SCIENCE_UG",
+    "duration": 3,
+    "duration_unit": "years",
+    "delivery_mode": "Full-time",
+    "accepted_exams": [],
+    "specializations": ["SPEC_BIOINFORMATICS"]
+  },
+  {
+    "program_id": "PROGRAM_BDES_UX_UI",
+    "name": "Bachelor of Design in UX/UI Design",
+    "short_name": "B.Des (UX/UI)",
+    "stream_id": "STREAM_DESIGN_UG",
+    "duration": 4,
+    "duration_unit": "years",
+    "delivery_mode": "Full-time",
+    "accepted_exams": ["EXAM_NID_DAT"],
+    "specializations": ["SPEC_UX_DESIGN", "SPEC_UI_DESIGN", "SPEC_INTERACTION_DESIGN"]
+  },
+  {
+    "program_id": "PROGRAM_MSC_DATA_SCIENCE",
+    "name": "Master of Science in Data Science",
+    "short_name": "M.Sc Data Science",
+    "stream_id": "STREAM_SCIENCE_PG",
+    "duration": 2,
+    "duration_unit": "years",
+    "delivery_mode": "Full-time",
+    "accepted_exams": ["EXAM_ENTRANCE"],
+    "specializations": ["SPEC_DATA_SCIENCE", "SPEC_MACHINE_LEARNING", "SPEC_STATISTICS", "SPEC_BIG_DATA"]
+  },
+  {
+    "program_id": "PROGRAM_MSC_CYBER_SECURITY",
+    "name": "Master of Science in Cyber Security",
+    "short_name": "M.Sc Cyber Security",
+    "stream_id": "STREAM_SCIENCE_PG",
+    "duration": 2,
+    "duration_unit": "years",
+    "delivery_mode": "Full-time",
+    "accepted_exams": ["EXAM_ENTRANCE"],
+    "specializations": ["SPEC_CYBER_SECURITY", "SPEC_NETWORK_SECURITY", "SPEC_ETHICAL_HACKING", "SPEC_CRYPTOGRAPHY"]
+  },
+  {
+    "program_id": "PROGRAM_MSC_COGNITIVE_SCIENCE",
+    "name": "Master of Science in Cognitive Science",
+    "short_name": "M.Sc Cognitive Science",
+    "stream_id": "STREAM_SCIENCE_PG",
+    "duration": 2,
+    "duration_unit": "years",
+    "delivery_mode": "Full-time",
+    "accepted_exams": ["EXAM_ENTRANCE"],
+    "specializations": ["SPEC_COGNITIVE_SCIENCE", "SPEC_NEUROSCIENCE", "SPEC_AI_COGNITION"]
+  },
+  {
+    "program_id": "PROGRAM_MSC_BIOINFORMATICS",
+    "name": "Master of Science in Bioinformatics",
+    "short_name": "M.Sc Bioinformatics",
+    "stream_id": "STREAM_SCIENCE_PG",
+    "duration": 2,
+    "duration_unit": "years",
+    "delivery_mode": "Full-time",
+    "accepted_exams": ["EXAM_ENTRANCE"],
+    "specializations": ["SPEC_BIOINFORMATICS", "SPEC_COMPUTATIONAL_BIOLOGY", "SPEC_GENOMICS"]
+  },
+  {
+    "program_id": "PROGRAM_MTECH_MACHINE_LEARNING",
+    "name": "Master of Technology in Machine Learning",
+    "short_name": "M.Tech Machine Learning",
+    "stream_id": "STREAM_ENGINEERING_PG",
+    "duration": 2,
+    "duration_unit": "years",
+    "delivery_mode": "Full-time",
+    "accepted_exams": ["EXAM_GATE"],
+    "specializations": ["SPEC_MACHINE_LEARNING", "SPEC_AI_ML", "SPEC_DATA_SCIENCE", "SPEC_DEEP_LEARNING"]
+  },
+  {
+    "program_id": "PROGRAM_MTECH_AI",
+    "name": "Master of Technology in Artificial Intelligence",
+    "short_name": "M.Tech AI",
+    "stream_id": "STREAM_ENGINEERING_PG",
+    "duration": 2,
+    "duration_unit": "years",
+    "delivery_mode": "Full-time",
+    "accepted_exams": ["EXAM_GATE"],
+    "specializations": ["SPEC_AI_ML", "SPEC_NATURAL_LANGUAGE_PROCESSING", "SPEC_COMPUTER_VISION", "SPEC_ROBOTICS"]
+  },
+  {
+    "program_id": "PROGRAM_MTECH_CYBER_SECURITY",
+    "name": "Master of Technology in Cyber Security",
+    "short_name": "M.Tech Cyber Security",
+    "stream_id": "STREAM_ENGINEERING_PG",
+    "duration": 2,
+    "duration_unit": "years",
+    "delivery_mode": "Full-time",
+    "accepted_exams": ["EXAM_GATE"],
+    "specializations": ["SPEC_CYBER_SECURITY", "SPEC_NETWORK_SECURITY", "SPEC_CRYPTOGRAPHY", "SPEC_ETHICAL_HACKING"]
+  },
+  {
+    "program_id": "PROGRAM_MBA_BUSINESS_ANALYTICS",
+    "name": "Master of Business Administration in Business Analytics",
+    "short_name": "MBA Business Analytics",
+    "stream_id": "STREAM_MANAGEMENT_PG",
+    "duration": 2,
+    "duration_unit": "years",
+    "delivery_mode": "Full-time",
+    "accepted_exams": ["EXAM_CAT", "EXAM_XAT"],
+    "specializations": ["SPEC_BUSINESS_ANALYTICS", "SPEC_DATA_SCIENCE", "SPEC_FINANCIAL_ANALYTICS"]
+  },
+  {
+    "program_id": "PROGRAM_MBA_FINTECH",
+    "name": "Master of Business Administration in FinTech",
+    "short_name": "MBA FinTech",
+    "stream_id": "STREAM_MANAGEMENT_PG",
+    "duration": 2,
+    "duration_unit": "years",
+    "delivery_mode": "Full-time",
+    "accepted_exams": ["EXAM_CAT", "EXAM_XAT"],
+    "specializations": ["SPEC_FINTECH", "SPEC_BLOCKCHAIN", "SPEC_FINANCIAL_TECHNOLOGY"]
+  },
+  {
+    "program_id": "PROGRAM_INTEGRATED_MTECH_PHD",
+    "name": "Integrated M.Tech + Ph.D (IISER Model)",
+    "short_name": "Integrated M.Tech + Ph.D",
+    "stream_id": "STREAM_ENGINEERING_UG",
+    "duration": 5,
+    "duration_unit": "years",
+    "delivery_mode": "Full-time",
+    "accepted_exams": ["EXAM_JEE_MAIN", "EXAM_JEE_ADVANCED"],
+    "specializations": ["SPEC_AI_ML", "SPEC_DATA_SCIENCE", "SPEC_ROBOTICS"]
+  },
+  {
+    "program_id": "PROGRAM_INTEGRATED_MBA_IIM",
+    "name": "Integrated BA + MBA (IIM Model)",
+    "short_name": "Integrated BA + MBA",
+    "stream_id": "STREAM_MANAGEMENT_UG",
+    "duration": 5,
+    "duration_unit": "years",
+    "delivery_mode": "Full-time",
+    "accepted_exams": ["EXAM_CAT", "EXAM_MERIT"],
+    "specializations": ["SPEC_FINANCE", "SPEC_MARKETING", "SPEC_BUSINESS_ANALYTICS"]
+  },
+  {
+    "program_id": "PROGRAM_BTECH_MS_INTERNATIONAL",
+    "name": "B.Tech + MS International Pathway",
+    "short_name": "B.Tech + MS (International)",
+    "stream_id": "STREAM_ENGINEERING_UG",
+    "duration": 5,
+    "duration_unit": "years",
+    "delivery_mode": "Full-time",
+    "accepted_exams": ["EXAM_JEE_MAIN"],
+    "specializations": ["SPEC_CSE", "SPEC_ECE", "SPEC_MECH"]
+  },
+  {
+    "program_id": "PROGRAM_BA_LIBERAL_ARTS",
+    "name": "Bachelor of Arts in Liberal Arts",
+    "short_name": "B.A Liberal Arts",
+    "stream_id": "STREAM_ARTS_UG",
+    "duration": 3,
+    "duration_unit": "years",
+    "delivery_mode": "Full-time",
+    "accepted_exams": [],
+    "specializations": ["SPEC_INTERDISCIPLINARY_STUDIES", "SPEC_CRITICAL_THINKING"]
+  },
+  {
+    "program_id": "PROGRAM_BSC_ENVIRONMENTAL_SCIENCE",
+    "name": "Bachelor of Science in Environmental Science",
+    "short_name": "B.Sc Environmental Science",
+    "stream_id": "STREAM_SCIENCE_UG",
+    "duration": 3,
+    "duration_unit": "years",
+    "delivery_mode": "Full-time",
+    "accepted_exams": [],
+    "specializations": ["SPEC_ENVIRONMENTAL_SCIENCE", "SPEC_SUSTAINABILITY", "SPEC_CLIMATE_SCIENCE"]
+  },
+  {
+    "program_id": "PROGRAM_BTECH_RENEWABLE_ENERGY",
+    "name": "Bachelor of Technology in Renewable Energy",
+    "short_name": "B.Tech Renewable Energy",
+    "stream_id": "STREAM_ENGINEERING_UG",
+    "duration": 4,
+    "duration_unit": "years",
+    "delivery_mode": "Full-time",
+    "accepted_exams": ["EXAM_JEE_MAIN", "EXAM_JEE_ADVANCED"],
+    "specializations": ["SPEC_RENEWABLE_ENERGY", "SPEC_SOLAR_ENERGY", "SPEC_WIND_ENERGY"]
+  }
+]

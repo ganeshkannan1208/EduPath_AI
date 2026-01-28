@@ -1,0 +1,7 @@
+[
+  { "level": "L1", "name": "Beginner" },
+  { "level": "L2", "name": "Intermediate" },
+  { "level": "L3", "name": "Advanced" },
+  { "level": "L4", "name": "Professional" },
+  { "level": "L5", "name": "Expert" }
+]

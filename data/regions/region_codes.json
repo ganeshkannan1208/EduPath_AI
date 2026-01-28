@@ -1,0 +1,21 @@
+[
+  { "region_id": "REG_INDIA", "name": "India", "type": "national" },
+  { "region_id": "REG_TAMIL_NADU", "name": "Tamil Nadu", "type": "state" },
+  { "region_id": "REG_KARNATAKA", "name": "Karnataka", "type": "state" },
+  { "region_id": "REG_MAHARASHTRA", "name": "Maharashtra", "type": "state" },
+  { "region_id": "REG_TELANGANA", "name": "Telangana", "type": "state" },
+  { "region_id": "REG_DELHI_NCR", "name": "Delhi NCR", "type": "metro_cluster" },
+  { "region_id": "REG_GUJARAT", "name": "Gujarat", "type": "state" },
+  { "region_id": "REG_WEST_BENGAL", "name": "West Bengal", "type": "state" },
+  { "region_id": "REG_CHENNAI", "name": "Chennai", "type": "city" },
+  { "region_id": "REG_COIMBATORE", "name": "Coimbatore", "type": "city" },
+  { "region_id": "REG_BANGALORE", "name": "Bangalore", "type": "city" },
+  { "region_id": "REG_MYSORE", "name": "Mysore", "type": "city" },
+  { "region_id": "REG_HYDERABAD", "name": "Hyderabad", "type": "city" },
+  { "region_id": "REG_PUNE", "name": "Pune", "type": "city" },
+  { "region_id": "REG_MUMBAI", "name": "Mumbai", "type": "city" },
+  { "region_id": "REG_AHMEDABAD", "name": "Ahmedabad", "type": "city" },
+  { "region_id": "REG_KOLKATA", "name": "Kolkata", "type": "city" },
+  { "region_id": "REG_NOIDA", "name": "Noida", "type": "city" },
+  { "region_id": "REG_GURUGRAM", "name": "Gurugram", "type": "city" }
+]

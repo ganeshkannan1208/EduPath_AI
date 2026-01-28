@@ -1,0 +1,903 @@
+{
+  "examCategories": [
+    {
+      "category": "Engineering",
+      "exams": [
+        {
+          "exam_id": "EXAM_JEE_MAIN",
+          "name": "JEE Main",
+          "exam_level": "UG-entry",
+          "exam_type": "Entrance",
+          "conducting_body": "NTA",
+          "scope": "National",
+          "eligibility_rules": {
+            "min_qualification": "12th Science",
+            "required_subjects": ["Physics", "Chemistry", "Mathematics"],
+            "age_limit": "No limit",
+            "attempt_limit": "3 times per year"
+          },
+          "frequency": "4 times yearly",
+          "programs_unlocked": ["B.Tech", "B.E", "B.Arch", "B.Plan"],
+          "jobs_unlocked": ["Engineer", "Civil Engineer", "Mechanical Engineer", "Electrical Engineer", "Software Engineer", "Architect"],
+          "mode": "Online",
+          "pattern": {
+            "sections": ["Physics", "Chemistry", "Mathematics"],
+            "total_marks": "300",
+            "duration_minutes": "180"
+          },
+          "notes": "Gateway to IITs and NITs"
+        },
+        {
+          "exam_id": "EXAM_JEE_ADVANCED",
+          "name": "JEE Advanced",
+          "exam_level": "UG-entry",
+          "exam_type": "Entrance",
+          "conducting_body": "IIT",
+          "scope": "National",
+          "eligibility_rules": {
+            "min_qualification": "12th Science",
+            "required_subjects": ["Physics", "Chemistry", "Mathematics"],
+            "age_limit": "Below 25 years",
+            "attempt_limit": "2 consecutive years"
+          },
+          "frequency": "Yearly",
+          "programs_unlocked": ["B.Tech at IITs", "B.S at IITs", "Dual Degree Programs"],
+          "jobs_unlocked": ["IIT Engineer", "Research Engineer", "Core Sector Engineer"],
+          "mode": "Online",
+          "pattern": {
+            "sections": ["Physics", "Chemistry", "Mathematics"],
+            "total_marks": "360",
+            "duration_minutes": "180"
+          },
+          "notes": "Only top 2,50,000 JEE Main qualifiers can appear"
+        },
+        {
+          "exam_id": "EXAM_BITSAT",
+          "name": "BITSAT",
+          "exam_level": "UG-entry",
+          "exam_type": "Entrance",
+          "conducting_body": "BITS Pilani",
+          "scope": "National",
+          "eligibility_rules": {
+            "min_qualification": "12th Science",
+            "required_subjects": ["Physics", "Chemistry", "Mathematics"],
+            "age_limit": "No limit",
+            "attempt_limit": "No limit"
+          },
+          "frequency": "Yearly",
+          "programs_unlocked": ["B.E", "B.Pharm", "M.Sc", "Dual Degree"],
+          "jobs_unlocked": ["Engineer", "Pharmacist", "Scientist"],
+          "mode": "Online",
+          "pattern": {
+            "sections": ["Physics", "Chemistry", "Mathematics", "English", "Logical Reasoning"],
+            "total_marks": "450",
+            "duration_minutes": "180"
+          },
+          "notes": ""
+        },
+        {
+          "exam_id": "EXAM_VITEEE",
+          "name": "VITEEE",
+          "exam_level": "UG-entry",
+          "exam_type": "Entrance",
+          "conducting_body": "VIT University",
+          "scope": "National",
+          "eligibility_rules": {
+            "min_qualification": "12th Science",
+            "required_subjects": ["Physics", "Chemistry", "Mathematics"],
+            "age_limit": "No limit",
+            "attempt_limit": "No limit"
+          },
+          "frequency": "Yearly",
+          "programs_unlocked": ["B.Tech", "B.Tech + M.Tech"],
+          "jobs_unlocked": ["Engineer", "Software Developer"],
+          "mode": "Online",
+          "pattern": {
+            "sections": ["Physics", "Chemistry", "Mathematics"],
+            "total_marks": "150",
+            "duration_minutes": "150"
+          },
+          "notes": ""
+        },
+        {
+          "exam_id": "EXAM_SRMJEEE",
+          "name": "SRMJEEE",
+          "exam_level": "UG-entry",
+          "exam_type": "Entrance",
+          "conducting_body": "SRM Institute of Science and Technology",
+          "scope": "National",
+          "eligibility_rules": {
+            "min_qualification": "12th Science",
+            "required_subjects": ["Physics", "Chemistry", "Mathematics"],
+            "age_limit": "No limit",
+            "attempt_limit": "No limit"
+          },
+          "frequency": "Yearly",
+          "programs_unlocked": ["B.Tech", "B.Tech + MBA"],
+          "jobs_unlocked": ["Engineer", "Software Developer"],
+          "mode": "Online",
+          "pattern": {
+            "sections": ["Physics", "Chemistry", "Mathematics"],
+            "total_marks": "155",
+            "duration_minutes": "120"
+          },
+          "notes": ""
+        },
+        {
+          "exam_id": "EXAM_COMEDK",
+          "name": "COMEDK",
+          "exam_level": "UG-entry",
+          "exam_type": "Entrance",
+          "conducting_body": "Confederation of Medical Education & Accreditation (India)",
+          "scope": "South India",
+          "eligibility_rules": {
+            "min_qualification": "12th Science",
+            "required_subjects": ["Physics", "Chemistry", "Mathematics"],
+            "age_limit": "No limit",
+            "attempt_limit": "No limit"
+          },
+          "frequency": "Yearly",
+          "programs_unlocked": ["B.Tech", "B.Tech + M.Tech"],
+          "jobs_unlocked": ["Engineer", "Software Developer"],
+          "mode": "Online",
+          "pattern": {
+            "sections": ["Physics", "Chemistry", "Mathematics"],
+            "total_marks": "180",
+            "duration_minutes": "180"
+          },
+          "notes": "Primarily for South Indian colleges"
+        },
+        {
+          "exam_id": "EXAM_WBJEE",
+          "name": "WBJEE",
+          "exam_level": "UG-entry",
+          "exam_type": "Entrance",
+          "conducting_body": "West Bengal Joint Entrance Examination Board",
+          "scope": "State",
+          "eligibility_rules": {
+            "min_qualification": "12th Science",
+            "required_subjects": ["Physics", "Chemistry", "Mathematics"],
+            "age_limit": "No limit",
+            "attempt_limit": "No limit"
+          },
+          "frequency": "Yearly",
+          "programs_unlocked": ["B.Tech", "B.E"],
+          "jobs_unlocked": ["Engineer"],
+          "mode": "Online",
+          "pattern": {
+            "sections": ["Physics-Chemistry", "Mathematics"],
+            "total_marks": "200",
+            "duration_minutes": "120"
+          },
+          "notes": "For West Bengal colleges"
+        },
+        {
+          "exam_id": "EXAM_MHT_CET",
+          "name": "MHT CET",
+          "exam_level": "UG-entry",
+          "exam_type": "Entrance",
+          "conducting_body": "Maharashtra State Board of Secondary and Higher Secondary Education",
+          "scope": "State",
+          "eligibility_rules": {
+            "min_qualification": "12th Science",
+            "required_subjects": ["Physics", "Chemistry", "Mathematics"],
+            "age_limit": "No limit",
+            "attempt_limit": "No limit"
+          },
+          "frequency": "Yearly",
+          "programs_unlocked": ["B.Tech", "B.E", "B.Pharm"],
+          "jobs_unlocked": ["Engineer", "Pharmacist"],
+          "mode": "Online",
+          "pattern": {
+            "sections": ["Physics-Chemistry", "Mathematics"],
+            "total_marks": "200",
+            "duration_minutes": "180"
+          },
+          "notes": "For Maharashtra colleges"
+        },
+        {
+          "exam_id": "EXAM_KEAM",
+          "name": "KEAM",
+          "exam_level": "UG-entry",
+          "exam_type": "Entrance",
+          "conducting_body": "Commissioner for Entrance Examinations, Kerala",
+          "scope": "State",
+          "eligibility_rules": {
+            "min_qualification": "12th Science",
+            "required_subjects": ["Physics", "Chemistry", "Mathematics"],
+            "age_limit": "No limit",
+            "attempt_limit": "No limit"
+          },
+          "frequency": "Yearly",
+          "programs_unlocked": ["B.Tech", "B.Pharm"],
+          "jobs_unlocked": ["Engineer", "Pharmacist"],
+          "mode": "Offline",
+          "pattern": {
+            "sections": ["Physics", "Chemistry", "Mathematics"],
+            "total_marks": "300",
+            "duration_minutes": "150"
+          },
+          "notes": "For Kerala colleges"
+        },
+        {
+          "exam_id": "EXAM_KCET",
+          "name": "KCET",
+          "exam_level": "UG-entry",
+          "exam_type": "Entrance",
+          "conducting_body": "Directorate of Admissions, Government of Karnataka",
+          "scope": "State",
+          "eligibility_rules": {
+            "min_qualification": "12th Science",
+            "required_subjects": ["Physics", "Chemistry", "Mathematics"],
+            "age_limit": "No limit",
+            "attempt_limit": "No limit"
+          },
+          "frequency": "Yearly",
+          "programs_unlocked": ["B.Tech", "B.Pharm"],
+          "jobs_unlocked": ["Engineer", "Pharmacist"],
+          "mode": "Offline",
+          "pattern": {
+            "sections": ["Physics", "Chemistry", "Mathematics"],
+            "total_marks": "300",
+            "duration_minutes": "180"
+          },
+          "notes": "For Karnataka colleges"
+        },
+        {
+          "exam_id": "EXAM_GUJCET",
+          "name": "GUJCET",
+          "exam_level": "UG-entry",
+          "exam_type": "Entrance",
+          "conducting_body": "Gujarat Secondary and Higher Secondary Education Board",
+          "scope": "State",
+          "eligibility_rules": {
+            "min_qualification": "12th Science",
+            "required_subjects": ["Physics", "Chemistry", "Mathematics"],
+            "age_limit": "No limit",
+            "attempt_limit": "No limit"
+          },
+          "frequency": "Yearly",
+          "programs_unlocked": ["B.Tech", "B.Pharm"],
+          "jobs_unlocked": ["Engineer", "Pharmacist"],
+          "mode": "Offline",
+          "pattern": {
+            "sections": ["Physics", "Chemistry", "Mathematics"],
+            "total_marks": "120",
+            "duration_minutes": "120"
+          },
+          "notes": "For Gujarat colleges"
+        }
+      ]
+    },
+    {
+      "category": "Medical",
+      "exams": [
+        {
+          "exam_id": "EXAM_NEET_UG",
+          "name": "NEET UG",
+          "exam_level": "UG-entry",
+          "exam_type": "Entrance",
+          "conducting_body": "NTA",
+          "scope": "National",
+          "eligibility_rules": {
+            "min_qualification": "12th Science",
+            "required_subjects": ["Physics", "Chemistry", "Biology"],
+            "age_limit": "17+",
+            "attempt_limit": "No limit"
+          },
+          "frequency": "Yearly",
+          "programs_unlocked": ["MBBS", "BDS", "BSc Nursing", "BAMS", "BHMS", "BUMS", "BPT", "BSc Paramedical"],
+          "jobs_unlocked": ["Doctor", "Dentist", "Nurse", "Physiotherapist", "Ayurvedic Practitioner", "Homeopathic Practitioner"],
+          "mode": "Offline",
+          "pattern": {
+            "sections": ["Physics", "Chemistry", "Biology"],
+            "total_marks": "720",
+            "duration_minutes": "180"
+          },
+          "notes": ""
+        },
+        {
+          "exam_id": "EXAM_NEET_PG",
+          "name": "NEET PG",
+          "exam_level": "PG-entry",
+          "exam_type": "Entrance",
+          "conducting_body": "NTA",
+          "scope": "National",
+          "eligibility_rules": {
+            "min_qualification": "MBBS or equivalent",
+            "required_subjects": ["General Knowledge", "Medical Science"],
+            "age_limit": "No limit",
+            "attempt_limit": "No limit"
+          },
+          "frequency": "Yearly",
+          "programs_unlocked": ["MD", "MS", "PG Diploma", "DM", "MCh"],
+          "jobs_unlocked": ["Medical Specialist", "Surgeon", "Consultant", "Medical Officer"],
+          "mode": "Online",
+          "pattern": {
+            "sections": ["Medical Science"],
+            "total_marks": "1000",
+            "duration_minutes": "240"
+          },
+          "notes": "For post-graduate medical courses"
+        },
+        {
+          "exam_id": "EXAM_INI_CET",
+          "name": "INI CET",
+          "exam_level": "PG-entry",
+          "exam_type": "Entrance",
+          "conducting_body": "AIIMS",
+          "scope": "National",
+          "eligibility_rules": {
+            "min_qualification": "MBBS or equivalent",
+            "required_subjects": ["Medical Science"],
+            "age_limit": "No limit",
+            "attempt_limit": "No limit"
+          },
+          "frequency": "Yearly",
+          "programs_unlocked": ["MD", "MS", "PG Diploma", "DM", "MCh"],
+          "jobs_unlocked": ["AIIMS Resident", "Medical Specialist"],
+          "mode": "Online",
+          "pattern": {
+            "sections": ["Medical Science"],
+            "total_marks": "400",
+            "duration_minutes": "120"
+          },
+          "notes": "For AIIMS and Delhi colleges"
+        },
+        {
+          "exam_id": "EXAM_FMGE",
+          "name": "FMGE",
+          "exam_level": "Professional",
+          "exam_type": "License Exam",
+          "conducting_body": "National Board of Examinations",
+          "scope": "National",
+          "eligibility_rules": {
+            "min_qualification": "Foreign Medical Graduate",
+            "required_subjects": ["Medicine", "Surgery", "Obstetrics"],
+            "age_limit": "No limit",
+            "attempt_limit": "No limit"
+          },
+          "frequency": "Twice yearly",
+          "programs_unlocked": ["Medical Practice in India", "Medical Internship"],
+          "jobs_unlocked": ["Foreign Doctor in India"],
+          "mode": "Online",
+          "pattern": {
+            "sections": ["General Knowledge", "Medical Science"],
+            "total_marks": "300",
+            "duration_minutes": "180"
+          },
+          "notes": "For foreign medical graduates"
+        },
+        {
+          "exam_id": "EXAM_AIIMS_NURSING",
+          "name": "AIIMS Nursing Entrance",
+          "exam_level": "UG-entry",
+          "exam_type": "Entrance",
+          "conducting_body": "AIIMS",
+          "scope": "National",
+          "eligibility_rules": {
+            "min_qualification": "12th Science",
+            "required_subjects": ["Physics", "Chemistry", "Biology"],
+            "age_limit": "No limit",
+            "attempt_limit": "No limit"
+          },
+          "frequency": "Yearly",
+          "programs_unlocked": ["B.Sc Nursing"],
+          "jobs_unlocked": ["Nurse", "Hospital Staff Nurse", "Nursing Officer"],
+          "mode": "Offline",
+          "pattern": {
+            "sections": ["Physics", "Chemistry", "Biology"],
+            "total_marks": "120",
+            "duration_minutes": "120"
+          },
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "category": "Management",
+      "exams": [
+        {
+          "exam_id": "EXAM_CAT",
+          "name": "CAT",
+          "exam_level": "PG-entry",
+          "exam_type": "Entrance",
+          "conducting_body": "IIM (Rotating)",
+          "scope": "National",
+          "eligibility_rules": {
+            "min_qualification": "Bachelor's degree",
+            "required_subjects": ["Quantitative Aptitude", "Verbal Reasoning"],
+            "age_limit": "No limit",
+            "attempt_limit": "No limit"
+          },
+          "frequency": "Yearly",
+          "programs_unlocked": ["MBA", "PGDM", "Executive MBA"],
+          "jobs_unlocked": ["Business Analyst", "Management Consultant", "Corporate Manager", "Investment Banker"],
+          "mode": "Online",
+          "pattern": {
+            "sections": ["Quantitative Aptitude", "Data Interpretation", "Verbal Ability"],
+            "total_marks": "300",
+            "duration_minutes": "120"
+          },
+          "notes": "Gateway to IIMs"
+        },
+        {
+          "exam_id": "EXAM_XAT",
+          "name": "XAT",
+          "exam_level": "PG-entry",
+          "exam_type": "Entrance",
+          "conducting_body": "XLRI",
+          "scope": "National",
+          "eligibility_rules": {
+            "min_qualification": "Bachelor's degree",
+            "required_subjects": ["Quantitative Aptitude", "Verbal Reasoning"],
+            "age_limit": "No limit",
+            "attempt_limit": "No limit"
+          },
+          "frequency": "Yearly",
+          "programs_unlocked": ["MBA", "PGDM"],
+          "jobs_unlocked": ["Business Analyst", "Management Consultant"],
+          "mode": "Online",
+          "pattern": {
+            "sections": ["Quantitative Aptitude", "Verbal Ability", "Logical Reasoning"],
+            "total_marks": "100",
+            "duration_minutes": "180"
+          },
+          "notes": ""
+        },
+        {
+          "exam_id": "EXAM_MAT",
+          "name": "MAT",
+          "exam_level": "PG-entry",
+          "exam_type": "Entrance",
+          "conducting_body": "All India Management Association",
+          "scope": "National",
+          "eligibility_rules": {
+            "min_qualification": "Bachelor's degree",
+            "required_subjects": ["Quantitative Aptitude", "Verbal Reasoning"],
+            "age_limit": "No limit",
+            "attempt_limit": "No limit"
+          },
+          "frequency": "4 times yearly",
+          "programs_unlocked": ["MBA", "PGDM"],
+          "jobs_unlocked": ["Business Analyst", "Management Consultant"],
+          "mode": "Online/Offline",
+          "pattern": {
+            "sections": ["Quantitative Aptitude", "Verbal Ability", "Logical Reasoning"],
+            "total_marks": "200",
+            "duration_minutes": "150"
+          },
+          "notes": ""
+        },
+        {
+          "exam_id": "EXAM_CMAT",
+          "name": "CMAT",
+          "exam_level": "PG-entry",
+          "exam_type": "Entrance",
+          "conducting_body": "NTA",
+          "scope": "National",
+          "eligibility_rules": {
+            "min_qualification": "Bachelor's degree",
+            "required_subjects": ["Quantitative Aptitude", "Verbal Reasoning"],
+            "age_limit": "No limit",
+            "attempt_limit": "No limit"
+          },
+          "frequency": "Twice yearly",
+          "programs_unlocked": ["MBA", "PGDM"],
+          "jobs_unlocked": ["Business Analyst", "Management Consultant"],
+          "mode": "Online",
+          "pattern": {
+            "sections": ["Quantitative Aptitude", "Verbal Ability", "Logical Reasoning"],
+            "total_marks": "400",
+            "duration_minutes": "180"
+          },
+          "notes": ""
+        },
+        {
+          "exam_id": "EXAM_SNAP",
+          "name": "SNAP",
+          "exam_level": "PG-entry",
+          "exam_type": "Entrance",
+          "conducting_body": "Symbiosis International University",
+          "scope": "National",
+          "eligibility_rules": {
+            "min_qualification": "Bachelor's degree",
+            "required_subjects": ["Quantitative Aptitude", "Verbal Reasoning"],
+            "age_limit": "No limit",
+            "attempt_limit": "No limit"
+          },
+          "frequency": "Yearly",
+          "programs_unlocked": ["MBA", "PGDM"],
+          "jobs_unlocked": ["Business Analyst", "Management Consultant"],
+          "mode": "Online",
+          "pattern": {
+            "sections": ["General English", "Quantitative Reasoning", "Reasoning Ability"],
+            "total_marks": "150",
+            "duration_minutes": "120"
+          },
+          "notes": ""
+        },
+        {
+          "exam_id": "EXAM_NMAT",
+          "name": "NMAT",
+          "exam_level": "PG-entry",
+          "exam_type": "Entrance",
+          "conducting_body": "Graduate Management Admission Council",
+          "scope": "National",
+          "eligibility_rules": {
+            "min_qualification": "Bachelor's degree",
+            "required_subjects": ["Quantitative Aptitude", "Verbal Reasoning"],
+            "age_limit": "No limit",
+            "attempt_limit": "5 attempts"
+          },
+          "frequency": "Yearly",
+          "programs_unlocked": ["MBA", "PGDM"],
+          "jobs_unlocked": ["Business Analyst", "Management Consultant"],
+          "mode": "Online",
+          "pattern": {
+            "sections": ["Quantitative Reasoning", "Language Skills", "Logical Reasoning"],
+            "total_marks": "360",
+            "duration_minutes": "120"
+          },
+          "notes": ""
+        },
+        {
+          "exam_id": "EXAM_IIFT",
+          "name": "IIFT",
+          "exam_level": "PG-entry",
+          "exam_type": "Entrance",
+          "conducting_body": "Indian Institute of Foreign Trade",
+          "scope": "National",
+          "eligibility_rules": {
+            "min_qualification": "Bachelor's degree",
+            "required_subjects": ["Quantitative Aptitude", "Verbal Reasoning"],
+            "age_limit": "No limit",
+            "attempt_limit": "No limit"
+          },
+          "frequency": "Yearly",
+          "programs_unlocked": ["MBA in International Business", "PGDM in IB"],
+          "jobs_unlocked": ["International Business Consultant", "Trade Analyst"],
+          "mode": "Online",
+          "pattern": {
+            "sections": ["Quantitative Aptitude", "Verbal Ability", "Logical Reasoning"],
+            "total_marks": "100",
+            "duration_minutes": "120"
+          },
+          "notes": "For international business programs"
+        }
+      ]
+    },
+    {
+      "category": "Law",
+      "exams": [
+        {
+          "exam_id": "EXAM_CLAT_UG",
+          "name": "CLAT UG",
+          "exam_level": "UG-entry",
+          "exam_type": "Entrance",
+          "conducting_body": "Consortium of National Law Universities",
+          "scope": "National",
+          "eligibility_rules": {
+            "min_qualification": "12th Pass",
+            "required_subjects": ["English", "General Knowledge"],
+            "age_limit": "No limit",
+            "attempt_limit": "No limit"
+          },
+          "frequency": "Yearly",
+          "programs_unlocked": ["BA LLB", "B.Com LLB", "B.A. LLB (Hons)"],
+          "jobs_unlocked": ["Lawyer", "Advocate", "Legal Consultant", "Notary"],
+          "mode": "Online",
+          "pattern": {
+            "sections": ["English", "General Knowledge", "Legal Reasoning"],
+            "total_marks": "150",
+            "duration_minutes": "120"
+          },
+          "notes": "For top law schools"
+        },
+        {
+          "exam_id": "EXAM_CLAT_PG",
+          "name": "CLAT PG",
+          "exam_level": "PG-entry",
+          "exam_type": "Entrance",
+          "conducting_body": "Consortium of National Law Universities",
+          "scope": "National",
+          "eligibility_rules": {
+            "min_qualification": "Bachelor's in Law",
+            "required_subjects": ["Legal Knowledge"],
+            "age_limit": "No limit",
+            "attempt_limit": "No limit"
+          },
+          "frequency": "Yearly",
+          "programs_unlocked": ["M.A. LLB", "M.Com LLB", "LL.M"],
+          "jobs_unlocked": ["Legal Expert", "Law Professor", "Advocate"],
+          "mode": "Online",
+          "pattern": {
+            "sections": ["English", "Legal Knowledge", "Logical Reasoning"],
+            "total_marks": "150",
+            "duration_minutes": "120"
+          },
+          "notes": "For post-graduate law programs"
+        },
+        {
+          "exam_id": "EXAM_AILET",
+          "name": "AILET",
+          "exam_level": "UG-entry",
+          "exam_type": "Entrance",
+          "conducting_body": "Delhi University",
+          "scope": "National",
+          "eligibility_rules": {
+            "min_qualification": "12th Pass",
+            "required_subjects": ["English", "General Knowledge"],
+            "age_limit": "No limit",
+            "attempt_limit": "No limit"
+          },
+          "frequency": "Yearly",
+          "programs_unlocked": ["BA LLB", "B.Com LLB"],
+          "jobs_unlocked": ["Lawyer", "Advocate", "Legal Consultant"],
+          "mode": "Online",
+          "pattern": {
+            "sections": ["English", "General Knowledge", "Legal Reasoning"],
+            "total_marks": "150",
+            "duration_minutes": "120"
+          },
+          "notes": "For Delhi University law programs"
+        },
+        {
+          "exam_id": "EXAM_LSAT_INDIA",
+          "name": "LSAT India",
+          "exam_level": "UG-entry",
+          "exam_type": "Entrance",
+          "conducting_body": "Law School Admission Council",
+          "scope": "National",
+          "eligibility_rules": {
+            "min_qualification": "12th Pass",
+            "required_subjects": ["English", "Reasoning"],
+            "age_limit": "No limit",
+            "attempt_limit": "No limit"
+          },
+          "frequency": "Multiple times yearly",
+          "programs_unlocked": ["BA LLB", "B.Com LLB"],
+          "jobs_unlocked": ["Lawyer", "Advocate", "Legal Consultant"],
+          "mode": "Online",
+          "pattern": {
+            "sections": ["Logical Reasoning", "Reading Comprehension", "Analytical Reasoning"],
+            "total_marks": "120",
+            "duration_minutes": "135"
+          },
+          "notes": "Accepted by multiple law schools"
+        }
+      ]
+    },
+    {
+      "category": "Architecture & Design",
+      "exams": [
+        {
+          "exam_id": "EXAM_NATA",
+          "name": "NATA",
+          "exam_level": "UG-entry",
+          "exam_type": "Entrance",
+          "conducting_body": "Council of Architecture",
+          "scope": "National",
+          "eligibility_rules": {
+            "min_qualification": "12th Pass",
+            "required_subjects": ["Physics", "Chemistry", "Mathematics"],
+            "age_limit": "No limit",
+            "attempt_limit": "2 times per year"
+          },
+          "frequency": "Twice yearly",
+          "programs_unlocked": ["B.Arch", "B.Planning"],
+          "jobs_unlocked": ["Architect", "Urban Planner", "Interior Designer"],
+          "mode": "Online",
+          "pattern": {
+            "sections": ["Drawing", "Aptitude", "Mathematics"],
+            "total_marks": "200",
+            "duration_minutes": "180"
+          },
+          "notes": "For architecture programs"
+        },
+        {
+          "exam_id": "EXAM_NID_DAT",
+          "name": "NID DAT",
+          "exam_level": "UG-entry",
+          "exam_type": "Entrance",
+          "conducting_body": "National Institute of Design",
+          "scope": "National",
+          "eligibility_rules": {
+            "min_qualification": "12th Pass",
+            "required_subjects": ["General Knowledge"],
+            "age_limit": "No limit",
+            "attempt_limit": "No limit"
+          },
+          "frequency": "Yearly",
+          "programs_unlocked": ["B.Des", "B.A. Design", "Graphic Design"],
+          "jobs_unlocked": ["Designer", "Graphic Designer", "Product Designer"],
+          "mode": "Online",
+          "pattern": {
+            "sections": ["General Aptitude", "Design Aptitude"],
+            "total_marks": "100",
+            "duration_minutes": "120"
+          },
+          "notes": "For design programs"
+        },
+        {
+          "exam_id": "EXAM_NIFT",
+          "name": "NIFT",
+          "exam_level": "UG-entry",
+          "exam_type": "Entrance",
+          "conducting_body": "National Institute of Fashion Technology",
+          "scope": "National",
+          "eligibility_rules": {
+            "min_qualification": "12th Pass",
+            "required_subjects": ["General Knowledge"],
+            "age_limit": "No limit",
+            "attempt_limit": "No limit"
+          },
+          "frequency": "Yearly",
+          "programs_unlocked": ["B.Des Fashion", "B.Tech Fashion Technology"],
+          "jobs_unlocked": ["Fashion Designer", "Costume Designer", "Textile Designer"],
+          "mode": "Online",
+          "pattern": {
+            "sections": ["General Aptitude", "Reasoning", "Design Thinking"],
+            "total_marks": "200",
+            "duration_minutes": "150"
+          },
+          "notes": "For fashion programs"
+        },
+        {
+          "exam_id": "EXAM_UCEED",
+          "name": "UCEED",
+          "exam_level": "UG-entry",
+          "exam_type": "Entrance",
+          "conducting_body": "IIT Bombay",
+          "scope": "National",
+          "eligibility_rules": {
+            "min_qualification": "12th Pass",
+            "required_subjects": ["Physics", "Chemistry", "Mathematics"],
+            "age_limit": "No limit",
+            "attempt_limit": "No limit"
+          },
+          "frequency": "Yearly",
+          "programs_unlocked": ["B.Des", "B.Tech Design"],
+          "jobs_unlocked": ["Product Designer", "Industrial Designer", "UX Designer"],
+          "mode": "Online",
+          "pattern": {
+            "sections": ["Numerical Answer", "Multiple Choice", "Reasoning"],
+            "total_marks": "100",
+            "duration_minutes": "120"
+          },
+          "notes": "For design engineering programs"
+        },
+        {
+          "exam_id": "EXAM_CEED",
+          "name": "CEED",
+          "exam_level": "PG-entry",
+          "exam_type": "Entrance",
+          "conducting_body": "IIT Bombay",
+          "scope": "National",
+          "eligibility_rules": {
+            "min_qualification": "Bachelor's degree",
+            "required_subjects": ["Design Knowledge"],
+            "age_limit": "No limit",
+            "attempt_limit": "No limit"
+          },
+          "frequency": "Yearly",
+          "programs_unlocked": ["M.Des", "M.Tech Design"],
+          "jobs_unlocked": ["Design Consultant", "Senior Designer", "Design Lead"],
+          "mode": "Online",
+          "pattern": {
+            "sections": ["Numeric Answer", "Multiple Choice", "Portfolio"],
+            "total_marks": "100",
+            "duration_minutes": "120"
+          },
+          "notes": "For post-graduate design programs"
+        }
+      ]
+    },
+    {
+      "category": "Agriculture",
+      "exams": [
+        {
+          "exam_id": "EXAM_ICAR_AIEEA",
+          "name": "ICAR AIEEA",
+          "exam_level": "UG-entry",
+          "exam_type": "Entrance",
+          "conducting_body": "ICAR",
+          "scope": "National",
+          "eligibility_rules": {
+            "min_qualification": "12th Science",
+            "required_subjects": ["Physics", "Chemistry", "Biology"],
+            "age_limit": "No limit",
+            "attempt_limit": "No limit"
+          },
+          "frequency": "Yearly",
+          "programs_unlocked": ["B.Sc Agriculture", "B.Sc Horticulture", "B.Sc Fisheries"],
+          "jobs_unlocked": ["Agricultural Officer", "Farmer", "Agricultural Scientist"],
+          "mode": "Online",
+          "pattern": {
+            "sections": ["Physics", "Chemistry", "Biology"],
+            "total_marks": "480",
+            "duration_minutes": "180"
+          },
+          "notes": "For agricultural programs"
+        },
+        {
+          "exam_id": "EXAM_STATE_AGRICULTURE",
+          "name": "State Agriculture Exams",
+          "exam_level": "UG-entry",
+          "exam_type": "Entrance",
+          "conducting_body": "State Agricultural Universities",
+          "scope": "State",
+          "eligibility_rules": {
+            "min_qualification": "12th Science",
+            "required_subjects": ["Physics", "Chemistry", "Biology"],
+            "age_limit": "No limit",
+            "attempt_limit": "No limit"
+          },
+          "frequency": "Yearly",
+          "programs_unlocked": ["B.Sc Agriculture", "B.Sc Horticulture"],
+          "jobs_unlocked": ["Agricultural Officer", "Farmer"],
+          "mode": "Offline/Online",
+          "pattern": {
+            "sections": ["Physics", "Chemistry", "Biology"],
+            "total_marks": "300",
+            "duration_minutes": "150"
+          },
+          "notes": "Varies by state"
+        }
+      ]
+    },
+    {
+      "category": "CUET (Multi-disciplinary)",
+      "exams": [
+        {
+          "exam_id": "EXAM_CUET_UG",
+          "name": "CUET UG",
+          "exam_level": "UG-entry",
+          "exam_type": "Entrance",
+          "conducting_body": "NTA",
+          "scope": "National",
+          "eligibility_rules": {
+            "min_qualification": "12th Pass",
+            "required_subjects": ["English", "Domain Subjects"],
+            "age_limit": "No limit",
+            "attempt_limit": "No limit"
+          },
+          "frequency": "Yearly",
+          "programs_unlocked": ["Bachelor's in any field", "BA", "B.Com", "B.Sc"],
+          "jobs_unlocked": ["Graduate Professional", "Manager", "Analyst"],
+          "mode": "Online",
+          "pattern": {
+            "sections": ["English", "Domain Subjects", "General Knowledge"],
+            "total_marks": "720",
+            "duration_minutes": "180"
+          },
+          "notes": "For central universities"
+        },
+        {
+          "exam_id": "EXAM_CUET_PG",
+          "name": "CUET PG",
+          "exam_level": "PG-entry",
+          "exam_type": "Entrance",
+          "conducting_body": "NTA",
+          "scope": "National",
+          "eligibility_rules": {
+            "min_qualification": "Bachelor's degree",
+            "required_subjects": ["Subject Knowledge"],
+            "age_limit": "No limit",
+            "attempt_limit": "No limit"
+          },
+          "frequency": "Yearly",
+          "programs_unlocked": ["Master's in any field", "MA", "M.Com", "M.Sc"],
+          "jobs_unlocked": ["Senior Analyst", "Specialist", "Academic Professional"],
+          "mode": "Online",
+          "pattern": {
+            "sections": ["Subject Knowledge", "General Knowledge"],
+            "total_marks": "500",
+            "duration_minutes": "120"
+          },
+          "notes": "For central universities PG programs"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2192 @@
+[
+  {
+    "job_id": "JOB_SOFTWARE_ENGINEER",
+    "title": "Software Engineer",
+    "domain": "Engineering",
+    "related_specializations": ["SPEC_CSE", "SPEC_IT", "SPEC_AI_ML", "SPEC_DATA_SCIENCE"],
+    "related_skills": [
+      "SKILL_PROGRAMMING",
+      "SKILL_SYSTEM_DESIGN",
+      "SKILL_ALGORITHMS",
+      "SKILL_DATABASES",
+      "SKILL_VERSION_CONTROL"
+    ],
+    "related_certifications": [
+      "CERT_JAVA",
+      "CERT_PYTHON",
+      "CERT_AWS_SOLUTIONS_ARCHITECT",
+      "CERT_GOOGLE_CLOUD_ENGINEER"
+    ]
+  },
+  {
+    "job_id": "JOB_FULLSTACK_DEVELOPER",
+    "title": "Full Stack Developer",
+    "domain": "Engineering",
+    "related_specializations": ["SPEC_CSE", "SPEC_IT"],
+    "related_skills": [
+      "SKILL_FRONTEND",
+      "SKILL_BACKEND",
+      "SKILL_DATABASES",
+      "SKILL_WEB_FRAMEWORKS",
+      "SKILL_VERSION_CONTROL"
+    ],
+    "related_certifications": [
+      "CERT_FRONTEND_DEVELOPER",
+      "CERT_BACKEND_DEVELOPER",
+      "CERT_FULLSTACK_DEVELOPER"
+    ]
+  },
+  {
+    "job_id": "JOB_DATA_SCIENTIST",
+    "title": "Data Scientist",
+    "domain": "Engineering",
+    "related_specializations": ["SPEC_DATA_SCIENCE", "SPEC_AI_ML", "SPEC_MATHEMATICS"],
+    "related_skills": [
+      "SKILL_STATISTICS",
+      "SKILL_MACHINE_LEARNING",
+      "SKILL_PYTHON",
+      "SKILL_SQL",
+      "SKILL_DATA_MODELING"
+    ],
+    "related_certifications": [
+      "CERT_GOOGLE_DATA_ANALYTICS",
+      "CERT_AWS_DATA_ANALYTICS",
+      "CERT_DS_SPECIALIZATION"
+    ]
+  },
+  {
+    "job_id": "JOB_ML_ENGINEER",
+    "title": "Machine Learning Engineer",
+    "domain": "Engineering",
+    "related_specializations": ["SPEC_AI_ML", "SPEC_DEEP_LEARNING"],
+    "related_skills": [
+      "SKILL_MACHINE_LEARNING",
+      "SKILL_MLOPS",
+      "SKILL_TENSORFLOW",
+      "SKILL_PYTORCH",
+      "SKILL_DATA_PIPELINES"
+    ],
+    "related_certifications": [
+      "CERT_AWS_ML",
+      "CERT_GOOGLE_ML",
+      "CERT_DEEP_LEARNING"
+    ]
+  },
+  {
+    "job_id": "JOB_AI_ENGINEER",
+    "title": "AI Engineer",
+    "domain": "Engineering",
+    "related_specializations": ["SPEC_AI_ML", "SPEC_DEEP_LEARNING"],
+    "related_skills": [
+      "SKILL_AI",
+      "SKILL_DEEP_LEARNING",
+      "SKILL_NEURAL_NETWORKS",
+      "SKILL_PYTHON",
+      "SKILL_MODEL_DEPLOYMENT"
+    ],
+    "related_certifications": [
+      "CERT_AI_ENGINEER",
+      "CERT_DEEP_LEARNING",
+      "CERT_MLOPS_ENGINEER"
+    ]
+  },
+  {
+    "job_id": "JOB_DEVOPS_ENGINEER",
+    "title": "DevOps Engineer",
+    "domain": "Engineering",
+    "related_specializations": ["SPEC_CSE", "SPEC_MLOPS"],
+    "related_skills": [
+      "SKILL_CI_CD",
+      "SKILL_DOCKER",
+      "SKILL_KUBERNETES",
+      "SKILL_CLOUD",
+      "SKILL_MONITORING"
+    ],
+    "related_certifications": [
+      "CERT_DOCKER",
+      "CERT_KUBERNETES",
+      "CERT_AWS_DEVOPS"
+    ]
+  },
+  {
+    "job_id": "JOB_BACKEND_ENGINEER",
+    "title": "Backend Engineer",
+    "domain": "Engineering",
+    "related_specializations": ["SPEC_CSE", "SPEC_IT"],
+    "related_skills": [
+      "SKILL_BACKEND",
+      "SKILL_DATABASES",
+      "SKILL_API_DEVELOPMENT",
+      "SKILL_SYSTEM_DESIGN",
+      "SKILL_MICROSERVICES"
+    ],
+    "related_certifications": [
+      "CERT_BACKEND_DEVELOPER",
+      "CERT_AWS_SOLUTIONS_ARCHITECT",
+      "CERT_GOOGLE_CLOUD_ENGINEER"
+    ]
+  },
+  {
+    "job_id": "JOB_MECHANICAL_ENGINEER",
+    "title": "Mechanical Engineer",
+    "domain": "Engineering",
+    "related_specializations": ["SPEC_MECH", "SPEC_AUTOMOBILE", "SPEC_RENEWABLE_ENERGY"],
+    "related_skills": [
+      "SKILL_CAD",
+      "SKILL_THERMODYNAMICS",
+      "SKILL_MECHANICAL_DESIGN",
+      "SKILL_MANUFACTURING",
+      "SKILL_SIMULATION"
+    ],
+    "related_certifications": [
+      "CERT_CREO",
+      "CERT_SOLIDWORKS",
+      "CERT_ANSYS"
+    ]
+  },
+  {
+    "job_id": "JOB_DESIGN_ENGINEER",
+    "title": "Design Engineer",
+    "domain": "Engineering",
+    "related_specializations": ["SPEC_MECH", "SPEC_AUTOMOBILE", "SPEC_AEROSPACE"],
+    "related_skills": [
+      "SKILL_CAD",
+      "SKILL_3D_MODELING",
+      "SKILL_PROTOTYPING",
+      "SKILL_DESIGN_THINKING",
+      "SKILL_SIMULATION"
+    ],
+    "related_certifications": [
+      "CERT_CREO",
+      "CERT_CATIA",
+      "CERT_ANSYS"
+    ]
+  },
+  {
+    "job_id": "JOB_THERMAL_ENGINEER",
+    "title": "Thermal Engineer",
+    "domain": "Engineering",
+    "related_specializations": ["SPEC_MECH", "SPEC_RENEWABLE_ENERGY"],
+    "related_skills": [
+      "SKILL_THERMODYNAMICS",
+      "SKILL_HEAT_TRANSFER",
+      "SKILL_CFD",
+      "SKILL_ENERGY_SYSTEMS"
+    ],
+    "related_certifications": [
+      "CERT_ANSYS_CFD",
+      "CERT_THERMAL_SIMULATION"
+    ]
+  },
+  {
+    "job_id": "JOB_CIVIL_ENGINEER",
+    "title": "Civil Engineer",
+    "domain": "Engineering",
+    "related_specializations": ["SPEC_CIVIL", "SPEC_INFRASTRUCTURE"],
+    "related_skills": [
+      "SKILL_STRUCTURAL_ANALYSIS",
+      "SKILL_AUTOCAD",
+      "SKILL_CONSTRUCTION",
+      "SKILL_PROJECT_MANAGEMENT",
+      "SKILL_BIM"
+    ],
+    "related_certifications": [
+      "CERT_AUTOCAD",
+      "CERT_STAAD_PRO",
+      "CERT_REVIT"
+    ]
+  },
+  {
+    "job_id": "JOB_STRUCTURAL_ENGINEER",
+    "title": "Structural Engineer",
+    "domain": "Engineering",
+    "related_specializations": ["SPEC_CIVIL"],
+    "related_skills": [
+      "SKILL_STRUCTURAL_DESIGN",
+      "SKILL_STAAD",
+      "SKILL_FOUNDATION_DESIGN",
+      "SKILL_BRIDGE_DESIGN"
+    ],
+    "related_certifications": [
+      "CERT_STAAD_PRO",
+      "CERT_REVIT_STRUCTURE",
+      "CERT_SAFE"
+    ]
+  },
+  {
+    "job_id": "JOB_SITE_ENGINEER",
+    "title": "Site Engineer",
+    "domain": "Engineering",
+    "related_specializations": ["SPEC_CIVIL"],
+    "related_skills": [
+      "SKILL_SITE_MANAGEMENT",
+      "SKILL_CONSTRUCTION_PLANNING",
+      "SKILL_QUALITY_CONTROL",
+      "SKILL_SAFETY_MANAGEMENT"
+    ],
+    "related_certifications": [
+      "CERT_SITE_ENGINEER",
+      "CERT_CONSTRUCTION_MANAGEMENT",
+      "CERT_SAFETY_OFFICER"
+    ]
+  },
+  {
+    "job_id": "JOB_EMBEDDED_SYSTEMS_ENGINEER",
+    "title": "Embedded Systems Engineer",
+    "domain": "Engineering",
+    "related_specializations": ["SPEC_ECE", "SPEC_EMBEDDED_SYSTEMS", "SPEC_IOT"],
+    "related_skills": [
+      "SKILL_MICROCONTROLLERS",
+      "SKILL_EMBEDDED_C",
+      "SKILL_HARDWARE_DESIGN",
+      "SKILL_RTOS"
+    ],
+    "related_certifications": [
+      "CERT_ARM_CORTEX",
+      "CERT_EMBEDDED_SYSTEMS",
+      "CERT_FREERTOS"
+    ]
+  },
+  {
+    "job_id": "JOB_FIRMWARE_ENGINEER",
+    "title": "Firmware Engineer",
+    "domain": "Engineering",
+    "related_specializations": ["SPEC_ECE", "SPEC_EMBEDDED_SYSTEMS"],
+    "related_skills": [
+      "SKILL_FIRMWARE_DEVELOPMENT",
+      "SKILL_C_CPP",
+      "SKILL_HARDWARE_ABSTRACTION",
+      "SKILL_DEBUGGING"
+    ],
+    "related_certifications": [
+      "CERT_EMBEDDED_SYSTEMS",
+      "CERT_FIRMWARE_DEVELOPER"
+    ]
+  },
+  {
+    "job_id": "JOB_NETWORK_ENGINEER",
+    "title": "Network Engineer",
+    "domain": "Engineering",
+    "related_specializations": ["SPEC_ECE", "SPEC_IT"],
+    "related_skills": [
+      "SKILL_NETWORKING",
+      "SKILL_ROUTING_SWITCHING",
+      "SKILL_NETWORK_DESIGN",
+      "SKILL_SECURITY_PROTOCOLS"
+    ],
+    "related_certifications": [
+      "CERT_CISCO_CCNA",
+      "CERT_CISCO_CCNP",
+      "CERT_JUNIPER_JNCIA"
+    ]
+  },
+  {
+    "job_id": "JOB_SECURITY_ENGINEER",
+    "title": "Security Engineer",
+    "domain": "Engineering",
+    "related_specializations": ["SPEC_CYBER_SECURITY", "SPEC_NETWORK_SECURITY"],
+    "related_skills": [
+      "SKILL_SECURITY_ARCHITECTURE",
+      "SKILL_THREAT_MODELING",
+      "SKILL_PENETRATION_TESTING",
+      "SKILL_COMPLIANCE"
+    ],
+    "related_certifications": [
+      "CERT_CISSP",
+      "CERT_CEH",
+      "CERT_OSCP"
+    ]
+  },
+  {
+    "job_id": "JOB_ETHICAL_HACKER",
+    "title": "Ethical Hacker",
+    "domain": "Engineering",
+    "related_specializations": ["SPEC_CYBER_SECURITY", "SPEC_ETHICAL_HACKING"],
+    "related_skills": [
+      "SKILL_PENETRATION_TESTING",
+      "SKILL_VULNERABILITY_ASSESSMENT",
+      "SKILL_SECURITY_TOOLS",
+      "SKILL_EXPLOIT_DEVELOPMENT"
+    ],
+    "related_certifications": [
+      "CERT_CEH",
+      "CERT_OSCP",
+      "CERT_GPEN"
+    ]
+  },
+  {
+    "job_id": "JOB_SECURITY_ANALYST",
+    "title": "Security Analyst",
+    "domain": "Engineering",
+    "related_specializations": ["SPEC_CYBER_SECURITY"],
+    "related_skills": [
+      "SKILL_THREAT_ANALYSIS",
+      "SKILL_LOG_ANALYSIS",
+      "SKILL_SIEM_TOOLS",
+      "SKILL_INCIDENT_RESPONSE"
+    ],
+    "related_certifications": [
+      "CERT_CISSP",
+      "CERT_CCSK",
+      "CERT_CEH"
+    ]
+  },
+  {
+    "job_id": "JOB_SOC_ANALYST",
+    "title": "SOC Analyst",
+    "domain": "Engineering",
+    "related_specializations": ["SPEC_CYBER_SECURITY"],
+    "related_skills": [
+      "SKILL_MONITORING",
+      "SKILL_THREAT_DETECTION",
+      "SKILL_INCIDENT_HANDLING",
+      "SKILL_SECURITY_TOOLS"
+    ],
+    "related_certifications": [
+      "CERT_COMPTIA_SECURITY_PLUS",
+      "CERT_GIAC_GCIH",
+      "CERT_CEH"
+    ]
+  },
+  {
+    "job_id": "JOB_SECURITY_ARCHITECT",
+    "title": "Security Architect",
+    "domain": "Engineering",
+    "related_specializations": ["SPEC_CYBER_SECURITY"],
+    "related_skills": [
+      "SKILL_SECURITY_DESIGN",
+      "SKILL_RISK_MANAGEMENT",
+      "SKILL_COMPLIANCE_FRAMEWORKS",
+      "SKILL_THREAT_MODELING"
+    ],
+    "related_certifications": [
+      "CERT_CISSP",
+      "CERT_CCSK",
+      "CERT_SANS_GIAC"
+    ]
+  },
+  {
+    "job_id": "JOB_BIOTECH_ENGINEER",
+    "title": "Biotechnology Engineer",
+    "domain": "Engineering",
+    "related_specializations": ["SPEC_BIOTECH", "SPEC_BIOINFORMATICS"],
+    "related_skills": [
+      "SKILL_BIOPROCESS_ENGINEERING",
+      "SKILL_FERMENTATION",
+      "SKILL_MOLECULAR_BIOLOGY",
+      "SKILL_QUALITY_CONTROL"
+    ],
+    "related_certifications": [
+      "CERT_BIOTECH_CERTIFICATION",
+      "CERT_GMP",
+      "CERT_ISO_9001"
+    ]
+  },
+  {
+    "job_id": "JOB_AEROSPACE_ENGINEER",
+    "title": "Aerospace Engineer",
+    "domain": "Engineering",
+    "related_specializations": ["SPEC_AEROSPACE"],
+    "related_skills": [
+      "SKILL_AERODYNAMICS",
+      "SKILL_FLIGHT_MECHANICS",
+      "SKILL_AIRCRAFT_DESIGN",
+      "SKILL_CFD"
+    ],
+    "related_certifications": [
+      "CERT_ANSYS_CFD",
+      "CERT_CATIA_AEROSPACE"
+    ]
+  },
+  {
+    "job_id": "JOB_AUTOMOTIVE_ENGINEER",
+    "title": "Automotive Engineer",
+    "domain": "Engineering",
+    "related_specializations": ["SPEC_AUTOMOBILE"],
+    "related_skills": [
+      "SKILL_VEHICLE_DESIGN",
+      "SKILL_POWERTRAIN",
+      "SKILL_VEHICLE_DYNAMICS",
+      "SKILL_CAD"
+    ],
+    "related_certifications": [
+      "CERT_CATIA",
+      "CERT_ANSYS",
+      "CERT_AUTOMOTIVE_SYSTEMS"
+    ]
+  },
+  {
+    "job_id": "JOB_POWERTRAIN_ENGINEER",
+    "title": "Powertrain Engineer",
+    "domain": "Engineering",
+    "related_specializations": ["SPEC_AUTOMOBILE"],
+    "related_skills": [
+      "SKILL_ENGINE_DESIGN",
+      "SKILL_TRANSMISSION",
+      "SKILL_EMISSIONS_CONTROL",
+      "SKILL_PERFORMANCE_TESTING"
+    ],
+    "related_certifications": [
+      "CERT_AUTOMOTIVE_POWERTRAIN",
+      "CERT_EMISSION_STANDARDS"
+    ]
+  },
+  {
+    "job_id": "JOB_METALLURGIST",
+    "title": "Metallurgist",
+    "domain": "Engineering",
+    "related_specializations": ["SPEC_METALLURGICAL"],
+    "related_skills": [
+      "SKILL_MATERIAL_SCIENCE",
+      "SKILL_HEAT_TREATMENT",
+      "SKILL_CASTING",
+      "SKILL_FAILURE_ANALYSIS"
+    ],
+    "related_certifications": [
+      "CERT_MATERIAL_TESTING",
+      "CERT_WELDING_CERTIFICATION"
+    ]
+  },
+  {
+    "job_id": "JOB_RENEWABLE_ENERGY_ENGINEER",
+    "title": "Renewable Energy Engineer",
+    "domain": "Engineering",
+    "related_specializations": ["SPEC_RENEWABLE_ENERGY", "SPEC_SOLAR_ENERGY", "SPEC_WIND_ENERGY"],
+    "related_skills": [
+      "SKILL_RENEWABLE_TECHNOLOGY",
+      "SKILL_GRID_INTEGRATION",
+      "SKILL_ENERGY_STORAGE",
+      "SKILL_SUSTAINABILITY"
+    ],
+    "related_certifications": [
+      "CERT_RENEWABLE_ENERGY",
+      "CERT_SOLAR_INSTALLER",
+      "CERT_WIND_ENERGY"
+    ]
+  },
+  {
+    "job_id": "JOB_SOLAR_ENGINEER",
+    "title": "Solar Engineer",
+    "domain": "Engineering",
+    "related_specializations": ["SPEC_SOLAR_ENERGY", "SPEC_RENEWABLE_ENERGY"],
+    "related_skills": [
+      "SKILL_SOLAR_TECHNOLOGY",
+      "SKILL_PV_SYSTEMS",
+      "SKILL_SOLAR_THERMAL",
+      "SKILL_SITE_ASSESSMENT"
+    ],
+    "related_certifications": [
+      "CERT_SOLAR_INSTALLER",
+      "CERT_PV_SYSTEMS"
+    ]
+  },
+  {
+    "job_id": "JOB_WIND_ENGINEER",
+    "title": "Wind Engineer",
+    "domain": "Engineering",
+    "related_specializations": ["SPEC_WIND_ENERGY", "SPEC_RENEWABLE_ENERGY"],
+    "related_skills": [
+      "SKILL_WIND_TECHNOLOGY",
+      "SKILL_WIND_RESOURCE",
+      "SKILL_TURBINE_DESIGN",
+      "SKILL_GRID_INTEGRATION"
+    ],
+    "related_certifications": [
+      "CERT_WIND_ENERGY",
+      "CERT_RENEWABLE_ENERGY"
+    ]
+  },
+  {
+    "job_id": "JOB_CHEMICAL_ENGINEER",
+    "title": "Chemical Engineer",
+    "domain": "Engineering",
+    "related_specializations": ["SPEC_CHEM"],
+    "related_skills": [
+      "SKILL_PROCESS_DESIGN",
+      "SKILL_UNIT_OPERATIONS",
+      "SKILL_PROCESS_CONTROL",
+      "SKILL_SAFETY_MANAGEMENT"
+    ],
+    "related_certifications": [
+      "CERT_ASPEN_PLUS",
+      "CERT_HYSYS",
+      "CERT_PROCESS_SAFETY"
+    ]
+  },
+  {
+    "job_id": "JOB_PROCESS_ENGINEER",
+    "title": "Process Engineer",
+    "domain": "Engineering",
+    "related_specializations": ["SPEC_CHEM", "SPEC_BIOTECH"],
+    "related_skills": [
+      "SKILL_PROCESS_OPTIMIZATION",
+      "SKILL_TROUBLESHOOTING",
+      "SKILL_DATA_ANALYSIS",
+      "SKILL_CONTINUOUS_IMPROVEMENT"
+    ],
+    "related_certifications": [
+      "CERT_LEAN_SIX_SIGMA",
+      "CERT_PROCESS_ENGINEER"
+    ]
+  },
+  {
+    "job_id": "JOB_ROBOTICS_ENGINEER",
+    "title": "Robotics Engineer",
+    "domain": "Engineering",
+    "related_specializations": ["SPEC_ROBOTICS", "SPEC_MECHANICAL"],
+    "related_skills": [
+      "SKILL_ROS",
+      "SKILL_KINEMATICS",
+      "SKILL_CONTROL_SYSTEMS",
+      "SKILL_VISION_SYSTEMS"
+    ],
+    "related_certifications": [
+      "CERT_ROS_DEVELOPER",
+      "CERT_ROBOTICS_ENGINEER"
+    ]
+  },
+  {
+    "job_id": "JOB_IOT_ENGINEER",
+    "title": "IoT Engineer",
+    "domain": "Engineering",
+    "related_specializations": ["SPEC_IOT", "SPEC_EMBEDDED_SYSTEMS"],
+    "related_skills": [
+      "SKILL_IOT_PROTOCOLS",
+      "SKILL_SENSOR_TECHNOLOGY",
+      "SKILL_CONNECTIVITY",
+      "SKILL_REAL_TIME_SYSTEMS"
+    ],
+    "related_certifications": [
+      "CERT_IOT_SPECIALIST",
+      "CERT_ARM_CORTEX",
+      "CERT_MQTT"
+    ]
+  },
+  {
+    "job_id": "JOB_NLP_ENGINEER",
+    "title": "NLP Engineer",
+    "domain": "Engineering",
+    "related_specializations": ["SPEC_NATURAL_LANGUAGE_PROCESSING", "SPEC_AI_ML"],
+    "related_skills": [
+      "SKILL_NLP",
+      "SKILL_TEXT_PROCESSING",
+      "SKILL_TRANSFORMERS",
+      "SKILL_DEEP_LEARNING"
+    ],
+    "related_certifications": [
+      "CERT_NLP_SPECIALIST",
+      "CERT_DEEP_LEARNING"
+    ]
+  },
+  {
+    "job_id": "JOB_COMPUTER_VISION_ENGINEER",
+    "title": "Computer Vision Engineer",
+    "domain": "Engineering",
+    "related_specializations": ["SPEC_COMPUTER_VISION", "SPEC_DEEP_LEARNING"],
+    "related_skills": [
+      "SKILL_COMPUTER_VISION",
+      "SKILL_IMAGE_PROCESSING",
+      "SKILL_OBJECT_DETECTION",
+      "SKILL_DEEP_LEARNING"
+    ],
+    "related_certifications": [
+      "CERT_COMPUTER_VISION_SPECIALIST",
+      "CERT_OPENCV",
+      "CERT_DEEP_LEARNING"
+    ]
+  },
+  {
+    "job_id": "JOB_BIG_DATA_ENGINEER",
+    "title": "Big Data Engineer",
+    "domain": "Engineering",
+    "related_specializations": ["SPEC_BIG_DATA", "SPEC_DATA_SCIENCE"],
+    "related_skills": [
+      "SKILL_HADOOP",
+      "SKILL_SPARK",
+      "SKILL_DISTRIBUTED_COMPUTING",
+      "SKILL_DATA_PIPELINES"
+    ],
+    "related_certifications": [
+      "CERT_HADOOP_DEVELOPER",
+      "CERT_SPARK_DEVELOPER"
+    ]
+  },
+  {
+    "job_id": "JOB_MLOPS_ENGINEER",
+    "title": "MLOps Engineer",
+    "domain": "Engineering",
+    "related_specializations": ["SPEC_MLOPS", "SPEC_AI_ML"],
+    "related_skills": [
+      "SKILL_MODEL_DEPLOYMENT",
+      "SKILL_CONTAINERIZATION",
+      "SKILL_CI_CD",
+      "SKILL_MONITORING"
+    ],
+    "related_certifications": [
+      "CERT_MLOPS_ENGINEER",
+      "CERT_KUBERNETES",
+      "CERT_DOCKER"
+    ]
+  },
+  {
+    "job_id": "JOB_DATA_ENGINEER",
+    "title": "Data Engineer",
+    "domain": "Engineering",
+    "related_specializations": ["SPEC_DATA_SCIENCE", "SPEC_BIG_DATA"],
+    "related_skills": [
+      "SKILL_DATA_PIPELINES",
+      "SKILL_ETL",
+      "SKILL_SQL",
+      "SKILL_DATA_WAREHOUSING"
+    ],
+    "related_certifications": [
+      "CERT_GCP_DATA_ENGINEER",
+      "CERT_AWS_DATA_ANALYTICS"
+    ]
+  },
+  {
+    "job_id": "JOB_INFRASTRUCTURE_ENGINEER",
+    "title": "Infrastructure Engineer",
+    "domain": "Engineering",
+    "related_specializations": ["SPEC_IT"],
+    "related_skills": [
+      "SKILL_CLOUD",
+      "SKILL_INFRASTRUCTURE_AS_CODE",
+      "SKILL_SYSTEM_DESIGN",
+      "SKILL_MONITORING"
+    ],
+    "related_certifications": [
+      "CERT_AWS_SOLUTIONS_ARCHITECT",
+      "CERT_AZURE_ARCHITECT",
+      "CERT_GOOGLE_CLOUD_ARCHITECT"
+    ]
+  },
+  {
+    "job_id": "JOB_FINANCIAL_ANALYST",
+    "title": "Financial Analyst",
+    "domain": "Finance",
+    "related_specializations": ["SPEC_FINANCE"],
+    "related_skills": [
+      "SKILL_FINANCIAL_ANALYSIS",
+      "SKILL_VALUATION",
+      "SKILL_FINANCIAL_MODELING",
+      "SKILL_EXCEL"
+    ],
+    "related_certifications": [
+      "CERT_CFA",
+      "CERT_FRM",
+      "CERT_BLOOMBERG_MARKET_SPECIALIST"
+    ]
+  },
+  {
+    "job_id": "JOB_INVESTMENT_BANKER",
+    "title": "Investment Banker",
+    "domain": "Finance",
+    "related_specializations": ["SPEC_FINANCE"],
+    "related_skills": [
+      "SKILL_DEAL_STRUCTURING",
+      "SKILL_VALUATION",
+      "SKILL_M&A",
+      "SKILL_FINANCIAL_MODELING"
+    ],
+    "related_certifications": [
+      "CERT_CFA",
+      "CERT_FRM",
+      "CERT_INVESTMENT_BANKING"
+    ]
+  },
+  {
+    "job_id": "JOB_PORTFOLIO_MANAGER",
+    "title": "Portfolio Manager",
+    "domain": "Finance",
+    "related_specializations": ["SPEC_FINANCE"],
+    "related_skills": [
+      "SKILL_PORTFOLIO_MANAGEMENT",
+      "SKILL_RISK_MANAGEMENT",
+      "SKILL_MARKET_ANALYSIS",
+      "SKILL_INVESTMENT_STRATEGY"
+    ],
+    "related_certifications": [
+      "CERT_CFA",
+      "CERT_FRM",
+      "CERT_CFP"
+    ]
+  },
+  {
+    "job_id": "JOB_QUANT_ANALYST",
+    "title": "Quant Analyst",
+    "domain": "Finance",
+    "related_specializations": ["SPEC_FINANCE", "SPEC_MATHEMATICS"],
+    "related_skills": [
+      "SKILL_QUANTITATIVE_ANALYSIS",
+      "SKILL_PYTHON",
+      "SKILL_STOCHASTIC_MODELING",
+      "SKILL_STATISTICS"
+    ],
+    "related_certifications": [
+      "CERT_CFA",
+      "CERT_FRM",
+      "CERT_QUANT_FINANCE"
+    ]
+  },
+  {
+    "job_id": "JOB_RISK_ANALYST",
+    "title": "Risk Analyst",
+    "domain": "Finance",
+    "related_specializations": ["SPEC_FINANCE"],
+    "related_skills": [
+      "SKILL_RISK_ASSESSMENT",
+      "SKILL_VaR_ANALYSIS",
+      "SKILL_STRESS_TESTING",
+      "SKILL_RISK_MODELING"
+    ],
+    "related_certifications": [
+      "CERT_FRM",
+      "CERT_GARP_FRM",
+      "CERT_RISK_MANAGEMENT"
+    ]
+  },
+  {
+    "job_id": "JOB_CORPORATE_FINANCE_MANAGER",
+    "title": "Corporate Finance Manager",
+    "domain": "Finance",
+    "related_specializations": ["SPEC_FINANCE"],
+    "related_skills": [
+      "SKILL_CORPORATE_FINANCE",
+      "SKILL_CAPITAL_BUDGETING",
+      "SKILL_TREASURY_MANAGEMENT",
+      "SKILL_FINANCIAL_PLANNING"
+    ],
+    "related_certifications": [
+      "CERT_CFA",
+      "CERT_CPA",
+      "CERT_CORPORATE_FINANCE"
+    ]
+  },
+  {
+    "job_id": "JOB_MARKETING_MANAGER",
+    "title": "Marketing Manager",
+    "domain": "Management",
+    "related_specializations": ["SPEC_MARKETING"],
+    "related_skills": [
+      "SKILL_MARKET_STRATEGY",
+      "SKILL_CAMPAIGN_MANAGEMENT",
+      "SKILL_DATA_ANALYTICS",
+      "SKILL_DIGITAL_MARKETING"
+    ],
+    "related_certifications": [
+      "CERT_GOOGLE_DIGITAL_MARKETING",
+      "CERT_HUBSPOT_MARKETING",
+      "CERT_MARKETING_ANALYTICS"
+    ]
+  },
+  {
+    "job_id": "JOB_DIGITAL_MARKETER",
+    "title": "Digital Marketer",
+    "domain": "Management",
+    "related_specializations": ["SPEC_MARKETING"],
+    "related_skills": [
+      "SKILL_DIGITAL_MARKETING",
+      "SKILL_SEO",
+      "SKILL_CONTENT_MARKETING",
+      "SKILL_SOCIAL_MEDIA_MARKETING"
+    ],
+    "related_certifications": [
+      "CERT_GOOGLE_DIGITAL_MARKETING",
+      "CERT_FACEBOOK_BLUEPRINT",
+      "CERT_HUBSPOT_MARKETING"
+    ]
+  },
+  {
+    "job_id": "JOB_PRODUCT_MANAGER",
+    "title": "Product Manager",
+    "domain": "Management",
+    "related_specializations": ["SPEC_MARKETING"],
+    "related_skills": [
+      "SKILL_PRODUCT_STRATEGY",
+      "SKILL_USER_RESEARCH",
+      "SKILL_DATA_ANALYSIS",
+      "SKILL_ROADMAP_PLANNING"
+    ],
+    "related_certifications": [
+      "CERT_PRODUCT_MANAGEMENT",
+      "CERT_AGILE_SCRUM"
+    ]
+  },
+  {
+    "job_id": "JOB_BRAND_MANAGER",
+    "title": "Brand Manager",
+    "domain": "Management",
+    "related_specializations": ["SPEC_MARKETING"],
+    "related_skills": [
+      "SKILL_BRAND_STRATEGY",
+      "SKILL_CONSUMER_INSIGHTS",
+      "SKILL_CAMPAIGN_MANAGEMENT",
+      "SKILL_MARKET_RESEARCH"
+    ],
+    "related_certifications": [
+      "CERT_BRAND_MANAGEMENT",
+      "CERT_MARKETING_ANALYTICS"
+    ]
+  },
+  {
+    "job_id": "JOB_MARKETING_ANALYST",
+    "title": "Marketing Analyst",
+    "domain": "Management",
+    "related_specializations": ["SPEC_MARKETING"],
+    "related_skills": [
+      "SKILL_DATA_ANALYSIS",
+      "SKILL_ANALYTICS_TOOLS",
+      "SKILL_SQL",
+      "SKILL_STATISTICAL_ANALYSIS"
+    ],
+    "related_certifications": [
+      "CERT_GOOGLE_DATA_ANALYTICS",
+      "CERT_MARKETING_ANALYTICS"
+    ]
+  },
+  {
+    "job_id": "JOB_HR_MANAGER",
+    "title": "HR Manager",
+    "domain": "Management",
+    "related_specializations": ["SPEC_HR"],
+    "related_skills": [
+      "SKILL_RECRUITMENT",
+      "SKILL_EMPLOYEE_RELATIONS",
+      "SKILL_TRAINING_DEVELOPMENT",
+      "SKILL_HR_SYSTEMS"
+    ],
+    "related_certifications": [
+      "CERT_SHRM_CP",
+      "CERT_CIPD_LEVEL_5",
+      "CERT_PHR"
+    ]
+  },
+  {
+    "job_id": "JOB_RECRUITMENT_SPECIALIST",
+    "title": "Recruitment Specialist",
+    "domain": "Management",
+    "related_specializations": ["SPEC_HR"],
+    "related_skills": [
+      "SKILL_RECRUITMENT",
+      "SKILL_SOURCING",
+      "SKILL_INTERVIEWING",
+      "SKILL_TALENT_ACQUISITION"
+    ],
+    "related_certifications": [
+      "CERT_RECRUITMENT_SPECIALIST",
+      "CERT_TALENT_ACQUISITION"
+    ]
+  },
+  {
+    "job_id": "JOB_TRAINING_DEVELOPMENT_OFFICER",
+    "title": "Training & Development Officer",
+    "domain": "Management",
+    "related_specializations": ["SPEC_HR"],
+    "related_skills": [
+      "SKILL_TRAINING_DESIGN",
+      "SKILL_INSTRUCTIONAL_DESIGN",
+      "SKILL_ASSESSMENT",
+      "SKILL_LEARNING_MANAGEMENT"
+    ],
+    "related_certifications": [
+      "CERT_TRAINING_SPECIALIST",
+      "CERT_INSTRUCTIONAL_DESIGN"
+    ]
+  },
+  {
+    "job_id": "JOB_OPERATIONS_MANAGER",
+    "title": "Operations Manager",
+    "domain": "Management",
+    "related_specializations": ["SPEC_OPERATIONS"],
+    "related_skills": [
+      "SKILL_PROCESS_OPTIMIZATION",
+      "SKILL_SUPPLY_CHAIN",
+      "SKILL_PROJECT_MANAGEMENT",
+      "SKILL_DATA_ANALYSIS"
+    ],
+    "related_certifications": [
+      "CERT_PMP",
+      "CERT_LEAN_SIX_SIGMA",
+      "CERT_APICS_CSCP"
+    ]
+  },
+  {
+    "job_id": "JOB_SUPPLY_CHAIN_MANAGER",
+    "title": "Supply Chain Manager",
+    "domain": "Management",
+    "related_specializations": ["SPEC_OPERATIONS"],
+    "related_skills": [
+      "SKILL_SUPPLY_CHAIN",
+      "SKILL_PROCUREMENT",
+      "SKILL_LOGISTICS",
+      "SKILL_DEMAND_PLANNING"
+    ],
+    "related_certifications": [
+      "CERT_APICS_CSCP",
+      "CERT_LEAN_SIX_SIGMA",
+      "CERT_SAP"
+    ]
+  },
+  {
+    "job_id": "JOB_PROJECT_MANAGER",
+    "title": "Project Manager",
+    "domain": "Management",
+    "related_specializations": ["SPEC_OPERATIONS"],
+    "related_skills": [
+      "SKILL_PROJECT_MANAGEMENT",
+      "SKILL_RISK_MANAGEMENT",
+      "SKILL_STAKEHOLDER_MANAGEMENT",
+      "SKILL_BUDGETING"
+    ],
+    "related_certifications": [
+      "CERT_PMP",
+      "CERT_PRINCE2",
+      "CERT_AGILE_SCRUM"
+    ]
+  },
+  {
+    "job_id": "JOB_FINTECH_DEVELOPER",
+    "title": "FinTech Developer",
+    "domain": "Management",
+    "related_specializations": ["SPEC_FINTECH", "SPEC_FINANCIAL_TECHNOLOGY"],
+    "related_skills": [
+      "SKILL_API_DEVELOPMENT",
+      "SKILL_PAYMENT_SYSTEMS",
+      "SKILL_BLOCKCHAIN",
+      "SKILL_SECURITY"
+    ],
+    "related_certifications": [
+      "CERT_FINTECH_CERTIFICATION",
+      "CERT_BLOCKCHAIN_DEVELOPER",
+      "CERT_API_DEVELOPER"
+    ]
+  },
+  {
+    "job_id": "JOB_BLOCKCHAIN_ENGINEER",
+    "title": "Blockchain Engineer",
+    "domain": "Management",
+    "related_specializations": ["SPEC_BLOCKCHAIN"],
+    "related_skills": [
+      "SKILL_SMART_CONTRACTS",
+      "SKILL_SOLIDITY",
+      "SKILL_DISTRIBUTED_SYSTEMS",
+      "SKILL_CRYPTOGRAPHY"
+    ],
+    "related_certifications": [
+      "CERT_BLOCKCHAIN_DEVELOPER",
+      "CERT_ETHEREUM_DEVELOPER",
+      "CERT_HYPERLEDGER_DEVELOPER"
+    ]
+  },
+  {
+    "job_id": "JOB_ACCOUNTANT",
+    "title": "Accountant",
+    "domain": "Commerce",
+    "related_specializations": ["SPEC_ACCOUNTING"],
+    "related_skills": [
+      "SKILL_FINANCIAL_REPORTING",
+      "SKILL_ACCOUNTING_SOFTWARE",
+      "SKILL_TAX_ACCOUNTING",
+      "SKILL_BOOKKEEPING"
+    ],
+    "related_certifications": [
+      "CERT_CA",
+      "CERT_CPA",
+      "CERT_ACCA"
+    ]
+  },
+  {
+    "job_id": "JOB_AUDITOR",
+    "title": "Auditor",
+    "domain": "Commerce",
+    "related_specializations": ["SPEC_AUDITING"],
+    "related_skills": [
+      "SKILL_INTERNAL_AUDIT",
+      "SKILL_COMPLIANCE",
+      "SKILL_RISK_ASSESSMENT",
+      "SKILL_STATUTORY_AUDIT"
+    ],
+    "related_certifications": [
+      "CERT_CA",
+      "CERT_CISA",
+      "CERT_CIA"
+    ]
+  },
+  {
+    "job_id": "JOB_TAX_CONSULTANT",
+    "title": "Tax Consultant",
+    "domain": "Commerce",
+    "related_specializations": ["SPEC_TAXATION"],
+    "related_skills": [
+      "SKILL_TAX_LAW",
+      "SKILL_TAX_PLANNING",
+      "SKILL_GST",
+      "SKILL_INDIRECT_TAX"
+    ],
+    "related_certifications": [
+      "CERT_CA",
+      "CERT_CS",
+      "CERT_GST_SPECIALIST"
+    ]
+  },
+  {
+    "job_id": "JOB_FINANCIAL_CONTROLLER",
+    "title": "Financial Controller",
+    "domain": "Commerce",
+    "related_specializations": ["SPEC_ACCOUNTING", "SPEC_FINANCE"],
+    "related_skills": [
+      "SKILL_FINANCIAL_CONTROLS",
+      "SKILL_ACCOUNTING_SYSTEMS",
+      "SKILL_FINANCIAL_REPORTING",
+      "SKILL_COMPLIANCE"
+    ],
+    "related_certifications": [
+      "CERT_CA",
+      "CERT_CPA",
+      "CERT_CMA"
+    ]
+  },
+  {
+    "job_id": "JOB_MANUFACTURING_ENGINEER",
+    "title": "Manufacturing Engineer",
+    "domain": "Engineering",
+    "related_specializations": ["SPEC_MECH", "SPEC_AUTOMOBILE"],
+    "related_skills": [
+      "SKILL_MANUFACTURING_SYSTEMS",
+      "SKILL_LEAN",
+      "SKILL_CNC_PROGRAMMING",
+      "SKILL_QUALITY_CONTROL"
+    ],
+    "related_certifications": [
+      "CERT_LEAN_SIX_SIGMA",
+      "CERT_CNC_PROGRAMMING",
+      "CERT_MANUFACTURING_ENGINEER"
+    ]
+  },
+  {
+    "job_id": "JOB_CHASSIS_ENGINEER",
+    "title": "Chassis Engineer",
+    "domain": "Engineering",
+    "related_specializations": ["SPEC_AUTOMOBILE"],
+    "related_skills": [
+      "SKILL_SUSPENSION_DESIGN",
+      "SKILL_BRAKE_SYSTEMS",
+      "SKILL_STEERING_DESIGN",
+      "SKILL_CAD"
+    ],
+    "related_certifications": [
+      "CERT_AUTOMOTIVE_SYSTEMS",
+      "CERT_CATIA"
+    ]
+  },
+  {
+    "job_id": "JOB_INFRASTRUCTURE_ENGINEER",
+    "title": "Infrastructure Engineer",
+    "domain": "Engineering",
+    "related_specializations": ["SPEC_CIVIL"],
+    "related_skills": [
+      "SKILL_BRIDGE_DESIGN",
+      "SKILL_TUNNEL_DESIGN",
+      "SKILL_INFRASTRUCTURE_PLANNING",
+      "SKILL_GEOTECHNICAL_ANALYSIS"
+    ],
+    "related_certifications": [
+      "CERT_STRUCTURAL_ENGINEER",
+      "CERT_BRIDGE_ENGINEER"
+    ]
+  },
+  {
+    "job_id": "JOB_GEOTECHNICAL_ENGINEER",
+    "title": "Geotechnical Engineer",
+    "domain": "Engineering",
+    "related_specializations": ["SPEC_CIVIL"],
+    "related_skills": [
+      "SKILL_SOIL_MECHANICS",
+      "SKILL_FOUNDATION_DESIGN",
+      "SKILL_SLOPE_STABILITY",
+      "SKILL_SOIL_TESTING"
+    ],
+    "related_certifications": [
+      "CERT_GEOTECHNICAL_ENGINEER",
+      "CERT_SOIL_MECHANICS"
+    ]
+  },
+  {
+    "job_id": "JOB_ENVIRONMENTAL_ENGINEER",
+    "title": "Environmental Engineer",
+    "domain": "Engineering",
+    "related_specializations": ["SPEC_CIVIL"],
+    "related_skills": [
+      "SKILL_WATER_TREATMENT",
+      "SKILL_WASTE_MANAGEMENT",
+      "SKILL_AIR_QUALITY",
+      "SKILL_ENVIRONMENTAL_COMPLIANCE"
+    ],
+    "related_certifications": [
+      "CERT_ENVIRONMENTAL_ENGINEER",
+      "CERT_WATER_TREATMENT"
+    ]
+  },
+  {
+    "job_id": "JOB_TRAFFIC_ENGINEER",
+    "title": "Traffic Engineer",
+    "domain": "Engineering",
+    "related_specializations": ["SPEC_CIVIL"],
+    "related_skills": [
+      "SKILL_TRAFFIC_MODELING",
+      "SKILL_HIGHWAY_DESIGN",
+      "SKILL_SIGNAL_DESIGN",
+      "SKILL_TRANSPORTATION_PLANNING"
+    ],
+    "related_certifications": [
+      "CERT_TRAFFIC_ENGINEER",
+      "CERT_TRANSPORTATION_PLANNER"
+    ]
+  },
+  {
+    "job_id": "JOB_TRANSMISSION_ENGINEER",
+    "title": "Transmission Engineer",
+    "domain": "Engineering",
+    "related_specializations": ["SPEC_ECE"],
+    "related_skills": [
+      "SKILL_SIGNAL_TRANSMISSION",
+      "SKILL_NETWORKING",
+      "SKILL_MODULATION",
+      "SKILL_COMMUNICATION_SYSTEMS"
+    ],
+    "related_certifications": [
+      "CERT_TELECOM_ENGINEER",
+      "CERT_COMMUNICATION_SYSTEMS"
+    ]
+  },
+  {
+    "job_id": "JOB_TELECOM_ENGINEER",
+    "title": "Telecom Engineer",
+    "domain": "Engineering",
+    "related_specializations": ["SPEC_ECE"],
+    "related_skills": [
+      "SKILL_TELECOM_SYSTEMS",
+      "SKILL_5G_TECHNOLOGY",
+      "SKILL_NETWORK_OPTIMIZATION",
+      "SKILL_SPECTRUM_MANAGEMENT"
+    ],
+    "related_certifications": [
+      "CERT_5G_SPECIALIST",
+      "CERT_TELECOM_ENGINEER",
+      "CERT_CISCO_CCNA"
+    ]
+  },
+  {
+    "job_id": "JOB_SIGNAL_PROCESSING_ENGINEER",
+    "title": "Signal Processing Engineer",
+    "domain": "Engineering",
+    "related_specializations": ["SPEC_ECE"],
+    "related_skills": [
+      "SKILL_SIGNAL_PROCESSING",
+      "SKILL_DSP",
+      "SKILL_MATLAB",
+      "SKILL_FILTER_DESIGN"
+    ],
+    "related_certifications": [
+      "CERT_DSP_SPECIALIST",
+      "CERT_MATLAB"
+    ]
+  },
+  {
+    "job_id": "JOB_COMPLIANCE_OFFICER",
+    "title": "Compliance Officer",
+    "domain": "Engineering",
+    "related_specializations": ["SPEC_CYBER_SECURITY"],
+    "related_skills": [
+      "SKILL_COMPLIANCE_FRAMEWORKS",
+      "SKILL_AUDIT",
+      "SKILL_RISK_ASSESSMENT",
+      "SKILL_DOCUMENTATION"
+    ],
+    "related_certifications": [
+      "CERT_COMPLIANCE_OFFICER",
+      "CERT_ISO_AUDITOR"
+    ]
+  },
+  {
+    "job_id": "JOB_PHARMACEUTICAL_SCIENTIST",
+    "title": "Pharmaceutical Scientist",
+    "domain": "Bio & Pharma",
+    "related_specializations": ["SPEC_PHARMACEUTICAL_CHEMISTRY"],
+    "related_skills": [
+      "SKILL_DRUG_DEVELOPMENT",
+      "SKILL_CLINICAL_TRIALS",
+      "SKILL_REGULATORY_AFFAIRS",
+      "SKILL_PHARMACEUTICAL_ANALYSIS"
+    ],
+    "related_certifications": [
+      "CERT_PHARMACEUTICAL_SCIENTIST",
+      "CERT_REGULATORY_AFFAIRS"
+    ]
+  },
+  {
+    "job_id": "JOB_CLINICAL_PHARMACIST",
+    "title": "Clinical Pharmacist",
+    "domain": "Bio & Pharma",
+    "related_specializations": ["SPEC_PHARMACOLOGY"],
+    "related_skills": [
+      "SKILL_DRUG_THERAPY",
+      "SKILL_PATIENT_COUNSELING",
+      "SKILL_DRUG_INTERACTIONS",
+      "SKILL_CLINICAL_ASSESSMENT"
+    ],
+    "related_certifications": [
+      "CERT_CLINICAL_PHARMACIST",
+      "CERT_PHARMACOVIGILANCE"
+    ]
+  },
+  {
+    "job_id": "JOB_QUALITY_ASSURANCE_OFFICER",
+    "title": "Quality Assurance Officer",
+    "domain": "Bio & Pharma",
+    "related_specializations": ["SPEC_QUALITY_ASSURANCE"],
+    "related_skills": [
+      "SKILL_GMP",
+      "SKILL_QUALITY_CONTROL",
+      "SKILL_TESTING_ANALYSIS",
+      "SKILL_DOCUMENTATION"
+    ],
+    "related_certifications": [
+      "CERT_QA_OFFICER",
+      "CERT_GMP_AUDITOR"
+    ]
+  },
+  {
+    "job_id": "JOB_REGULATORY_AFFAIRS_MANAGER",
+    "title": "Regulatory Affairs Manager",
+    "domain": "Bio & Pharma",
+    "related_specializations": ["SPEC_PHARMACEUTICAL_CHEMISTRY"],
+    "related_skills": [
+      "SKILL_REGULATORY_COMPLIANCE",
+      "SKILL_DOSSIER_PREPARATION",
+      "SKILL_APPROVAL_PROCESS",
+      "SKILL_DOCUMENTATION"
+    ],
+    "related_certifications": [
+      "CERT_REGULATORY_AFFAIRS",
+      "CERT_REGULATORY_COMPLIANCE"
+    ]
+  },
+  {
+    "job_id": "JOB_DRUG_SAFETY_OFFICER",
+    "title": "Drug Safety Officer",
+    "domain": "Bio & Pharma",
+    "related_specializations": ["SPEC_PHARMACOLOGY"],
+    "related_skills": [
+      "SKILL_PHARMACOVIGILANCE",
+      "SKILL_ADVERSE_EVENT_REPORTING",
+      "SKILL_RISK_MANAGEMENT",
+      "SKILL_DATABASE_MANAGEMENT"
+    ],
+    "related_certifications": [
+      "CERT_PHARMACOVIGILANCE",
+      "CERT_DRUG_SAFETY"
+    ]
+  },
+  {
+    "job_id": "JOB_BIOLOGIST",
+    "title": "Biologist",
+    "domain": "Bio & Pharma",
+    "related_specializations": ["SPEC_BIOLOGY", "SPEC_BIOINFORMATICS"],
+    "related_skills": [
+      "SKILL_MOLECULAR_BIOLOGY",
+      "SKILL_MICROBIOLOGY",
+      "SKILL_LABORATORY_TECHNIQUES",
+      "SKILL_DATA_ANALYSIS"
+    ],
+    "related_certifications": [
+      "CERT_MICROBIOLOGIST",
+      "CERT_MOLECULAR_BIOLOGY"
+    ]
+  },
+  {
+    "job_id": "JOB_CONSTITUTIONAL_LAWYER",
+    "title": "Constitutional Lawyer",
+    "domain": "Law",
+    "related_specializations": ["SPEC_CONSTITUTIONAL_LAW"],
+    "related_skills": [
+      "SKILL_CONSTITUTIONAL_ANALYSIS",
+      "SKILL_LITIGATION",
+      "SKILL_LEGAL_RESEARCH",
+      "SKILL_LEGAL_WRITING"
+    ],
+    "related_certifications": [
+      "CERT_LAWYER",
+      "CERT_CONSTITUTIONAL_LAW"
+    ]
+  },
+  {
+    "job_id": "JOB_CORPORATE_LAWYER",
+    "title": "Corporate Lawyer",
+    "domain": "Law",
+    "related_specializations": ["SPEC_CORPORATE_LAW"],
+    "related_skills": [
+      "SKILL_CONTRACT_DRAFTING",
+      "SKILL_MERGER_ACQUISITION",
+      "SKILL_CORPORATE_GOVERNANCE",
+      "SKILL_NEGOTIATION"
+    ],
+    "related_certifications": [
+      "CERT_LAWYER",
+      "CERT_CORPORATE_LAW"
+    ]
+  },
+  {
+    "job_id": "JOB_CRIMINAL_LAWYER",
+    "title": "Criminal Lawyer",
+    "domain": "Law",
+    "related_specializations": ["SPEC_CRIMINAL_LAW"],
+    "related_skills": [
+      "SKILL_CRIMINAL_PROCEDURE",
+      "SKILL_EVIDENCE_LAW",
+      "SKILL_LITIGATION",
+      "SKILL_CASE_MANAGEMENT"
+    ],
+    "related_certifications": [
+      "CERT_LAWYER",
+      "CERT_CRIMINAL_LAW"
+    ]
+  },
+  {
+    "job_id": "JOB_COMMERCIAL_LAWYER",
+    "title": "Commercial Lawyer",
+    "domain": "Law",
+    "related_specializations": ["SPEC_COMMERCIAL_LAW"],
+    "related_skills": [
+      "SKILL_COMMERCIAL_TRANSACTIONS",
+      "SKILL_CONTRACT_LAW",
+      "SKILL_BUSINESS_LAW",
+      "SKILL_NEGOTIATION"
+    ],
+    "related_certifications": [
+      "CERT_LAWYER",
+      "CERT_COMMERCIAL_LAW"
+    ]
+  },
+  {
+    "job_id": "JOB_JUDGE",
+    "title": "Judge",
+    "domain": "Law",
+    "related_specializations": ["SPEC_CONSTITUTIONAL_LAW", "SPEC_CRIMINAL_LAW", "SPEC_COMMERCIAL_LAW"],
+    "related_skills": [
+      "SKILL_LEGAL_INTERPRETATION",
+      "SKILL_CASE_JUDGMENT",
+      "SKILL_JUDICIAL_REASONING",
+      "SKILL_LEGAL_PROCEDURE"
+    ],
+    "related_certifications": [
+      "CERT_JUDGE",
+      "CERT_JUDICIAL_OFFICER"
+    ]
+  },
+  {
+    "job_id": "JOB_LEGAL_ADVISOR",
+    "title": "Legal Advisor",
+    "domain": "Law",
+    "related_specializations": ["SPEC_CORPORATE_LAW", "SPEC_COMMERCIAL_LAW"],
+    "related_skills": [
+      "SKILL_LEGAL_ADVICE",
+      "SKILL_COMPLIANCE",
+      "SKILL_RISK_MANAGEMENT",
+      "SKILL_DOCUMENTATION"
+    ],
+    "related_certifications": [
+      "CERT_LAWYER",
+      "CERT_LEGAL_ADVISOR"
+    ]
+  },
+  {
+    "job_id": "JOB_DOCTOR",
+    "title": "Doctor (MBBS)",
+    "domain": "Medical",
+    "related_specializations": [],
+    "related_skills": [
+      "SKILL_DIAGNOSIS",
+      "SKILL_PATIENT_CARE",
+      "SKILL_CLINICAL_ASSESSMENT",
+      "SKILL_MEDICAL_PROCEDURES"
+    ],
+    "related_certifications": [
+      "CERT_MBBS",
+      "CERT_MEDICAL_LICENSE"
+    ]
+  },
+  {
+    "job_id": "JOB_SURGEON",
+    "title": "Surgeon",
+    "domain": "Medical",
+    "related_specializations": [],
+    "related_skills": [
+      "SKILL_SURGICAL_PROCEDURES",
+      "SKILL_SURGICAL_PLANNING",
+      "SKILL_PATIENT_MANAGEMENT",
+      "SKILL_EMERGENCY_RESPONSE"
+    ],
+    "related_certifications": [
+      "CERT_SURGEON",
+      "CERT_SURGICAL_SPECIALTY"
+    ]
+  },
+  {
+    "job_id": "JOB_DENTIST",
+    "title": "Dentist",
+    "domain": "Medical",
+    "related_specializations": [],
+    "related_skills": [
+      "SKILL_DENTAL_PROCEDURES",
+      "SKILL_ORAL_SURGERY",
+      "SKILL_PROSTHETICS",
+      "SKILL_PATIENT_EDUCATION"
+    ],
+    "related_certifications": [
+      "CERT_DENTIST",
+      "CERT_DENTAL_LICENSE"
+    ]
+  },
+  {
+    "job_id": "JOB_NURSE",
+    "title": "Nurse",
+    "domain": "Medical",
+    "related_specializations": ["SPEC_MEDICAL_SURGICAL_NURSING", "SPEC_PEDIATRIC_NURSING"],
+    "related_skills": [
+      "SKILL_PATIENT_CARE",
+      "SKILL_MEDICATION_ADMINISTRATION",
+      "SKILL_CLINICAL_ASSESSMENT",
+      "SKILL_PATIENT_COMMUNICATION"
+    ],
+    "related_certifications": [
+      "CERT_REGISTERED_NURSE",
+      "CERT_NURSING_SPECIALTY"
+    ]
+  },
+  {
+    "job_id": "JOB_PEDIATRICIAN",
+    "title": "Pediatrician",
+    "domain": "Medical",
+    "related_specializations": [],
+    "related_skills": [
+      "SKILL_CHILD_CARE",
+      "SKILL_DEVELOPMENTAL_ASSESSMENT",
+      "SKILL_VACCINATION",
+      "SKILL_FAMILY_SUPPORT"
+    ],
+    "related_certifications": [
+      "CERT_PEDIATRICIAN",
+      "CERT_CHILD_HEALTH_SPECIALIST"
+    ]
+  },
+  {
+    "job_id": "JOB_LAB_TECHNICIAN",
+    "title": "Lab Technician",
+    "domain": "Paramedical",
+    "related_specializations": ["SPEC_MEDICAL_LAB_TECHNOLOGY"],
+    "related_skills": [
+      "SKILL_BLOOD_ANALYSIS",
+      "SKILL_PATHOLOGY",
+      "SKILL_MICROSCOPY",
+      "SKILL_SAMPLE_COLLECTION"
+    ],
+    "related_certifications": [
+      "CERT_LAB_TECHNICIAN",
+      "CERT_CLINICAL_LABORATORY_SCIENTIST"
+    ]
+  },
+  {
+    "job_id": "JOB_RADIOGRAPHER",
+    "title": "Radiographer",
+    "domain": "Paramedical",
+    "related_specializations": ["SPEC_RADIOGRAPHY"],
+    "related_skills": [
+      "SKILL_X_RAY_TECHNOLOGY",
+      "SKILL_CT_SCANNING",
+      "SKILL_ULTRASOUND",
+      "SKILL_RADIATION_SAFETY"
+    ],
+    "related_certifications": [
+      "CERT_RADIOGRAPHER",
+      "CERT_RADIOLOGIC_TECHNOLOGIST"
+    ]
+  },
+  {
+    "job_id": "JOB_PHYSIOTHERAPIST",
+    "title": "Physiotherapist",
+    "domain": "Physiotherapy",
+    "related_specializations": ["SPEC_ORTHOPEDIC_PHYSIOTHERAPY", "SPEC_CARDIOPULMONARY_PHYSIOTHERAPY"],
+    "related_skills": [
+      "SKILL_REHABILITATION",
+      "SKILL_EXERCISE_PRESCRIPTION",
+      "SKILL_PATIENT_ASSESSMENT",
+      "SKILL_MANUAL_THERAPY"
+    ],
+    "related_certifications": [
+      "CERT_PHYSIOTHERAPIST",
+      "CERT_REHABILITATION_SPECIALIST"
+    ]
+  },
+  {
+    "job_id": "JOB_SPORTS_MEDICINE_SPECIALIST",
+    "title": "Sports Medicine Specialist",
+    "domain": "Medical",
+    "related_specializations": [],
+    "related_skills": [
+      "SKILL_SPORTS_INJURY_MANAGEMENT",
+      "SKILL_REHABILITATION",
+      "SKILL_PERFORMANCE_ENHANCEMENT",
+      "SKILL_DOPING_CONTROL"
+    ],
+    "related_certifications": [
+      "CERT_SPORTS_MEDICINE",
+      "CERT_SPORTS_PHYSIOTHERAPY"
+    ]
+  },
+  {
+    "job_id": "JOB_PROFESSOR",
+    "title": "Professor",
+    "domain": "Arts",
+    "related_specializations": ["SPEC_LITERATURE", "SPEC_HISTORY", "SPEC_GEOGRAPHY", "SPEC_PSYCHOLOGY", "SPEC_ECONOMICS"],
+    "related_skills": [
+      "SKILL_TEACHING",
+      "SKILL_RESEARCH",
+      "SKILL_ACADEMIC_WRITING",
+      "SKILL_MENTORING"
+    ],
+    "related_certifications": [
+      "CERT_PROFESSOR",
+      "CERT_TEACHING_CREDENTIAL"
+    ]
+  },
+  {
+    "job_id": "JOB_RESEARCHER",
+    "title": "Researcher",
+    "domain": "Arts",
+    "related_specializations": ["SPEC_HISTORY", "SPEC_PSYCHOLOGY", "SPEC_ECONOMICS"],
+    "related_skills": [
+      "SKILL_RESEARCH_METHODOLOGY",
+      "SKILL_DATA_ANALYSIS",
+      "SKILL_ACADEMIC_WRITING",
+      "SKILL_LITERATURE_REVIEW"
+    ],
+    "related_certifications": [
+      "CERT_RESEARCH_SPECIALIST",
+      "CERT_RESEARCH_METHODOLOGY"
+    ]
+  },
+  {
+    "job_id": "JOB_HISTORIAN",
+    "title": "Historian",
+    "domain": "Arts",
+    "related_specializations": ["SPEC_HISTORY"],
+    "related_skills": [
+      "SKILL_HISTORICAL_RESEARCH",
+      "SKILL_ARCHIVAL_ANALYSIS",
+      "SKILL_ACADEMIC_WRITING",
+      "SKILL_CRITICAL_THINKING"
+    ],
+    "related_certifications": [
+      "CERT_HISTORIAN",
+      "CERT_ARCHIVE_SPECIALIST"
+    ]
+  },
+  {
+    "job_id": "JOB_GEOGRAPHER",
+    "title": "Geographer",
+    "domain": "Arts",
+    "related_specializations": ["SPEC_GEOGRAPHY"],
+    "related_skills": [
+      "SKILL_GIS",
+      "SKILL_SPATIAL_ANALYSIS",
+      "SKILL_CARTOGRAPHY",
+      "SKILL_FIELD_RESEARCH"
+    ],
+    "related_certifications": [
+      "CERT_GIS_SPECIALIST",
+      "CERT_GEOGRAPHER"
+    ]
+  },
+  {
+    "job_id": "JOB_PSYCHOLOGIST",
+    "title": "Psychologist",
+    "domain": "Arts",
+    "related_specializations": ["SPEC_PSYCHOLOGY"],
+    "related_skills": [
+      "SKILL_COUNSELING",
+      "SKILL_PSYCHOLOGICAL_ASSESSMENT",
+      "SKILL_RESEARCH_METHODOLOGY",
+      "SKILL_PATIENT_MANAGEMENT"
+    ],
+    "related_certifications": [
+      "CERT_CLINICAL_PSYCHOLOGIST",
+      "CERT_COUNSELOR"
+    ]
+  },
+  {
+    "job_id": "JOB_ECONOMIST",
+    "title": "Economist",
+    "domain": "Arts",
+    "related_specializations": ["SPEC_ECONOMICS"],
+    "related_skills": [
+      "SKILL_ECONOMETRICS",
+      "SKILL_ECONOMIC_ANALYSIS",
+      "SKILL_DATA_ANALYSIS",
+      "SKILL_POLICY_ANALYSIS"
+    ],
+    "related_certifications": [
+      "CERT_ECONOMIST",
+      "CERT_ECONOMETRICIAN"
+    ]
+  },
+  {
+    "job_id": "JOB_JOURNALIST",
+    "title": "Journalist",
+    "domain": "Journalism",
+    "related_specializations": ["SPEC_PRINT_JOURNALISM", "SPEC_BROADCAST_JOURNALISM", "SPEC_DIGITAL_MEDIA"],
+    "related_skills": [
+      "SKILL_INVESTIGATIVE_REPORTING",
+      "SKILL_NEWS_WRITING",
+      "SKILL_SOURCE_RESEARCH",
+      "SKILL_FACT_CHECKING"
+    ],
+    "related_certifications": [
+      "CERT_JOURNALIST",
+      "CERT_INVESTIGATIVE_JOURNALISM"
+    ]
+  },
+  {
+    "job_id": "JOB_REPORTER",
+    "title": "Reporter",
+    "domain": "Journalism",
+    "related_specializations": ["SPEC_PRINT_JOURNALISM", "SPEC_BROADCAST_JOURNALISM"],
+    "related_skills": [
+      "SKILL_NEWS_REPORTING",
+      "SKILL_INTERVIEWING",
+      "SKILL_STORY_PITCHING",
+      "SKILL_DEADLINE_MANAGEMENT"
+    ],
+    "related_certifications": [
+      "CERT_JOURNALIST",
+      "CERT_NEWS_REPORTER"
+    ]
+  },
+  {
+    "job_id": "JOB_EDITOR",
+    "title": "Editor",
+    "domain": "Journalism",
+    "related_specializations": ["SPEC_PRINT_JOURNALISM", "SPEC_DIGITAL_MEDIA"],
+    "related_skills": [
+      "SKILL_EDITING",
+      "SKILL_CONTENT_MANAGEMENT",
+      "SKILL_FACT_CHECKING",
+      "SKILL_EDITORIAL_STRATEGY"
+    ],
+    "related_certifications": [
+      "CERT_EDITOR",
+      "CERT_CONTENT_MANAGEMENT"
+    ]
+  },
+  {
+    "job_id": "JOB_WRITER",
+    "title": "Writer",
+    "domain": "Journalism",
+    "related_specializations": ["SPEC_PRINT_JOURNALISM", "SPEC_DIGITAL_MEDIA"],
+    "related_skills": [
+      "SKILL_WRITING",
+      "SKILL_STORYTELLING",
+      "SKILL_RESEARCH",
+      "SKILL_AUDIENCE_ENGAGEMENT"
+    ],
+    "related_certifications": [
+      "CERT_WRITER",
+      "CERT_TECHNICAL_WRITER"
+    ]
+  },
+  {
+    "job_id": "JOB_CONTENT_STRATEGIST",
+    "title": "Content Strategist",
+    "domain": "Journalism",
+    "related_specializations": ["SPEC_DIGITAL_MEDIA", "SPEC_PUBLIC_RELATIONS"],
+    "related_skills": [
+      "SKILL_CONTENT_STRATEGY",
+      "SKILL_AUDIENCE_ANALYSIS",
+      "SKILL_SEO",
+      "SKILL_CONTENT_MARKETING"
+    ],
+    "related_certifications": [
+      "CERT_CONTENT_MARKETING",
+      "CERT_DIGITAL_MARKETING"
+    ]
+  },
+  {
+    "job_id": "JOB_NEWS_ANCHOR",
+    "title": "News Anchor",
+    "domain": "Journalism",
+    "related_specializations": ["SPEC_BROADCAST_JOURNALISM"],
+    "related_skills": [
+      "SKILL_NEWS_ANCHORING",
+      "SKILL_PRESENTING",
+      "SKILL_COMMUNICATION",
+      "SKILL_ON_CAMERA_PRESENCE"
+    ],
+    "related_certifications": [
+      "CERT_BROADCAST_JOURNALIST",
+      "CERT_NEWS_ANCHOR"
+    ]
+  },
+  {
+    "job_id": "JOB_PR_MANAGER",
+    "title": "PR Manager",
+    "domain": "Journalism",
+    "related_specializations": ["SPEC_PUBLIC_RELATIONS"],
+    "related_skills": [
+      "SKILL_MEDIA_RELATIONS",
+      "SKILL_CRISIS_COMMUNICATION",
+      "SKILL_STAKEHOLDER_ENGAGEMENT",
+      "SKILL_PRESS_RELEASE_WRITING"
+    ],
+    "related_certifications": [
+      "CERT_PUBLIC_RELATIONS",
+      "CERT_CRISIS_MANAGEMENT"
+    ]
+  },
+  {
+    "job_id": "JOB_HOTEL_MANAGER",
+    "title": "Hotel Manager",
+    "domain": "Hospitality",
+    "related_specializations": [],
+    "related_skills": [
+      "SKILL_HOTEL_OPERATIONS",
+      "SKILL_STAFF_MANAGEMENT",
+      "SKILL_GUEST_RELATIONS",
+      "SKILL_REVENUE_MANAGEMENT"
+    ],
+    "related_certifications": [
+      "CERT_HOTEL_MANAGER",
+      "CERT_HOSPITALITY_MANAGEMENT"
+    ]
+  },
+  {
+    "job_id": "JOB_F&B_MANAGER",
+    "title": "F&B Manager",
+    "domain": "Hospitality",
+    "related_specializations": ["SPEC_FOOD_BEVERAGE"],
+    "related_skills": [
+      "SKILL_KITCHEN_MANAGEMENT",
+      "SKILL_MENU_PLANNING",
+      "SKILL_FOOD_COSTING",
+      "SKILL_SUPPLIER_MANAGEMENT"
+    ],
+    "related_certifications": [
+      "CERT_F&B_MANAGEMENT",
+      "CERT_CULINARY_ARTS"
+    ]
+  },
+  {
+    "job_id": "JOB_CHEF",
+    "title": "Chef",
+    "domain": "Hospitality",
+    "related_specializations": ["SPEC_FOOD_BEVERAGE"],
+    "related_skills": [
+      "SKILL_CULINARY_ARTS",
+      "SKILL_RECIPE_DEVELOPMENT",
+      "SKILL_KITCHEN_MANAGEMENT",
+      "SKILL_FOOD_SAFETY"
+    ],
+    "related_certifications": [
+      "CERT_CULINARY_ARTS",
+      "CERT_HEAD_CHEF"
+    ]
+  },
+  {
+    "job_id": "JOB_RESTAURANT_MANAGER",
+    "title": "Restaurant Manager",
+    "domain": "Hospitality",
+    "related_specializations": ["SPEC_FOOD_BEVERAGE"],
+    "related_skills": [
+      "SKILL_RESTAURANT_OPERATIONS",
+      "SKILL_STAFF_MANAGEMENT",
+      "SKILL_CUSTOMER_SERVICE",
+      "SKILL_BUDGET_MANAGEMENT"
+    ],
+    "related_certifications": [
+      "CERT_RESTAURANT_MANAGER",
+      "CERT_HOSPITALITY_MANAGEMENT"
+    ]
+  },
+  {
+    "job_id": "JOB_FRONT_OFFICE_MANAGER",
+    "title": "Front Office Manager",
+    "domain": "Hospitality",
+    "related_specializations": ["SPEC_FRONT_OFFICE"],
+    "related_skills": [
+      "SKILL_GUEST_RELATIONS",
+      "SKILL_RESERVATION_SYSTEMS",
+      "SKILL_HOTEL_SYSTEMS",
+      "SKILL_CUSTOMER_SERVICE"
+    ],
+    "related_certifications": [
+      "CERT_FRONT_OFFICE_MANAGEMENT",
+      "CERT_GUEST_SERVICES"
+    ]
+  },
+  {
+    "job_id": "JOB_HOUSEKEEPING_MANAGER",
+    "title": "Housekeeping Manager",
+    "domain": "Hospitality",
+    "related_specializations": ["SPEC_HOUSEKEEPING"],
+    "related_skills": [
+      "SKILL_FACILITY_MANAGEMENT",
+      "SKILL_LINEN_MANAGEMENT",
+      "SKILL_INVENTORY_MANAGEMENT",
+      "SKILL_TEAM_SUPERVISION"
+    ],
+    "related_certifications": [
+      "CERT_HOUSEKEEPING_MANAGEMENT",
+      "CERT_FACILITY_MANAGEMENT"
+    ]
+  },
+  {
+    "job_id": "JOB_REVENUE_MANAGER",
+    "title": "Revenue Manager",
+    "domain": "Hospitality",
+    "related_specializations": ["SPEC_HOTEL_MARKETING"],
+    "related_skills": [
+      "SKILL_REVENUE_MANAGEMENT",
+      "SKILL_YIELD_MANAGEMENT",
+      "SKILL_PRICING_STRATEGY",
+      "SKILL_DATA_ANALYSIS"
+    ],
+    "related_certifications": [
+      "CERT_REVENUE_MANAGER",
+      "CERT_HOTEL_MARKETING"
+    ]
+  },
+  {
+    "job_id": "JOB_AGRONOMIST",
+    "title": "Agronomist",
+    "domain": "Agriculture",
+    "related_specializations": ["SPEC_AGRONOMY"],
+    "related_skills": [
+      "SKILL_CROP_MANAGEMENT",
+      "SKILL_SOIL_SCIENCE",
+      "SKILL_PEST_MANAGEMENT",
+      "SKILL_CROP_PLANNING"
+    ],
+    "related_certifications": [
+      "CERT_AGRONOMIST",
+      "CERT_CROP_SPECIALIST"
+    ]
+  },
+  {
+    "job_id": "JOB_HORTICULTURIST",
+    "title": "Horticulturist",
+    "domain": "Agriculture",
+    "related_specializations": ["SPEC_HORTICULTURE"],
+    "related_skills": [
+      "SKILL_PLANT_PROPAGATION",
+      "SKILL_LANDSCAPE_DESIGN",
+      "SKILL_ORCHARD_MANAGEMENT",
+      "SKILL_NURSERY_OPERATIONS"
+    ],
+    "related_certifications": [
+      "CERT_HORTICULTURIST",
+      "CERT_LANDSCAPE_DESIGN"
+    ]
+  },
+  {
+    "job_id": "JOB_SOIL_SCIENTIST",
+    "title": "Soil Scientist",
+    "domain": "Agriculture",
+    "related_specializations": ["SPEC_SOIL_SCIENCE"],
+    "related_skills": [
+      "SKILL_SOIL_ANALYSIS",
+      "SKILL_SOIL_CONSERVATION",
+      "SKILL_SOIL_TESTING",
+      "SKILL_FERTILITY_MANAGEMENT"
+    ],
+    "related_certifications": [
+      "CERT_SOIL_SCIENTIST",
+      "CERT_SOIL_CONSERVATION"
+    ]
+  },
+  {
+    "job_id": "JOB_AGRICULTURAL_ECONOMIST",
+    "title": "Agricultural Economist",
+    "domain": "Agriculture",
+    "related_specializations": ["SPEC_AGRICULTURAL_ECONOMICS"],
+    "related_skills": [
+      "SKILL_AGRICULTURAL_POLICY",
+      "SKILL_MARKET_ANALYSIS",
+      "SKILL_CROP_ECONOMICS",
+      "SKILL_DATA_ANALYSIS"
+    ],
+    "related_certifications": [
+      "CERT_AGRICULTURAL_ECONOMIST",
+      "CERT_AGRICULTURAL_POLICY"
+    ]
+  },
+  {
+    "job_id": "JOB_AGRICULTURAL_CONSULTANT",
+    "title": "Agricultural Consultant",
+    "domain": "Agriculture",
+    "related_specializations": ["SPEC_AGRONOMY", "SPEC_SOIL_SCIENCE"],
+    "related_skills": [
+      "SKILL_AGRICULTURAL_ADVISORY",
+      "SKILL_FARM_MANAGEMENT",
+      "SKILL_SUSTAINABLE_FARMING",
+      "SKILL_CONSULTATION"
+    ],
+    "related_certifications": [
+      "CERT_AGRICULTURAL_CONSULTANT",
+      "CERT_FARM_MANAGEMENT"
+    ]
+  },
+  {
+    "job_id": "JOB_UX_DESIGNER",
+    "title": "UX Designer",
+    "domain": "Design",
+    "related_specializations": ["SPEC_UX_DESIGN"],
+    "related_skills": [
+      "SKILL_WIREFRAMING",
+      "SKILL_PROTOTYPING",
+      "SKILL_USER_RESEARCH",
+      "SKILL_USABILITY_TESTING"
+    ],
+    "related_certifications": [
+      "CERT_UX_DESIGNER",
+      "CERT_GOOGLE_UX",
+      "CERT_INTERACTION_DESIGN"
+    ]
+  },
+  {
+    "job_id": "JOB_UI_DESIGNER",
+    "title": "UI Designer",
+    "domain": "Design",
+    "related_specializations": ["SPEC_UI_DESIGN"],
+    "related_skills": [
+      "SKILL_VISUAL_DESIGN",
+      "SKILL_GRAPHIC_DESIGN",
+      "SKILL_DESIGN_SYSTEMS",
+      "SKILL_ANIMATION"
+    ],
+    "related_certifications": [
+      "CERT_UI_DESIGNER",
+      "CERT_ADOBE_DESIGN",
+      "CERT_GRAPHIC_DESIGN"
+    ]
+  },
+  {
+    "job_id": "JOB_GRAPHIC_DESIGNER",
+    "title": "Graphic Designer",
+    "domain": "Design",
+    "related_specializations": ["SPEC_GRAPHIC_DESIGN"],
+    "related_skills": [
+      "SKILL_ADOBE_CREATIVE_SUITE",
+      "SKILL_VISUAL_COMMUNICATION",
+      "SKILL_BRAND_DESIGN",
+      "SKILL_TYPOGRAPHY"
+    ],
+    "related_certifications": [
+      "CERT_GRAPHIC_DESIGN",
+      "CERT_ADOBE_DESIGN",
+      "CERT_BRAND_DESIGN"
+    ]
+  },
+  {
+    "job_id": "JOB_PRODUCT_DESIGNER",
+    "title": "Product Designer",
+    "domain": "Design",
+    "related_specializations": ["SPEC_PRODUCT_DESIGN"],
+    "related_skills": [
+      "SKILL_CAD",
+      "SKILL_PROTOTYPING",
+      "SKILL_USER_CENTERED_DESIGN",
+      "SKILL_DESIGN_THINKING"
+    ],
+    "related_certifications": [
+      "CERT_PRODUCT_DESIGNER",
+      "CERT_INDUSTRIAL_DESIGNER"
+    ]
+  },
+  {
+    "job_id": "JOB_INTERACTION_DESIGNER",
+    "title": "Interaction Designer",
+    "domain": "Design",
+    "related_specializations": ["SPEC_INTERACTION_DESIGN"],
+    "related_skills": [
+      "SKILL_PROTOTYPING",
+      "SKILL_ANIMATION",
+      "SKILL_BEHAVIORAL_DESIGN",
+      "SKILL_DESIGN_SYSTEMS"
+    ],
+    "related_certifications": [
+      "CERT_INTERACTION_DESIGN",
+      "CERT_PROTOTYPING"
+    ]
+  },
+  {
+    "job_id": "JOB_FASHION_DESIGNER",
+    "title": "Fashion Designer",
+    "domain": "Design",
+    "related_specializations": ["SPEC_FASHION_DESIGN"],
+    "related_skills": [
+      "SKILL_PATTERN_MAKING",
+      "SKILL_FABRIC_SELECTION",
+      "SKILL_FASHION_ILLUSTRATION",
+      "SKILL_TREND_ANALYSIS"
+    ],
+    "related_certifications": [
+      "CERT_FASHION_DESIGNER",
+      "CERT_APPAREL_DESIGN"
+    ]
+  },
+  {
+    "job_id": "JOB_ARCHITECT",
+    "title": "Architect",
+    "domain": "Architecture",
+    "related_specializations": ["SPEC_ARCHITECTURAL_DESIGN"],
+    "related_skills": [
+      "SKILL_ARCHITECTURAL_DESIGN",
+      "SKILL_CAD",
+      "SKILL_BUILDING_CODES",
+      "SKILL_3D_MODELING"
+    ],
+    "related_certifications": [
+      "CERT_ARCHITECT",
+      "CERT_BIM_SPECIALIST",
+      "CERT_REVIT_SPECIALIST"
+    ]
+  },
+  {
+    "job_id": "JOB_URBAN_PLANNER",
+    "title": "Urban Planner",
+    "domain": "Architecture",
+    "related_specializations": ["SPEC_URBAN_PLANNING"],
+    "related_skills": [
+      "SKILL_GIS",
+      "SKILL_URBAN_DESIGN",
+      "SKILL_TRANSPORT_PLANNING",
+      "SKILL_SUSTAINABILITY_ASSESSMENT"
+    ],
+    "related_certifications": [
+      "CERT_URBAN_PLANNER",
+      "CERT_GIS_SPECIALIST"
+    ]
+  },
+  {
+    "job_id": "JOB_CONSERVATION_ARCHITECT",
+    "title": "Conservation Architect",
+    "domain": "Architecture",
+    "related_specializations": ["SPEC_RESTORATION"],
+    "related_skills": [
+      "SKILL_CONSERVATION_TECHNIQUES",
+      "SKILL_HERITAGE_ASSESSMENT",
+      "SKILL_MATERIAL_CONSERVATION",
+      "SKILL_DOCUMENTATION"
+    ],
+    "related_certifications": [
+      "CERT_CONSERVATION_ARCHITECT",
+      "CERT_RESTORATION_SPECIALIST"
+    ]
+  },
+  {
+    "job_id": "JOB_GREEN_ARCHITECT",
+    "title": "Green Architect",
+    "domain": "Architecture",
+    "related_specializations": ["SPEC_SUSTAINABLE_DESIGN"],
+    "related_skills": [
+      "SKILL_GREEN_BUILDING",
+      "SKILL_LEED_CERTIFICATION",
+      "SKILL_PASSIVE_DESIGN",
+      "SKILL_ENERGY_EFFICIENCY"
+    ],
+    "related_certifications": [
+      "CERT_LEED_AP",
+      "CERT_GREEN_ARCHITECT"
+    ]
+  },
+  {
+    "job_id": "JOB_BIOINFORMATICIAN",
+    "title": "Bioinformatician",
+    "domain": "Science",
+    "related_specializations": ["SPEC_BIOINFORMATICS", "SPEC_COMPUTATIONAL_BIOLOGY"],
+    "related_skills": [
+      "SKILL_PROGRAMMING",
+      "SKILL_GENOMICS",
+      "SKILL_SEQUENCE_ANALYSIS",
+      "SKILL_DATABASE_MANAGEMENT"
+    ],
+    "related_certifications": [
+      "CERT_BIOINFORMATICS",
+      "CERT_PYTHON_BIOINFORMATICS"
+    ]
+  },
+  {
+    "job_id": "JOB_COMPUTATIONAL_BIOLOGIST",
+    "title": "Computational Biologist",
+    "domain": "Science",
+    "related_specializations": ["SPEC_COMPUTATIONAL_BIOLOGY"],
+    "related_skills": [
+      "SKILL_PROGRAMMING",
+      "SKILL_MOLECULAR_SIMULATION",
+      "SKILL_STATISTICAL_ANALYSIS",
+      "SKILL_DATA_ANALYSIS"
+    ],
+    "related_certifications": [
+      "CERT_COMPUTATIONAL_BIOLOGY",
+      "CERT_BIOINFORMATICS"
+    ]
+  },
+  {
+    "job_id": "JOB_RESEARCH_SCIENTIST",
+    "title": "Research Scientist",
+    "domain": "Science",
+    "related_specializations": ["SPEC_PHYSICS", "SPEC_CHEMISTRY", "SPEC_BIOLOGY", "SPEC_GENOMICS"],
+    "related_skills": [
+      "SKILL_RESEARCH_METHODOLOGY",
+      "SKILL_EXPERIMENTAL_DESIGN",
+      "SKILL_DATA_ANALYSIS",
+      "SKILL_ACADEMIC_WRITING"
+    ],
+    "related_certifications": [
+      "CERT_RESEARCH_SCIENTIST",
+      "CERT_RESEARCH_METHODOLOGY"
+    ]
+  },
+  {
+    "job_id": "JOB_CLIMATOLOGIST",
+    "title": "Climatologist",
+    "domain": "Science",
+    "related_specializations": ["SPEC_CLIMATE_SCIENCE"],
+    "related_skills": [
+      "SKILL_CLIMATE_MODELING",
+      "SKILL_DATA_ANALYSIS",
+      "SKILL_ENVIRONMENTAL_MONITORING",
+      "SKILL_STATISTICS"
+    ],
+    "related_certifications": [
+      "CERT_CLIMATE_SCIENTIST",
+      "CERT_CLIMATE_MODELING"
+    ]
+  },
+  {
+    "job_id": "JOB_SUSTAINABILITY_CONSULTANT",
+    "title": "Sustainability Consultant",
+    "domain": "Science",
+    "related_specializations": ["SPEC_SUSTAINABILITY", "SPEC_ENVIRONMENTAL_SCIENCE"],
+    "related_skills": [
+      "SKILL_SUSTAINABILITY_STRATEGY",
+      "SKILL_ESG_ANALYSIS",
+      "SKILL_ENVIRONMENTAL_COMPLIANCE",
+      "SKILL_CONSULTING"
+    ],
+    "related_certifications": [
+      "CERT_SUSTAINABILITY_MANAGER",
+      "CERT_ESG_ANALYST"
+    ]
+  }
+]

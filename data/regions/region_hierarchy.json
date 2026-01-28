@@ -1,0 +1,34 @@
+{
+  "India": {
+    "states": {
+      "Tamil Nadu": {
+        "cities": ["Chennai", "Coimbatore"],
+        "metros": ["Chennai"]
+      },
+      "Karnataka": {
+        "cities": ["Bangalore", "Mysore"],
+        "metros": ["Bangalore"]
+      },
+      "Maharashtra": {
+        "cities": ["Mumbai", "Pune"],
+        "metros": ["Mumbai", "Pune"]
+      },
+      "Telangana": {
+        "cities": ["Hyderabad"],
+        "metros": ["Hyderabad"]
+      },
+      "Delhi NCR": {
+        "cities": ["Delhi NCR", "Noida", "Gurugram"],
+        "metros": ["Delhi NCR"]
+      },
+      "Gujarat": {
+        "cities": ["Ahmedabad"],
+        "metros": []
+      },
+      "West Bengal": {
+        "cities": ["Kolkata"],
+        "metros": ["Kolkata"]
+      }
+    }
+  }
+}
