@@ -1,0 +1,26 @@
+[
+  {
+    "question": "how to become doctor",
+    "expected_intent": "doctor",
+    "expected_paths": ["PROGRAM_MBBS"],
+    "answerable": true
+  },
+  {
+    "question": "how to become data scientist",
+    "expected_intent": "data_scientist",
+    "expected_paths": ["JOB_DATA_SCIENTIST"],
+    "answerable": true
+  },
+  {
+    "question": "how to become lawyer",
+    "expected_intent": "lawyer",
+    "expected_paths": [],
+    "answerable": false
+  },
+  {
+    "question": "how to become pilot",
+    "expected_intent": "pilot",
+    "expected_paths": [],
+    "answerable": false
+  }
+]
