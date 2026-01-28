@@ -15,3 +15,15 @@ __pycache__/
 # OS files
 .DS_Store
 Thumbs.db
+
+# Vector databases / embeddings (local only)
+vector_store/
+Storage/
+embeddings_cache/
+
+# Ollama / local model artifacts (if any)
+.ollama/
+
+# Outputs (optional: keep structure only)
+outputs/*.json
+outputs/*.jsonl
